@@ -7,12 +7,14 @@ import { CrimeData, classBreaks, classOf, loadCrimeData, type SearchEntry } from
 import { dec, month, num, range as fmtRange } from "@/lib/format";
 import { acrossMetres, levelForZoom } from "@/lib/hex";
 import type { NewsFeed } from "@/lib/news";
-import { HEAT, type Theme } from "@/lib/theme";
+import { focusStreet } from "@/lib/streetFocus";
+import type { Street } from "@/lib/streets";
+import { BASEMAPS, HEAT, type Basemap, type Theme } from "@/lib/theme";
 import AboutDialog, { publishMonth } from "./AboutDialog";
 import GuideDrawer from "./GuideDrawer";
-import MapView, { type HexFeatures, type NewsFeatures } from "./MapView";
+import MapView, { type FocusFeatures, type HexFeatures, type NewsFeatures } from "./MapView";
 import NewsPanel from "./NewsPanel";
-import { AreaPanel, OverviewPanel, type TopHex } from "./panels";
+import { AreaPanel, OverviewPanel, StreetPanel, type TopHex } from "./panels";
 import SearchBox from "./SearchBox";
 import Timeline from "./Timeline";
 
@@ -59,6 +61,8 @@ export default function App({ dataset }: { dataset: Dataset }) {
   const [about, setAbout] = useState(false);
   const [tab, setTab] = useState<Tab>("overview");
   const [catsOpen, setCatsOpen] = useState(true);
+  const [basemap, setBasemapState] = useState<Basemap>("streets");
+  const [street, setStreet] = useState<{ street: Street; typed: string } | null>(null);
   const [flyTo, setFlyTo] = useState<{ lng: number; lat: number; zoom: number; seq: number } | null>(null);
   const [news, setNews] = useState<NewsFeed | null>(null);
   const [newsError, setNewsError] = useState<string | null>(null);
@@ -66,6 +70,20 @@ export default function App({ dataset }: { dataset: Dataset }) {
   const detailsRef = useRef<HTMLElement>(null);
   const beforePlay = useRef<[number, number] | null>(null);
   const lockedBreaks = useRef<number[] | null>(null);
+
+  // remembered map style (per viewer, best effort)
+  useEffect(() => {
+    try {
+      const b = localStorage.getItem("basemap");
+      if (b === "streets" || b === "light" || b === "dark") setBasemapState(b);
+    } catch {}
+  }, []);
+  const setBasemap = (b: Basemap) => {
+    setBasemapState(b);
+    try {
+      localStorage.setItem("basemap", b);
+    } catch {}
+  };
 
   // on phones the category list starts folded so the map comes first
   useEffect(() => {
@@ -169,6 +187,21 @@ export default function App({ dataset }: { dataset: Dataset }) {
     return { type: "FeatureCollection", features: feats };
   }, [news]);
 
+  const streetFocus = useMemo(() => (data && street ? focusStreet(data, street.street, news?.items ?? []) : null), [data, street, news]);
+
+  const focusFeatures: FocusFeatures = useMemo(() => {
+    if (!streetFocus) return { type: "FeatureCollection", features: [] };
+    const f: FocusFeatures["features"] = streetFocus.street.pts.map(([lat, lng]) => ({
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [lng, lat] },
+      properties: { kind: "street", n: 0 },
+    }));
+    for (const p of [...streetFocus.own, ...streetFocus.near]) {
+      if (p.n) f.push({ type: "Feature", geometry: { type: "Point", coordinates: [p.lng, p.lat] }, properties: { kind: "police", n: p.n } });
+    }
+    return { type: "FeatureCollection", features: f };
+  }, [streetFocus]);
+
   // month-by-month playback with a colour scale fixed across all months
   useEffect(() => {
     if (!playing) return;
@@ -205,6 +238,7 @@ export default function App({ dataset }: { dataset: Dataset }) {
     (lvl: number, id: number) => {
       if (!data) return;
       setSelected({ level: lvl, key: data.hex(lvl).keys[id] });
+      setStreet(null);
       setTab("area");
       if (window.matchMedia("(max-width: 899px)").matches) {
         setTimeout(() => detailsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 50);
@@ -213,13 +247,23 @@ export default function App({ dataset }: { dataset: Dataset }) {
     [data],
   );
 
-  const onSearch = (e: SearchEntry) => {
-    const zoom = e.kind === "place" ? (["town", "city"].includes(e.area) ? 13 : 14.2) : 15.2;
+  const onPickPlace = (e: SearchEntry) => {
+    const zoom = ["town", "city"].includes(e.area) ? 13 : 14.2;
     fly(e.lng, e.lat, zoom);
     if (data) {
       const lvl = levelForZoom(zoom);
       const id = data.hexOfPoint(lvl, e.lng, e.lat);
       if (id >= 0) selectHex(lvl, id);
+    }
+  };
+
+  const onPickStreet = (s: Street, typed: string) => {
+    setStreet({ street: s, typed });
+    setSelected(null);
+    setTab("area");
+    fly(s.lng, s.lat, s.pts.length > 8 ? 15.4 : 16.4);
+    if (window.matchMedia("(max-width: 899px)").matches) {
+      setTimeout(() => detailsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }), 50);
     }
   };
 
@@ -263,7 +307,7 @@ export default function App({ dataset }: { dataset: Dataset }) {
   const catCounts = overview?.cats;
   const compact = (v: number) => (v >= 1000 ? `${dec(v / 1000)}k` : num(v));
   const legendRanges = breaks.map((b, i) => (i === breaks.length - 1 ? `${compact(b)}+` : compact(b)));
-  const palette = HEAT[theme];
+  const palette = HEAT[BASEMAPS[basemap].tone];
 
   return (
     <div className="app">
@@ -355,9 +399,10 @@ export default function App({ dataset }: { dataset: Dataset }) {
 
       <main className="stage">
         {themeReady ? <MapView
-          theme={theme}
+          basemap={basemap}
           hexes={hexes}
           selected={selectedRing}
+          focus={focusFeatures}
           news={newsFeatures}
           showNews={showNews}
           mode3d={mode3d}
@@ -367,7 +412,7 @@ export default function App({ dataset }: { dataset: Dataset }) {
           renderTooltip={renderTooltip}
         >
           <div className="map-top">
-            <SearchBox data={data} onPick={onSearch} />
+            <SearchBox data={data} streetsUrl={dataset.streetsFile} onPickStreet={onPickStreet} onPickPlace={onPickPlace} />
             <div className="map-tools" role="group" aria-label="Map options">
               <button type="button" className={mode3d ? "on" : ""} aria-pressed={mode3d} onClick={() => setMode3d((v) => !v)}>
                 3D
@@ -375,7 +420,7 @@ export default function App({ dataset }: { dataset: Dataset }) {
               <button type="button" className={showNews ? "on" : ""} aria-pressed={showNews} onClick={() => setShowNews((v) => !v)} title="Show news pins">
                 News
               </button>
-              <button type="button" onClick={() => setTheme(theme === "dark" ? "light" : "dark")} aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} map`}>
+              <button type="button" onClick={() => setTheme(theme === "dark" ? "light" : "dark")} aria-label={`Switch the page to ${theme === "dark" ? "light" : "dark"} mode`} title="Page light / dark">
                 {theme === "dark" ? (
                   <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="3" /><path d="M8 1.5v1.5M8 13v1.5M1.5 8H3M13 8h1.5M3.4 3.4l1 1M11.6 11.6l1 1M3.4 12.6l1-1M11.6 4.4l1-1" /></svg>
                 ) : (
@@ -383,6 +428,15 @@ export default function App({ dataset }: { dataset: Dataset }) {
                 )}
               </button>
             </div>
+          </div>
+
+          <div className="basemaps" role="radiogroup" aria-label="Map style">
+            {(Object.keys(BASEMAPS) as Basemap[]).map((b) => (
+              <button key={b} type="button" role="radio" aria-checked={basemap === b} className={basemap === b ? "on" : ""} onClick={() => setBasemap(b)}>
+                <span className={`swatch-map ${b}`} aria-hidden="true" />
+                {BASEMAPS[b].label}
+              </button>
+            ))}
           </div>
 
           <div className="jump" role="group" aria-label="Jump to">
@@ -439,7 +493,7 @@ export default function App({ dataset }: { dataset: Dataset }) {
           {(
             [
               ["overview", "Overview"],
-              ["area", "Selected area"],
+              ["area", street ? "Street" : "Selected area"],
               ["news", `Latest news${news?.items.length ? ` (${news.items.length})` : ""}`],
             ] as [Tab, string][]
           ).map(([id, label]) => (
@@ -467,7 +521,18 @@ export default function App({ dataset }: { dataset: Dataset }) {
             />
           ) : null}
           {tab === "area" ? (
-            data && areaScan && areaLabel && selected ? (
+            data && streetFocus && street ? (
+              <StreetPanel
+                data={data}
+                focus={streetFocus}
+                typed={street.typed}
+                onGuide={setGuide}
+                onClose={() => {
+                  setStreet(null);
+                  setTab("overview");
+                }}
+              />
+            ) : data && areaScan && areaLabel && selected ? (
               <AreaPanel
                 data={data}
                 scan={areaScan}
@@ -484,7 +549,7 @@ export default function App({ dataset }: { dataset: Dataset }) {
               />
             ) : (
               <div className="panel-body empty">
-                <p>Select a hex on the map, search for a street, or pick one of the busiest areas in the overview.</p>
+                <p>Select a hex on the map, search an address or street, or pick one of the busiest areas in the overview.</p>
                 <p className="note">You&rsquo;ll see how many reports it had each month, which categories, the exact streets and venues, and what happened next.</p>
               </div>
             )

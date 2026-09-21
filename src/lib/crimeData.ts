@@ -152,6 +152,15 @@ export class CrimeData {
     return out;
   }
 
+  /** Crimes per police.uk point for the selected categories and month range [m0, m1]. */
+  pointCounts(mask: Uint8Array, m0: number, m1: number): Int32Array {
+    const out = new Int32Array(this.nPoints);
+    for (let r = this.monthOffsets[m0]; r < this.monthOffsets[m1 + 1]; r++) {
+      if (mask[this.C[r]]) out[this.P[r]]++;
+    }
+    return out;
+  }
+
   /** Hex counts for every single month — used to fix the colour scale while playing. */
   hexMonthlyValues(level: number, mask: Uint8Array): number[] {
     const { pointHex, keys } = this.hex(level);

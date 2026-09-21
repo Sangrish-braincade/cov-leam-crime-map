@@ -78,10 +78,17 @@ export default function NewsPanel({
               {it.title}
             </a>
             {it.police.status === "matched" && it.police.nearest?.length ? (
-              <p className="note small">
-                Likely one of {it.police.candidates} police.uk report{it.police.candidates === 1 ? "" : "s"} nearby, e.g. on or near {it.police.nearest[0].street} (
-                {month(it.police.nearest[0].month)}). Already counted on the map.
-              </p>
+              it.place?.precision === "street" ? (
+                <p className="note small">
+                  Likely one of {it.police.candidates} police.uk report{it.police.candidates === 1 ? "" : "s"} nearby, e.g. on or near {it.police.nearest[0].street} (
+                  {month(it.police.nearest[0].month)}). Already counted on the map.
+                </p>
+              ) : (
+                <p className="note small">
+                  police.uk has {it.police.candidates} report{it.police.candidates === 1 ? "" : "s"} of this kind in {it.place?.label ?? "that area"} that month; this story is probably
+                  among them. Already counted on the map.
+                </p>
+              )
             ) : null}
             {it.police.status === "no-match" ? <p className="note small">No matching police.uk report of this kind nearby that month.</p> : null}
             {it.place ? (

@@ -1,0 +1,2699 @@
+{
+ "month": "2026-07",
+ "articles": [
+  {
+   "id": "cfe51c0e1372",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/vandals-target-brand-new-coventry-34207005",
+   "source": "CoventryLive",
+   "title": "Vandals target new Coventry play area before it has even opened",
+   "published": "2026-07-01T04:00:00.000Z",
+   "category": "criminal-damage-arson",
+   "court": false,
+   "streets": [
+    {
+     "name": "Jardine Crescent",
+     "lat": 52.40915,
+     "lng": -1.58046,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Tile Hill",
+     "lat": 52.40256,
+     "lng": -1.58357
+    }
+   ],
+   "place": {
+    "label": "Jardine Crescent, Mount Nod",
+    "lat": 52.40915,
+    "lng": -1.58046,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Tile Hill",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Coventry City Council"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07",
+     "2026-06"
+    ],
+    "candidates": 6,
+    "nearest": [
+     {
+      "street": "Parking Area",
+      "lat": 52.407217,
+      "lng": -1.580186,
+      "month": "2026-06",
+      "n": 2,
+      "metres": 215
+     },
+     {
+      "street": "Ferrers Close",
+      "lat": 52.407785,
+      "lng": -1.578093,
+      "month": "2026-06",
+      "n": 1,
+      "metres": 221
+     },
+     {
+      "street": "Cavendish Road",
+      "lat": 52.408163,
+      "lng": -1.583367,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 225
+     },
+     {
+      "street": "Faseman Avenue",
+      "lat": 52.40825,
+      "lng": -1.577398,
+      "month": "2026-06",
+      "n": 1,
+      "metres": 230
+     }
+    ]
+   }
+  },
+  {
+   "id": "64f24b4f3220",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/crime-almost-half-people-experience-34214050",
+   "source": "CoventryLive",
+   "title": "The crime almost half of people experience - but hardly anyone reports",
+   "published": "2026-07-01T05:00:00.000Z",
+   "category": "anti-social-behaviour",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Coventry City Council"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "4156a8a36082",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-shop-raids-see-thousands-34215123",
+   "source": "CoventryLive",
+   "title": "Coventry shop raids see thousands of vapes and counterfeit cigarettes seized",
+   "published": "2026-07-01T06:26:10.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    },
+    {
+     "name": "Edgwick",
+     "lat": 52.43072,
+     "lng": -1.49449
+    }
+   ],
+   "place": {
+    "label": "Foleshill",
+    "lat": 52.43357,
+    "lng": -1.49447,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police",
+    "Foleshill"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07",
+     "2026-06"
+    ],
+    "candidates": 15,
+    "nearest": [
+     {
+      "street": "Fisher Road",
+      "lat": 52.434742,
+      "lng": -1.49648,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 188
+     },
+     {
+      "street": "Mansel Street",
+      "lat": 52.433212,
+      "lng": -1.498218,
+      "month": "2026-06",
+      "n": 1,
+      "metres": 257
+     },
+     {
+      "street": "Fenwick Close",
+      "lat": 52.435382,
+      "lng": -1.496987,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 264
+     },
+     {
+      "street": "Culworth Row",
+      "lat": 52.430564,
+      "lng": -1.49716,
+      "month": "2026-06",
+      "n": 2,
+      "metres": 380
+     },
+     {
+      "street": "Eld Road",
+      "lat": 52.429755,
+      "lng": -1.49511,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 426
+     }
+    ]
+   }
+  },
+  {
+   "id": "4e3e9ba3e33a",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/fight-coventry-wetherspoon-sees-police-34216769",
+   "source": "CoventryLive",
+   "title": "Fight at Coventry Wetherspoon sees police release images of men in baseball caps",
+   "published": "2026-07-01T10:04:51.000Z",
+   "category": "public-order",
+   "court": false,
+   "streets": [
+    {
+     "name": "Trinity Street",
+     "lat": 52.40972,
+     "lng": -1.50936,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Trinity Street, Coventry",
+    "lat": 52.40972,
+    "lng": -1.50936,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "JD Wetherspoon",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07",
+     "2026-06"
+    ],
+    "candidates": 36,
+    "nearest": [
+     {
+      "street": "Trinity Street",
+      "lat": 52.409722,
+      "lng": -1.509363,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 0
+     },
+     {
+      "street": "Supermarket",
+      "lat": 52.409882,
+      "lng": -1.508891,
+      "month": "2026-06",
+      "n": 2,
+      "metres": 37
+     },
+     {
+      "street": "Hales Street",
+      "lat": 52.410424,
+      "lng": -1.509385,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 78
+     },
+     {
+      "street": "Ironmonger Row",
+      "lat": 52.409034,
+      "lng": -1.510253,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 97
+     },
+     {
+      "street": "Cross Cheaping",
+      "lat": 52.409152,
+      "lng": -1.510472,
+      "month": "2026-06",
+      "n": 1,
+      "metres": 98
+     }
+    ]
+   }
+  },
+  {
+   "id": "e788a728de98",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/almost-40-arrests-day-action-34221844",
+   "source": "CoventryLive",
+   "title": "Almost 40 arrests in day of action with more police on Coventry's streets",
+   "published": "2026-07-02T06:24:44.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Tile Hill",
+     "lat": 52.40256,
+     "lng": -1.58357
+    },
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    },
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    },
+    {
+     "name": "Walsgrave",
+     "lat": 52.42776,
+     "lng": -1.44159
+    },
+    {
+     "name": "Pool Meadow bus station",
+     "lat": 52.41105,
+     "lng": -1.50805
+    }
+   ],
+   "place": {
+    "label": "Tile Hill",
+    "lat": 52.40256,
+    "lng": -1.58357,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police",
+    "Crime"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07",
+     "2026-06"
+    ],
+    "candidates": 7,
+    "nearest": [
+     {
+      "street": "Porter Close",
+      "lat": 52.39922,
+      "lng": -1.586493,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 420
+     },
+     {
+      "street": "Meadowcroft Close",
+      "lat": 52.398666,
+      "lng": -1.577416,
+      "month": "2026-06",
+      "n": 1,
+      "metres": 601
+     },
+     {
+      "street": "Robert Mounford Way",
+      "lat": 52.398771,
+      "lng": -1.576415,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 642
+     },
+     {
+      "street": "Cromes Wood",
+      "lat": 52.403193,
+      "lng": -1.594114,
+      "month": "2026-06",
+      "n": 1,
+      "metres": 718
+     },
+     {
+      "street": "Hancock Green",
+      "lat": 52.395537,
+      "lng": -1.577255,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 889
+     }
+    ]
+   }
+  },
+  {
+   "id": "e72aea08ae96",
+   "url": "https://www.coventrytelegraph.net/news/local-news/two-dealers-selling-drugs-nissan-34225259",
+   "source": "CoventryLive",
+   "title": "Two dealers selling drugs from a Nissan Qashqai had 'no idea they were being watched'",
+   "published": "2026-07-04T18:08:00.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [
+    {
+     "name": "Wentworth Road",
+     "lat": 52.28019,
+     "lng": -1.51006,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Wentworth Road, Sydenham",
+    "lat": 52.28019,
+    "lng": -1.51006,
+    "precision": "street"
+   },
+   "tags": [
+    "Rugby",
+    "Warwickshire",
+    "Warwickshire Police",
+    "Drugs",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "b3e6f6024181",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/cold-blooded-killers-jet-setting-34235999",
+   "source": "CoventryLive",
+   "title": "From cold-blooded killers to jet-setting dealers: Every criminal jailed in Coventry and Warwickshire this June",
+   "published": "2026-07-05T05:00:00.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Earlsdon",
+     "lat": 52.40435,
+     "lng": -1.52995
+    }
+   ],
+   "place": {
+    "label": "Earlsdon",
+    "lat": 52.40435,
+    "lng": -1.52995,
+    "precision": "area"
+   },
+   "tags": [
+    "Crime",
+    "Courts",
+    "West Midlands Police",
+    "Warwickshire Police",
+    "Coventry Police",
+    "Warwickshire",
+    "Nuneaton"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "dad44ff5b58f",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-called-coventry-property-after-34234650",
+   "source": "CoventryLive",
+   "title": "Police called to Coventry property after man 'threatens to smash door'",
+   "published": "2026-07-06T08:57:55.000Z",
+   "category": "criminal-damage-arson",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    }
+   ],
+   "place": {
+    "label": "Foleshill",
+    "lat": 52.43357,
+    "lng": -1.49447,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police",
+    "Foleshill",
+    "Crime"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 25,
+    "nearest": [
+     {
+      "street": "Canal Road",
+      "lat": 52.432742,
+      "lng": -1.493502,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 113
+     },
+     {
+      "street": "Mansel Street",
+      "lat": 52.433212,
+      "lng": -1.498218,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 257
+     },
+     {
+      "street": "May Street",
+      "lat": 52.432365,
+      "lng": -1.497875,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 267
+     },
+     {
+      "street": "Cross Road",
+      "lat": 52.43041,
+      "lng": -1.492573,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 374
+     },
+     {
+      "street": "Culworth Row",
+      "lat": 52.430564,
+      "lng": -1.49716,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 380
+     }
+    ]
+   }
+  },
+  {
+   "id": "b4cc6bba17c3",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-confirm-probe-coventry-flats-34243771",
+   "source": "CoventryLive",
+   "title": "Police confirm probe into Coventry flats 'machete' incident",
+   "published": "2026-07-06T11:37:09.000Z",
+   "category": "possession-of-weapons",
+   "court": false,
+   "streets": [
+    {
+     "name": "Aldrich Avenue",
+     "lat": 52.40812,
+     "lng": -1.58498,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Tile Hill",
+     "lat": 52.40256,
+     "lng": -1.58357
+    }
+   ],
+   "place": {
+    "label": "Aldrich Avenue, Tile Hill",
+    "lat": 52.40812,
+    "lng": -1.58498,
+    "precision": "street"
+   },
+   "tags": [
+    "Tile Hill",
+    "Coventry",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 8,
+    "nearest": [
+     {
+      "street": "Pepys Corner",
+      "lat": 52.40898,
+      "lng": -1.585594,
+      "month": "2026-07",
+      "n": 4,
+      "metres": 104
+     },
+     {
+      "street": "Cavendish Road",
+      "lat": 52.408163,
+      "lng": -1.583367,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 109
+     },
+     {
+      "street": "Bantock Road",
+      "lat": 52.406169,
+      "lng": -1.583959,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 227
+     },
+     {
+      "street": "Dunhill Avenue",
+      "lat": 52.410242,
+      "lng": -1.584038,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 244
+     }
+    ]
+   }
+  },
+  {
+   "id": "ea7eaa6ee0d6",
+   "url": "https://www.coventrytelegraph.net/news/local-news/court-delay-closure-orders-three-34244368",
+   "source": "CoventryLive",
+   "title": "Court delay on closure orders for three raided Nuneaton shops",
+   "published": "2026-07-06T12:41:59.000Z",
+   "category": "anti-social-behaviour",
+   "court": false,
+   "streets": [
+    {
+     "name": "Stratford Street",
+     "lat": 52.41526,
+     "lng": -1.48022,
+     "mentions": 1
+    },
+    {
+     "name": "Coventry Street",
+     "lat": 52.4166,
+     "lng": -1.48062,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Stratford Street, Ball Hill",
+    "lat": 52.41526,
+    "lng": -1.48022,
+    "precision": "street"
+   },
+   "tags": [
+    "Nuneaton",
+    "Courts",
+    "Warwickshire Police",
+    "Warwickshire County Council"
+   ],
+   "police": {
+    "status": "no-match",
+    "months": [
+     "2026-07"
+    ]
+   }
+  },
+  {
+   "id": "04e9a676e21e",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-named-charged-after-34244082",
+   "source": "CoventryLive",
+   "title": "Coventry man named and charged after 'person punched on Foleshill bus'",
+   "published": "2026-07-06T12:46:17.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Foleshill Road",
+     "lat": 52.42807,
+     "lng": -1.4997,
+     "mentions": 1
+    },
+    {
+     "name": "Honeyfield Road",
+     "lat": 52.42091,
+     "lng": -1.50528,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    }
+   ],
+   "place": {
+    "label": "Foleshill Road, Edgwick",
+    "lat": 52.42807,
+    "lng": -1.4997,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police",
+    "Foleshill",
+    "Courts",
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "46b5e10fb09d",
+   "url": "https://www.coventrytelegraph.net/news/local-news/rico-harry-drug-lines-uncovered-34244679",
+   "source": "CoventryLive",
+   "title": "Rico and Harry drug lines uncovered by string of messages with one saying 'GET OUT WINDOW'",
+   "published": "2026-07-07T08:02:53.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [
+    {
+     "name": "Theatre Street",
+     "lat": 52.28266,
+     "lng": -1.59154,
+     "mentions": 1
+    },
+    {
+     "name": "Spencer Street",
+     "lat": 52.28573,
+     "lng": -1.53353,
+     "mentions": 1
+    },
+    {
+     "name": "Rugby Road",
+     "lat": 52.29218,
+     "lng": -1.54927,
+     "mentions": 1
+    },
+    {
+     "name": "Clare Close",
+     "lat": 52.29981,
+     "lng": -1.51319,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Sydenham",
+     "lat": 52.28044,
+     "lng": -1.51665
+    }
+   ],
+   "place": {
+    "label": "Theatre Street, Warwick",
+    "lat": 52.28266,
+    "lng": -1.59154,
+    "precision": "street"
+   },
+   "tags": [
+    "Warwickshire",
+    "Warwickshire Police",
+    "Crime",
+    "Drugs",
+    "Leamington Spa",
+    "Warwick",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "c2c1a4f85c88",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-suffers-life-changing-injuries-34268033",
+   "source": "CoventryLive",
+   "title": "Man suffers life-changing injuries in attack outside Coventry pub",
+   "published": "2026-07-10T06:50:21.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Holbrook Lane",
+     "lat": 52.43837,
+     "lng": -1.50729,
+     "mentions": 1
+    },
+    {
+     "name": "Lythalls Lane",
+     "lat": 52.44159,
+     "lng": -1.50124,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Holbrooks",
+     "lat": 52.44473,
+     "lng": -1.5113
+    }
+   ],
+   "place": {
+    "label": "Holbrook Lane, Holbrooks",
+    "lat": 52.43837,
+    "lng": -1.50729,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 2,
+    "nearest": [
+     {
+      "street": "Sunningdale Avenue",
+      "lat": 52.440532,
+      "lng": -1.50527,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 276
+     },
+     {
+      "street": "Sports/recreation Area",
+      "lat": 52.439344,
+      "lng": -1.511344,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 295
+     }
+    ]
+   }
+  },
+  {
+   "id": "2cc0ad18f727",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-cannabis-farm-90-fully-34270271",
+   "source": "CoventryLive",
+   "title": "Coventry cannabis farm with 90 fully grown plants dismantled",
+   "published": "2026-07-10T12:28:59.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Canley",
+     "lat": 52.39525,
+     "lng": -1.57206
+    }
+   ],
+   "place": {
+    "label": "Canley",
+    "lat": 52.39525,
+    "lng": -1.57206,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Canley",
+    "Drugs",
+    "Cannabis",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 5,
+    "nearest": [
+     {
+      "street": "Penrose Close",
+      "lat": 52.39377,
+      "lng": -1.570805,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 185
+     },
+     {
+      "street": "Hemsby Close",
+      "lat": 52.394292,
+      "lng": -1.568625,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 256
+     },
+     {
+      "street": "John Rous Avenue",
+      "lat": 52.393731,
+      "lng": -1.565016,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 506
+     },
+     {
+      "street": "Templar Avenue",
+      "lat": 52.400522,
+      "lng": -1.570946,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 590
+     },
+     {
+      "street": "Mayor's Croft",
+      "lat": 52.393543,
+      "lng": -1.562754,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 659
+     }
+    ]
+   }
+  },
+  {
+   "id": "a7499abdaa5e",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/millionaire-tech-ceo-found-stabwound-34274986",
+   "source": "CoventryLive",
+   "title": "Millionaire tech CEO found with stabwound at Warwickshire home - inquest",
+   "published": "2026-07-11T08:44:55.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Langley Road",
+     "lat": 52.27253,
+     "lng": -1.52536,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Langley Road, Whitnash",
+    "lat": 52.27253,
+    "lng": -1.52536,
+    "precision": "street"
+   },
+   "tags": [
+    "Warwickshire",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 8,
+    "nearest": [
+     {
+      "street": "Langley Road",
+      "lat": 52.272533,
+      "lng": -1.525358,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 0
+     },
+     {
+      "street": "Shopping Area",
+      "lat": 52.274329,
+      "lng": -1.52425,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 213
+     },
+     {
+      "street": "Southway",
+      "lat": 52.274739,
+      "lng": -1.52614,
+      "month": "2026-07",
+      "n": 5,
+      "metres": 251
+     },
+     {
+      "street": "Nursery Lane",
+      "lat": 52.274977,
+      "lng": -1.524877,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 274
+     }
+    ]
+   }
+  },
+  {
+   "id": "399963b138e7",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/cctv-appeal-after-man-repeatedly-34275556",
+   "source": "CoventryLive",
+   "title": "CCTV appeal after man 'repeatedly punched' at The Yard in Coventry",
+   "published": "2026-07-11T12:11:42.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Earl Street",
+     "lat": 52.29306,
+     "lng": -1.52597,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Earl Street, Leamington Spa",
+    "lat": 52.29306,
+    "lng": -1.52597,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Coventry City Centre"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 6,
+    "nearest": [
+     {
+      "street": "Holly Street",
+      "lat": 52.292749,
+      "lng": -1.524541,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 103
+     },
+     {
+      "street": "Comyn Street",
+      "lat": 52.293648,
+      "lng": -1.524472,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 121
+     },
+     {
+      "street": "Leicester Street",
+      "lat": 52.294286,
+      "lng": -1.526548,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 142
+     },
+     {
+      "street": "Thomas Street",
+      "lat": 52.292633,
+      "lng": -1.529161,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 221
+     },
+     {
+      "street": "Lansdowne Crescent",
+      "lat": 52.292292,
+      "lng": -1.529384,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 247
+     }
+    ]
+   }
+  },
+  {
+   "id": "09ccae009cd1",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-men-wanted-over-inappropriate-34275714",
+   "source": "CoventryLive",
+   "title": "Coventry men wanted over 'inappropriate messages and breaching licence conditions'",
+   "published": "2026-07-11T12:59:27.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police",
+    "Crime"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "185fb3dc8c37",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-probe-after-disorder-erupts-34278639",
+   "source": "CoventryLive",
+   "title": "Police probe after 'disorder' erupts on Coventry street",
+   "published": "2026-07-12T15:02:45.000Z",
+   "category": "public-order",
+   "court": false,
+   "streets": [
+    {
+     "name": "Dennis Road",
+     "lat": 52.42127,
+     "lng": -1.47565,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    }
+   ],
+   "place": {
+    "label": "Dennis Road, Upper Stoke",
+    "lat": 52.42127,
+    "lng": -1.47565,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Wyken",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "no-match",
+    "months": [
+     "2026-07"
+    ]
+   }
+  },
+  {
+   "id": "790b6b639b76",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-dispersing-groups-gathering-cheylesmore-34275520",
+   "source": "CoventryLive",
+   "title": "Police dispersing groups gathering in Cheylesmore 'after young man dies in bus crash'",
+   "published": "2026-07-12T17:09:27.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Daventry Road",
+     "lat": 52.39417,
+     "lng": -1.50438,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Cheylesmore",
+     "lat": 52.39364,
+     "lng": -1.50402
+    }
+   ],
+   "place": {
+    "label": "Daventry Road, Cheylesmore",
+    "lat": 52.39417,
+    "lng": -1.50438,
+    "precision": "street"
+   },
+   "tags": [
+    "Cheylesmore",
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 4,
+    "nearest": [
+     {
+      "street": "Ebbw Vale Terrace",
+      "lat": 52.392562,
+      "lng": -1.503469,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 189
+     },
+     {
+      "street": "Quinton Parade",
+      "lat": 52.394062,
+      "lng": -1.507273,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 196
+     },
+     {
+      "street": "Glover Street",
+      "lat": 52.396065,
+      "lng": -1.50681,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 267
+     },
+     {
+      "street": "Blondvil Street",
+      "lat": 52.393293,
+      "lng": -1.508311,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 284
+     }
+    ]
+   }
+  },
+  {
+   "id": "3c0dab42052f",
+   "url": "https://www.coventrytelegraph.net/news/local-news/exhall-sainsburys-local-hit-shoplifters-34280323",
+   "source": "CoventryLive",
+   "title": "Exhall Sainsbury's local hit by shoplifters TEN times a day",
+   "published": "2026-07-13T08:32:06.000Z",
+   "category": "shoplifting",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Exhall",
+     "lat": 52.4633,
+     "lng": -1.48132
+    }
+   ],
+   "place": {
+    "label": "Exhall",
+    "lat": 52.4633,
+    "lng": -1.48132,
+    "precision": "area"
+   },
+   "tags": [
+    "Exhall",
+    "Bedworth",
+    "Warwickshire Police",
+    "Crime",
+    "Warwickshire"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 4,
+    "nearest": [
+     {
+      "street": "Manse Close",
+      "lat": 52.471762,
+      "lng": -1.479613,
+      "month": "2026-07",
+      "n": 4,
+      "metres": 946
+     }
+    ]
+   }
+  },
+  {
+   "id": "ca149a677179",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/teenage-girl-targeted-bike-robbery-34284721",
+   "source": "CoventryLive",
+   "title": "Teenage girl targeted in bike robbery at Caludon Castle Park in Coventry",
+   "published": "2026-07-13T16:33:52.000Z",
+   "category": "robbery",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    }
+   ],
+   "place": {
+    "label": "Wyken",
+    "lat": 52.41839,
+    "lng": -1.4591,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police",
+    "Crime",
+    "Wyken"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 5,
+    "nearest": [
+     {
+      "street": "Cowley Road",
+      "lat": 52.41574,
+      "lng": -1.460615,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 312
+     },
+     {
+      "street": "Axholme Road",
+      "lat": 52.414663,
+      "lng": -1.453204,
+      "month": "2026-07",
+      "n": 3,
+      "metres": 575
+     },
+     {
+      "street": "Braemar Close",
+      "lat": 52.425423,
+      "lng": -1.45082,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 961
+     }
+    ]
+   }
+  },
+  {
+   "id": "6b29f152b8ce",
+   "url": "https://www.coventrytelegraph.net/news/local-news/murder-probe-detectives-make-new-34286775",
+   "source": "CoventryLive",
+   "title": "Murder probe detectives make new appeal over river death riddle",
+   "published": "2026-07-14T09:44:31.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Leamington Spa"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "0b0aa75a44fb",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-dispersal-powers-extended-coventry-34289037",
+   "source": "CoventryLive",
+   "title": "Police dispersal powers extended in Coventry area amid 'antisocial behaviour concerns'",
+   "published": "2026-07-14T16:45:27.000Z",
+   "category": "anti-social-behaviour",
+   "court": false,
+   "streets": [
+    {
+     "name": "Daventry Road",
+     "lat": 52.39417,
+     "lng": -1.50438,
+     "mentions": 2
+    },
+    {
+     "name": "Quinton Road",
+     "lat": 52.39846,
+     "lng": -1.50847,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Cheylesmore",
+     "lat": 52.39364,
+     "lng": -1.50402
+    }
+   ],
+   "place": {
+    "label": "Daventry Road, Cheylesmore",
+    "lat": 52.39417,
+    "lng": -1.50438,
+    "precision": "street"
+   },
+   "tags": [
+    "West Midlands Police",
+    "Coventry Police",
+    "Crime",
+    "Cheylesmore",
+    "Coventry"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 1,
+    "nearest": [
+     {
+      "street": "Supermarket",
+      "lat": 52.393697,
+      "lng": -1.503912,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 61
+     }
+    ]
+   }
+  },
+  {
+   "id": "ad8eba764677",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-issue-update-chelyesmore-dispersal-34294818",
+   "source": "CoventryLive",
+   "title": "Police issue update as Chelyesmore dispersal order set to end",
+   "published": "2026-07-15T13:45:00.000Z",
+   "category": "anti-social-behaviour",
+   "court": false,
+   "streets": [
+    {
+     "name": "Daventry Road",
+     "lat": 52.39417,
+     "lng": -1.50438,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Cheylesmore",
+     "lat": 52.39364,
+     "lng": -1.50402
+    }
+   ],
+   "place": {
+    "label": "Daventry Road, Cheylesmore",
+    "lat": 52.39417,
+    "lng": -1.50438,
+    "precision": "street"
+   },
+   "tags": [
+    "Cheylesmore",
+    "West Midlands Police",
+    "Crime"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 1,
+    "nearest": [
+     {
+      "street": "Supermarket",
+      "lat": 52.393697,
+      "lng": -1.503912,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 61
+     }
+    ]
+   }
+  },
+  {
+   "id": "ff45494e471c",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/more-three-coventry-homes-burgled-34300549",
+   "source": "CoventryLive",
+   "title": "More than three Coventry homes burgled every day - but crimes are falling",
+   "published": "2026-07-17T05:00:00.000Z",
+   "category": "burglary",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "West Midlands Police",
+    "Coventry City Centre",
+    "Warwickshire"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "27704b6d559b",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-reunited-artwork-stolen-34305122",
+   "source": "CoventryLive",
+   "title": "Coventry man reunited with artwork stolen almost 30 years ago",
+   "published": "2026-07-17T07:34:54.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Willenhall",
+     "lat": 52.38627,
+     "lng": -1.46642
+    },
+    {
+     "name": "Coventry University",
+     "lat": 52.4059,
+     "lng": -1.5003
+    },
+    {
+     "name": "Holbrooks",
+     "lat": 52.44473,
+     "lng": -1.5113
+    }
+   ],
+   "place": {
+    "label": "Willenhall",
+    "lat": 52.38627,
+    "lng": -1.46642,
+    "precision": "area"
+   },
+   "tags": [],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 9,
+    "nearest": [
+     {
+      "street": "Wroxall Drive",
+      "lat": 52.383791,
+      "lng": -1.464883,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 294
+     },
+     {
+      "street": "Kingsmead Mews",
+      "lat": 52.388961,
+      "lng": -1.4651,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 312
+     },
+     {
+      "street": "Lister Close",
+      "lat": 52.38499,
+      "lng": -1.471642,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 381
+     },
+     {
+      "street": "Tybalt Close",
+      "lat": 52.38212,
+      "lng": -1.467327,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 465
+     },
+     {
+      "street": "Linnet Close",
+      "lat": 52.38226,
+      "lng": -1.464432,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 465
+     }
+    ]
+   }
+  },
+  {
+   "id": "3bd4f2ffafb0",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-investigating-coventry-murder-make-34307772",
+   "source": "CoventryLive",
+   "title": "Police investigating Coventry murder make new arrest",
+   "published": "2026-07-17T11:54:11.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Broad Street",
+     "lat": 52.42685,
+     "lng": -1.49701,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    },
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    }
+   ],
+   "place": {
+    "label": "Broad Street, Edgwick",
+    "lat": 52.42685,
+    "lng": -1.49701,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 15,
+    "nearest": [
+     {
+      "street": "Holmsdale Road",
+      "lat": 52.428256,
+      "lng": -1.497759,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 164
+     },
+     {
+      "street": "Morey Street",
+      "lat": 52.427705,
+      "lng": -1.494957,
+      "month": "2026-07",
+      "n": 4,
+      "metres": 168
+     },
+     {
+      "street": "Parking Area",
+      "lat": 52.428519,
+      "lng": -1.498139,
+      "month": "2026-07",
+      "n": 4,
+      "metres": 200
+     },
+     {
+      "street": "Police Station",
+      "lat": 52.425882,
+      "lng": -1.494329,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 211
+     },
+     {
+      "street": "Foleshill Road",
+      "lat": 52.428067,
+      "lng": -1.499703,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 227
+     }
+    ]
+   }
+  },
+  {
+   "id": "368365ff704d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-tackling-gangs-causing-antisocial-34312585",
+   "source": "CoventryLive",
+   "title": "Police tackling gangs causing antisocial behaviour in Coventry area",
+   "published": "2026-07-18T11:42:31.000Z",
+   "category": "anti-social-behaviour",
+   "court": false,
+   "streets": [
+    {
+     "name": "Riley Square",
+     "lat": 52.43639,
+     "lng": -1.47338,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Bell Green",
+     "lat": 52.43477,
+     "lng": -1.47494
+    }
+   ],
+   "place": {
+    "label": "Riley Square, Bell Green",
+    "lat": 52.43639,
+    "lng": -1.47338,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 2,
+    "nearest": [
+     {
+      "street": "Parking Area",
+      "lat": 52.435815,
+      "lng": -1.472447,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 90
+     }
+    ]
+   }
+  },
+  {
+   "id": "97287e531222",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/significant-disruption-drug-dealing-foleshill-34317590",
+   "source": "CoventryLive",
+   "title": "'Significant disruption to drug dealing' in Foleshill in police raid",
+   "published": "2026-07-20T06:24:41.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [
+    {
+     "name": "Ansty Road",
+     "lat": 52.4188,
+     "lng": -1.45605,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    },
+    {
+     "name": "Ansty",
+     "lat": 52.44549,
+     "lng": -1.41925
+    }
+   ],
+   "place": {
+    "label": "Ansty Road, Wyken",
+    "lat": 52.4188,
+    "lng": -1.45605,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Foleshill",
+    "Crime",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "no-match",
+    "months": [
+     "2026-07"
+    ]
+   }
+  },
+  {
+   "id": "33fd32231076",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-who-ran-drug-distribution-34318170",
+   "source": "CoventryLive",
+   "title": "Man who ran drug distribution hub from his bedroom caught after Coventry Airport discovery",
+   "published": "2026-07-20T10:36:03.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [
+    {
+     "name": "Coventry Airport",
+     "lat": 52.36999,
+     "lng": -1.48151,
+     "mentions": 3
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Coventry Airport, Baginton",
+    "lat": 52.36999,
+    "lng": -1.48151,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Courts",
+    "Coventry Airport",
+    "Crime",
+    "United States of America",
+    "Drugs"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "c66e89f05e59",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/anti-social-behaviour-plaguing-one-34326343",
+   "source": "CoventryLive",
+   "title": "Anti-social behaviour plaguing one part of Coventry as groups hang out near off-licences",
+   "published": "2026-07-21T11:44:18.000Z",
+   "category": "anti-social-behaviour",
+   "court": false,
+   "streets": [
+    {
+     "name": "Foleshill Road",
+     "lat": 52.42807,
+     "lng": -1.4997,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    }
+   ],
+   "place": {
+    "label": "Foleshill Road, Edgwick",
+    "lat": 52.42807,
+    "lng": -1.4997,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Foleshill"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 1,
+    "nearest": [
+     {
+      "street": "Parking Area",
+      "lat": 52.428519,
+      "lng": -1.498139,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 117
+     }
+    ]
+   }
+  },
+  {
+   "id": "50e62c59575f",
+   "url": "https://www.coventrytelegraph.net/news/local-news/prolific-atm-raider-travelled-more-34322139",
+   "source": "CoventryLive",
+   "title": "Prolific ATM raider travelled more than 100 miles to Leamington Tesco",
+   "published": "2026-07-22T04:00:00.000Z",
+   "category": "other-theft",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Leamington Spa",
+    "Crime",
+    "Warwickshire",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "9936802ef975",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/faces-violent-machete-gang-who-34330430",
+   "source": "CoventryLive",
+   "title": "Faces of violent machete gang who brought 'terror to doorsteps' in Coventry",
+   "published": "2026-07-22T06:13:36.000Z",
+   "category": "possession-of-weapons",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Earlsdon",
+     "lat": 52.40435,
+     "lng": -1.52995
+    },
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    }
+   ],
+   "place": {
+    "label": "Earlsdon",
+    "lat": 52.40435,
+    "lng": -1.52995,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police",
+    "Crime",
+    "Courts",
+    "Earlsdon",
+    "Wyken"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 95,
+    "nearest": [
+     {
+      "street": "Ludlow Road",
+      "lat": 52.404973,
+      "lng": -1.528657,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 112
+     },
+     {
+      "street": "Broomfield Road",
+      "lat": 52.403372,
+      "lng": -1.530791,
+      "month": "2026-07",
+      "n": 4,
+      "metres": 123
+     },
+     {
+      "street": "Kingston Road",
+      "lat": 52.404565,
+      "lng": -1.532336,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 163
+     },
+     {
+      "street": "Collingwood Road",
+      "lat": 52.405177,
+      "lng": -1.527846,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 170
+     },
+     {
+      "street": "Melbourne Road",
+      "lat": 52.406001,
+      "lng": -1.529469,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 186
+     }
+    ]
+   }
+  },
+  {
+   "id": "23e45e6452cb",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/parent-risked-serious-injury-after-34330543",
+   "source": "CoventryLive",
+   "title": "Parent risked 'serious injury' after taking young child on back of off-road bike in Coventry",
+   "published": "2026-07-22T07:20:24.000Z",
+   "category": "burglary",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    }
+   ],
+   "place": {
+    "label": "Hillfields",
+    "lat": 52.41396,
+    "lng": -1.50114,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 30,
+    "nearest": [
+     {
+      "street": "Victoria Street",
+      "lat": 52.413337,
+      "lng": -1.501016,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 70
+     },
+     {
+      "street": "Byron Street",
+      "lat": 52.414571,
+      "lng": -1.505795,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 323
+     },
+     {
+      "street": "Vogue Close",
+      "lat": 52.410871,
+      "lng": -1.500368,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 347
+     },
+     {
+      "street": "Harnall Lane East",
+      "lat": 52.415873,
+      "lng": -1.496974,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 353
+     },
+     {
+      "street": "Lower Ford Street",
+      "lat": 52.409525,
+      "lng": -1.500824,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 493
+     }
+    ]
+   }
+  },
+  {
+   "id": "016f00f70dc0",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/tributes-21-year-old-policeman-34333200",
+   "source": "CoventryLive",
+   "title": "Tributes to 21-year-old policeman killed by armed gunman 54 years ago today",
+   "published": "2026-07-22T13:04:13.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Far Gosford Street",
+     "lat": 52.40787,
+     "lng": -1.49504,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Far Gosford Street, Lower Stoke",
+    "lat": 52.40787,
+    "lng": -1.49504,
+    "precision": "street"
+   },
+   "tags": [
+    "West Midlands Police",
+    "Coventry Police",
+    "Far Gosford Street",
+    "Coventry City Centre",
+    "Coventry City History"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "86f0837ba9c5",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/jailed-until-2050-coventrys-worst-34208108",
+   "source": "CoventryLive",
+   "title": "Jailed until 2050: Coventry's worst killers who wrote off their lives",
+   "published": "2026-07-23T09:52:46.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Bell Green",
+     "lat": 52.43477,
+     "lng": -1.47494
+    },
+    {
+     "name": "Earlsdon",
+     "lat": 52.40435,
+     "lng": -1.52995
+    }
+   ],
+   "place": {
+    "label": "Bell Green",
+    "lat": 52.43477,
+    "lng": -1.47494,
+    "precision": "area"
+   },
+   "tags": [
+    "West Midlands Police",
+    "Coventry Police",
+    "Crime",
+    "Courts",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "4a3a8cd80739",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/cocaine-gang-used-coventry-short-34335267",
+   "source": "CoventryLive",
+   "title": "Cocaine gang used Coventry short-term stays to hide major drugs conspiracy",
+   "published": "2026-07-23T10:58:35.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [
+    {
+     "name": "Hill Road",
+     "lat": 52.46112,
+     "lng": -1.53284,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Hill Road, Keresley Newlands",
+    "lat": 52.46112,
+    "lng": -1.53284,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "Drugs",
+    "Manchester"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "d649bbeb854e",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-probe-after-woman-attacked-34338605",
+   "source": "CoventryLive",
+   "title": "Police probe after woman 'attacked by man' in Coventry",
+   "published": "2026-07-23T12:00:42.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Aldbourne Road",
+     "lat": 52.41846,
+     "lng": -1.51032,
+     "mentions": 2
+    },
+    {
+     "name": "Widdrington Road",
+     "lat": 52.41927,
+     "lng": -1.51042,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Aldbourne Road, Bishopsgate Green",
+    "lat": 52.41846,
+    "lng": -1.51032,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Radford",
+    "West Midlands Police",
+    "Coventry Police",
+    "Crime"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 15,
+    "nearest": [
+     {
+      "street": "Widdrington Road",
+      "lat": 52.419265,
+      "lng": -1.510419,
+      "month": "2026-07",
+      "n": 4,
+      "metres": 90
+     },
+     {
+      "street": "Quayside Court",
+      "lat": 52.417679,
+      "lng": -1.509451,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 105
+     },
+     {
+      "street": "Somerset Road",
+      "lat": 52.418977,
+      "lng": -1.512525,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 160
+     },
+     {
+      "street": "Canal View",
+      "lat": 52.416999,
+      "lng": -1.510267,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 162
+     },
+     {
+      "street": "Dorset Road",
+      "lat": 52.419941,
+      "lng": -1.510735,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 167
+     }
+    ]
+   }
+  },
+  {
+   "id": "a53749725d90",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-found-lethal-gun-hidden-34332595",
+   "source": "CoventryLive",
+   "title": "Police found 'lethal' gun hidden in a shoe in Coventry man's home",
+   "published": "2026-07-25T06:15:00.000Z",
+   "category": "robbery",
+   "court": true,
+   "streets": [
+    {
+     "name": "Terry Road",
+     "lat": 52.4003,
+     "lng": -1.49004,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Terry Road, Lower Stoke",
+    "lat": 52.4003,
+    "lng": -1.49004,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Courts",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "7530681aeefc",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-threatened-machete-coventry-two-34344955",
+   "source": "CoventryLive",
+   "title": "Man 'threatened with machete' in Coventry as two people arrested",
+   "published": "2026-07-25T06:44:49.000Z",
+   "category": "possession-of-weapons",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry Police",
+    "Crime",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "df4a0442d965",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-machete-gang-jailed-violent-34332471",
+   "source": "CoventryLive",
+   "title": "Coventry machete gang jailed for violent home robberies after police helicopter chase",
+   "published": "2026-07-26T11:00:00.000Z",
+   "category": "robbery",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Earlsdon",
+     "lat": 52.40435,
+     "lng": -1.52995
+    },
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    }
+   ],
+   "place": {
+    "label": "Earlsdon",
+    "lat": 52.40435,
+    "lng": -1.52995,
+    "precision": "area"
+   },
+   "tags": [
+    "Crime",
+    "Courts",
+    "Earlsdon",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "a185992fdb7c",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/toys-sentimental-ornaments-stolen-graves-34358812",
+   "source": "CoventryLive",
+   "title": "Toys and sentimental ornaments stolen from graves in Coventry",
+   "published": "2026-07-27T13:29:35.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "26c5eabe0335",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/two-robberies-same-coventry-street-34362039",
+   "source": "CoventryLive",
+   "title": "Two robberies on same Coventry street as police step up patrols",
+   "published": "2026-07-28T06:45:39.000Z",
+   "category": "robbery",
+   "court": false,
+   "streets": [
+    {
+     "name": "Jardine Crescent",
+     "lat": 52.40915,
+     "lng": -1.58046,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Whoberley",
+     "lat": 52.4086,
+     "lng": -1.55388
+    }
+   ],
+   "place": {
+    "label": "Jardine Crescent, Mount Nod",
+    "lat": 52.40915,
+    "lng": -1.58046,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 1,
+    "nearest": [
+     {
+      "street": "Ferrers Close",
+      "lat": 52.407785,
+      "lng": -1.578093,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 221
+     }
+    ]
+   }
+  },
+  {
+   "id": "628fd33d059e",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/tragedy-pet-dogs-starve-death-34365065",
+   "source": "CoventryLive",
+   "title": "Tragedy as pet dog starves to death on Coventry narrowboat",
+   "published": "2026-07-28T14:03:53.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Sutton Stop",
+     "lat": 52.45674,
+     "lng": -1.47083,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Sutton Stop, Victoria Farm",
+    "lat": 52.45674,
+    "lng": -1.47083,
+    "precision": "street"
+   },
+   "tags": [
+    "RSPCA",
+    "Hawkesbury",
+    "Coventry Canal",
+    "Crime",
+    "Courts",
+    "Dogs",
+    "Pets and Animals"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "72fe4b19c54c",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-child-rape-survivor-speaks-34366427",
+   "source": "CoventryLive",
+   "title": "Coventry child rape survivor speaks of 'daily trauma' over early prison release scheme",
+   "published": "2026-07-29T05:30:00.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Politics",
+    "Women",
+    "Labour Party",
+    "Andy Burnham",
+    "Conservative Party"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "361fe8c90b07",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/cruel-thieves-targeting-coventry-graves-34362714",
+   "source": "CoventryLive",
+   "title": "Cruel thieves are targeting Coventry graves as grieving families left 'heartbroken'",
+   "published": "2026-07-29T06:07:00.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Canley",
+     "lat": 52.39525,
+     "lng": -1.57206
+    }
+   ],
+   "place": {
+    "label": "Canley",
+    "lat": 52.39525,
+    "lng": -1.57206,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry City Council",
+    "Premium",
+    "Crime"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 5,
+    "nearest": [
+     {
+      "street": "Gilbert Horal Close",
+      "lat": 52.399091,
+      "lng": -1.575545,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 487
+     },
+     {
+      "street": "Meadowcroft Close",
+      "lat": 52.398666,
+      "lng": -1.577416,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 525
+     },
+     {
+      "street": "Templar Avenue",
+      "lat": 52.400522,
+      "lng": -1.570946,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 590
+     },
+     {
+      "street": "Further/higher Educational Building",
+      "lat": 52.389218,
+      "lng": -1.572583,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 670
+     },
+     {
+      "street": "Further/higher Educational Building",
+      "lat": 52.40158,
+      "lng": -1.577711,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 800
+     }
+    ]
+   }
+  },
+  {
+   "id": "12fdc0ce7237",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/face-fraudster-who-lied-high-34370358",
+   "source": "CoventryLive",
+   "title": "Face of fraudster who lied about high-ranking Coventry job to swindle the NHS out of £170k",
+   "published": "2026-07-29T12:11:51.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "NHS",
+    "University Hospitals Coventry and Warwickshire NHS Trust",
+    "Crime"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "c462ad2b8cc3",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-killers-jailed-murderers-serving-34368850",
+   "source": "CoventryLive",
+   "title": "Coventry killers jailed: Murderers serving longest sentences who won't be free until 2050",
+   "published": "2026-07-30T06:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Bell Green",
+     "lat": 52.43477,
+     "lng": -1.47494
+    },
+    {
+     "name": "Earlsdon",
+     "lat": 52.40435,
+     "lng": -1.52995
+    }
+   ],
+   "place": {
+    "label": "Bell Green",
+    "lat": 52.43477,
+    "lng": -1.47494,
+    "precision": "area"
+   },
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "8534dea27367",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/fire-crews-called-out-arson-34374404",
+   "source": "CoventryLive",
+   "title": "Fire crews called out to arson attacks at Coventry park TEN times this week",
+   "published": "2026-07-30T06:53:26.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Wyken Croft",
+     "lat": 52.4246,
+     "lng": -1.46261,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    },
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    }
+   ],
+   "place": {
+    "label": "Wyken Croft, Manor Farm Estate",
+    "lat": 52.4246,
+    "lng": -1.46261,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Fire Service",
+    "Foleshill"
+   ],
+   "police": {
+    "status": "no-match",
+    "months": [
+     "2026-07"
+    ]
+   }
+  },
+  {
+   "id": "f34c76951b31",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/i-prison-last-year-now-34369002",
+   "source": "CoventryLive",
+   "title": "'I was in prison last year - now I've launched Gym Junky, Coventry's new fitness hub'",
+   "published": "2026-07-30T09:00:00.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Earlsdon",
+     "lat": 52.40435,
+     "lng": -1.52995
+    }
+   ],
+   "place": {
+    "label": "Earlsdon",
+    "lat": 52.40435,
+    "lng": -1.52995,
+    "precision": "area"
+   },
+   "tags": [
+    "Earlsdon",
+    "Real Life"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 6,
+    "nearest": [
+     {
+      "street": "Sovereign Road",
+      "lat": 52.405189,
+      "lng": -1.531051,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 119
+     },
+     {
+      "street": "Butts",
+      "lat": 52.405045,
+      "lng": -1.522012,
+      "month": "2026-07",
+      "n": 2,
+      "metres": 543
+     },
+     {
+      "street": "Queen's Road",
+      "lat": 52.404585,
+      "lng": -1.519445,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 712
+     },
+     {
+      "street": "Meriden Street",
+      "lat": 52.411032,
+      "lng": -1.521845,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 923
+     }
+    ]
+   }
+  },
+  {
+   "id": "07c3db1eab0c",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-extra-powers-tackle-dangerous-34383977",
+   "source": "CoventryLive",
+   "title": "Police get extra powers to tackle 'dangerous' groups of off-road bikers in Coventry",
+   "published": "2026-07-31T13:05:57.000Z",
+   "category": "anti-social-behaviour",
+   "court": false,
+   "streets": [
+    {
+     "name": "Daventry Road",
+     "lat": 52.39417,
+     "lng": -1.50438,
+     "mentions": 3
+    }
+   ],
+   "areas": [
+    {
+     "name": "Cheylesmore",
+     "lat": 52.39364,
+     "lng": -1.50402
+    }
+   ],
+   "place": {
+    "label": "Daventry Road, Cheylesmore",
+    "lat": 52.39417,
+    "lng": -1.50438,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police",
+    "Cheylesmore",
+    "War Memorial Park"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-07"
+    ],
+    "candidates": 1,
+    "nearest": [
+     {
+      "street": "Supermarket",
+      "lat": 52.393697,
+      "lng": -1.503912,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 61
+     }
+    ]
+   }
+  }
+ ]
+}

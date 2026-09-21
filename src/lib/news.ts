@@ -9,6 +9,8 @@ export type NewsItem = {
   category: CategorySlug | null;
   place: { label: string; lat: number; lng: number; precision: "street" | "area" } | null;
   timing: "recent" | "court";
+  /** streets the article names (for street search) */
+  streets?: string[];
   /** How the story lines up with police.uk (see scripts/correlate.mjs). */
   police: PoliceLink;
 };

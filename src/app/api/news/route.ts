@@ -25,6 +25,7 @@ type Archived = {
   court: boolean;
   place: NewsItem["place"];
   police?: NewsItem["police"];
+  streets?: { name: string }[];
 };
 
 function recentMonths(n: number): string[] {
@@ -67,6 +68,7 @@ export async function GET() {
       category: a.category,
       place: a.place,
       timing: a.court ? "court" : "recent",
+      streets: (a.streets ?? []).map((x) => x.name),
       // scripts/correlate.mjs sets this; before it has run, fall back on the month alone
       police: a.police ?? { status: a.published.slice(0, 7) > DATASET.latest ? "unconfirmed" : a.court ? "court" : a.place ? "no-match" : "unplaced" },
     }));

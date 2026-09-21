@@ -5,15 +5,18 @@ import type { GeoJSONSource, Map as MLMap, MapLayerMouseEvent } from "maplibre-g
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { MAPLIBRE_WORKER_URL } from "@/generated/assets";
 import { levelForZoom } from "@/lib/hex";
-import { HEAT, MAP_STYLE, NEWS_PIN, SELECT_LINE, type Theme } from "@/lib/theme";
+import { BASEMAPS, HEAT, NEWS_PIN, SELECT_LINE, type Basemap, type Tone } from "@/lib/theme";
 
 export type HexFeatures = GeoJSON.FeatureCollection<GeoJSON.Polygon, { n: number; k: number; h: number }>;
 export type NewsFeatures = GeoJSON.FeatureCollection<GeoJSON.Point, { id: string; title: string; source: string; when: string; cat: string; url: string; area: number; u: number }>;
+/** A searched street: its OSM points ("street") and the police.uk points counted for it ("police", n = reports). */
+export type FocusFeatures = GeoJSON.FeatureCollection<GeoJSON.Point, { kind: "street" | "police"; n: number }>;
 
 type Props = {
-  theme: Theme;
+  basemap: Basemap;
   hexes: HexFeatures;
   selected: [number, number][] | null;
+  focus: FocusFeatures;
   news: NewsFeatures;
   showNews: boolean;
   mode3d: boolean;
@@ -27,10 +30,10 @@ type Props = {
 const EMPTY: GeoJSON.FeatureCollection = { type: "FeatureCollection", features: [] };
 const HOME: [[number, number], [number, number]] = [[-1.625, 52.27], [-1.43, 52.45]];
 
-function heatMatch(theme: Theme): maplibregl.ExpressionSpecification {
+function heatMatch(tone: Tone): maplibregl.ExpressionSpecification {
   const stops: (number | string)[] = [];
-  HEAT[theme].forEach((c, i) => stops.push(i, c));
-  return ["match", ["get", "k"], ...stops, HEAT[theme][0]] as unknown as maplibregl.ExpressionSpecification;
+  HEAT[tone].forEach((c, i) => stops.push(i, c));
+  return ["match", ["get", "k"], ...stops, HEAT[tone][0]] as unknown as maplibregl.ExpressionSpecification;
 }
 
 export default function MapView(props: Props) {
@@ -41,7 +44,7 @@ export default function MapView(props: Props) {
   const [styleSeq, setStyleSeq] = useState(0);
   const [hover, setHover] = useState<{ id: number; x: number; y: number } | null>(null);
   const hoverId = useRef<number | null>(null);
-  const themeRef = useRef(props.theme);
+  const basemapRef = useRef(props.basemap);
 
   // create the map once
   useEffect(() => {
@@ -49,11 +52,11 @@ export default function MapView(props: Props) {
     maplibregl.setWorkerUrl(MAPLIBRE_WORKER_URL);
     const map = new maplibregl.Map({
       container: box.current,
-      style: MAP_STYLE[props.theme],
+      style: BASEMAPS[props.basemap].url,
       bounds: HOME,
       fitBoundsOptions: { padding: 24 },
       minZoom: 9.5,
-      maxZoom: 16.8,
+      maxZoom: 17.5,
       maxBounds: [[-2.1, 52.05], [-0.95, 52.7]],
       attributionControl: false,
       maxPitch: 65,
@@ -69,6 +72,7 @@ export default function MapView(props: Props) {
     );
 
     map.on("style.load", () => {
+      if (latest.current.basemap === "dark") boostDarkContrast(map);
       addLayers(map, latest.current);
       setStyleSeq((s) => s + 1);
     });
@@ -149,13 +153,13 @@ export default function MapView(props: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // theme -> swap basemap (layers are re-added on style.load)
+  // basemap -> swap style (our layers are re-added on style.load)
   useEffect(() => {
     const map = mapRef.current;
-    if (!map || themeRef.current === props.theme) return;
-    themeRef.current = props.theme;
-    map.setStyle(MAP_STYLE[props.theme], { diff: false });
-  }, [props.theme]);
+    if (!map || basemapRef.current === props.basemap) return;
+    basemapRef.current = props.basemap;
+    map.setStyle(BASEMAPS[props.basemap].url, { diff: false });
+  }, [props.basemap]);
 
   useEffect(() => {
     (mapRef.current?.getSource("hex") as GeoJSONSource | undefined)?.setData(props.hexes);
@@ -169,6 +173,10 @@ export default function MapView(props: Props) {
         : EMPTY,
     );
   }, [props.selected, styleSeq]);
+
+  useEffect(() => {
+    (mapRef.current?.getSource("focus") as GeoJSONSource | undefined)?.setData(props.focus);
+  }, [props.focus, styleSeq]);
 
   useEffect(() => {
     (mapRef.current?.getSource("news") as GeoJSONSource | undefined)?.setData(props.news);
@@ -219,25 +227,56 @@ export default function MapView(props: Props) {
   );
 }
 
+/** The stock dark style keeps roads and labels very dim. Lift them so streets and names read. */
+function boostDarkContrast(map: MLMap) {
+  for (const layer of map.getStyle().layers) {
+    const src = (layer as { "source-layer"?: string })["source-layer"];
+    try {
+      if (layer.type === "line" && src === "transportation") {
+        const id = layer.id;
+        const color = /casing/.test(id)
+          ? "#0b0e12"
+          : /motorway|trunk|primary/.test(id)
+            ? "#aeb6c2"
+            : /secondary|tertiary/.test(id)
+              ? "#8f98a6"
+              : /rail|transit/.test(id)
+                ? "#5c6573"
+                : "#6c7584";
+        map.setPaintProperty(id, "line-color", color);
+      } else if (layer.type === "symbol" && layer.layout && "text-field" in layer.layout) {
+        map.setPaintProperty(layer.id, "text-color", /place|city|town|village|suburb/.test(layer.id) ? "#f2f4f7" : "#d7dde6");
+        map.setPaintProperty(layer.id, "text-halo-color", "#0b0e12");
+        map.setPaintProperty(layer.id, "text-halo-width", 1.6);
+      }
+    } catch {
+      // a layer that doesn't take that property: leave it as the style set it
+    }
+  }
+}
+
 function addLayers(map: MLMap, p: Props) {
-  const theme = p.theme;
-  const firstSymbol = map.getStyle().layers.find((l) => l.type === "symbol")?.id;
-  const bg = theme === "light" ? "#f5f6f7" : "#0e1116";
+  const { tone, ground } = BASEMAPS[p.basemap];
+  const layers = map.getStyle().layers;
+  // hexes go under the road network, so streets and their names draw on top of the colour
+  const underRoads =
+    layers.find((l) => (l as { "source-layer"?: string })["source-layer"] === "transportation")?.id ?? layers.find((l) => l.type === "symbol")?.id;
+  const firstSymbol = layers.find((l) => l.type === "symbol")?.id;
 
   map.addSource("hex", { type: "geojson", data: p.hexes });
   map.addSource("selected", { type: "geojson", data: EMPTY });
+  map.addSource("focus", { type: "geojson", data: p.focus });
   map.addSource("news", { type: "geojson", data: p.news });
 
-  // hexes sit under the basemap's labels so street and place names stay readable
   map.addLayer(
     {
       id: "hex-fill",
       type: "fill",
       source: "hex",
       layout: { visibility: p.mode3d ? "none" : "visible" },
-      paint: { "fill-color": heatMatch(theme), "fill-opacity": theme === "light" ? 0.8 : 0.85 },
+      paint: { "fill-color": heatMatch(tone), "fill-opacity": tone === "light" ? 0.62 : 0.72 },
     },
-    firstSymbol,
+    underRoads,
   );
   map.addLayer(
     {
@@ -246,9 +285,9 @@ function addLayers(map: MLMap, p: Props) {
       source: "hex",
       layout: { visibility: p.mode3d ? "none" : "visible" },
       paint: {
-        "line-color": ["case", ["boolean", ["feature-state", "hover"], false], SELECT_LINE[theme], bg],
-        "line-width": ["case", ["boolean", ["feature-state", "hover"], false], 2, 1],
-        "line-opacity": ["case", ["boolean", ["feature-state", "hover"], false], 0.9, 0.7],
+        "line-color": ["case", ["boolean", ["feature-state", "hover"], false], SELECT_LINE[tone], ground],
+        "line-width": ["case", ["boolean", ["feature-state", "hover"], false], 2.5, 1],
+        "line-opacity": ["case", ["boolean", ["feature-state", "hover"], false], 0.95, 0.6],
       },
     },
     firstSymbol,
@@ -259,23 +298,34 @@ function addLayers(map: MLMap, p: Props) {
     source: "hex",
     layout: { visibility: p.mode3d ? "visible" : "none" },
     paint: {
-      "fill-extrusion-color": heatMatch(theme),
+      "fill-extrusion-color": heatMatch(tone),
       "fill-extrusion-height": ["get", "h"],
       "fill-extrusion-opacity": 0.92,
       "fill-extrusion-vertical-gradient": true,
     },
   });
+  map.addLayer({ id: "selected-casing", type: "line", source: "selected", paint: { "line-color": ground, "line-width": 6, "line-opacity": 0.9 } });
+  map.addLayer({ id: "selected-line", type: "line", source: "selected", paint: { "line-color": SELECT_LINE[tone], "line-width": 2.5 } });
+  // searched street: its course as small dots, and the police.uk points counted for it as rings sized by reports
   map.addLayer({
-    id: "selected-casing",
-    type: "line",
-    source: "selected",
-    paint: { "line-color": bg, "line-width": 6, "line-opacity": 0.9 },
+    id: "focus-street",
+    type: "circle",
+    source: "focus",
+    filter: ["==", ["get", "kind"], "street"],
+    paint: { "circle-radius": 4, "circle-color": NEWS_PIN[tone].fill, "circle-stroke-width": 1.5, "circle-stroke-color": NEWS_PIN[tone].ring },
   });
   map.addLayer({
-    id: "selected-line",
-    type: "line",
-    source: "selected",
-    paint: { "line-color": SELECT_LINE[theme], "line-width": 2.5 },
+    id: "focus-police",
+    type: "circle",
+    source: "focus",
+    filter: ["==", ["get", "kind"], "police"],
+    paint: {
+      "circle-radius": ["interpolate", ["linear"], ["sqrt", ["get", "n"]], 1, 6, 10, 16],
+      "circle-color": SELECT_LINE[tone],
+      "circle-opacity": 0.12,
+      "circle-stroke-width": 2,
+      "circle-stroke-color": SELECT_LINE[tone],
+    },
   });
   map.addLayer({
     id: "news-halo",
@@ -283,7 +333,7 @@ function addLayers(map: MLMap, p: Props) {
     source: "news",
     layout: { visibility: p.showNews ? "visible" : "none" },
     filter: ["==", ["get", "area"], 1],
-    paint: { "circle-radius": 22, "circle-color": NEWS_PIN[theme].fill, "circle-opacity": 0.14, "circle-stroke-width": 1, "circle-stroke-color": NEWS_PIN[theme].fill, "circle-stroke-opacity": 0.4 },
+    paint: { "circle-radius": 22, "circle-color": NEWS_PIN[tone].fill, "circle-opacity": 0.14, "circle-stroke-width": 1, "circle-stroke-color": NEWS_PIN[tone].fill, "circle-stroke-opacity": 0.4 },
   });
   map.addLayer({
     id: "news-pin",
@@ -293,9 +343,9 @@ function addLayers(map: MLMap, p: Props) {
     // filled pin: police.uk has published that month; hollow pin: not yet in police data
     paint: {
       "circle-radius": ["interpolate", ["linear"], ["zoom"], 10, 5, 15, 8],
-      "circle-color": ["case", ["==", ["get", "u"], 1], NEWS_PIN[theme].ring, NEWS_PIN[theme].fill],
+      "circle-color": ["case", ["==", ["get", "u"], 1], NEWS_PIN[tone].ring, NEWS_PIN[tone].fill],
       "circle-stroke-width": ["case", ["==", ["get", "u"], 1], 3, 2.5],
-      "circle-stroke-color": ["case", ["==", ["get", "u"], 1], NEWS_PIN[theme].fill, NEWS_PIN[theme].ring],
+      "circle-stroke-color": ["case", ["==", ["get", "u"], 1], NEWS_PIN[tone].fill, NEWS_PIN[tone].ring],
     },
   });
 }

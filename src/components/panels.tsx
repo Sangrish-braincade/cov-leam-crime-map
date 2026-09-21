@@ -5,6 +5,7 @@ import type { CrimeData, Scan } from "@/lib/crimeData";
 import { change, dec, num, pct, range as fmtRange } from "@/lib/format";
 import { acrossMetres } from "@/lib/hex";
 import { OUTCOME_GROUPS } from "@/lib/outcomes";
+import { NEAR_METRES, type StreetFocus } from "@/lib/streetFocus";
 import { BarList, MonthBars } from "./charts";
 
 export type TopHex = { id: number; title: string; area: string; n: number };
@@ -116,6 +117,134 @@ export function OverviewPanel(props: {
       <button type="button" className="linkish" onClick={props.onAbout}>
         How to read this map, and what the data can&rsquo;t tell you
       </button>
+    </div>
+  );
+}
+
+export function StreetPanel(props: {
+  data: CrimeData;
+  focus: StreetFocus;
+  typed: string;
+  onGuide: (slug: CategorySlug) => void;
+  onClose: () => void;
+}) {
+  const { data, focus } = props;
+  const { street, scan, own, near } = focus;
+  const n = data.months.length;
+  const series = Array.from(scan.series);
+  const last12 = series.slice(n - 12).reduce((a, b) => a + b, 0);
+  const prev12 = series.slice(n - 24, n - 12).reduce((a, b) => a + b, 0);
+  const cats = data.cats
+    .map((slug, i) => ({ slug: slug as CategorySlug, n: scan.cats[i] }))
+    .filter((c) => c.n > 0)
+    .sort((a, b) => b.n - a.n);
+  const where = street.area && street.area !== street.town ? `${street.area}, ${street.town}` : street.town || street.area;
+  const typedNumber = /^\s*(flat|apartment|\d)/i.test(props.typed);
+
+  return (
+    <div className="panel-body">
+      <header className="area-head">
+        <div>
+          <p className="eyebrow">Street · all categories · {fmtRange(data.months, 0, n - 1)}</p>
+          <h2>{street.name}</h2>
+          <p className="area-sub">{where}</p>
+        </div>
+        <button type="button" className="icon-btn" onClick={props.onClose} aria-label="Close street">
+          <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M4 4l8 8M12 4l-8 8" /></svg>
+        </button>
+      </header>
+      {typedNumber ? (
+        <p className="note">
+          You searched &ldquo;{props.typed}&rdquo;. police.uk works street by street and never below that, so the house number isn&rsquo;t used.
+        </p>
+      ) : null}
+
+      <section className="stat-block">
+        <p className="big">{num(scan.total)}</p>
+        <p className="big-sub">
+          {focus.basis === "own"
+            ? `police.uk reports recorded on ${street.name} in ${n} months`
+            : `police.uk reports at the points nearest ${street.name} (within ${NEAR_METRES} m) in ${n} months`}
+        </p>
+        <Delta now={last12} before={prev12} label="last 12 months vs the 12 before" />
+      </section>
+
+      <section>
+        <h3>Where police.uk records them</h3>
+        {focus.basis === "own" ? (
+          <p className="note">
+            police.uk moves every crime to the nearest of a fixed set of anonymous points. {own.length === 1 ? "One is" : `${own.length} are`} named after{" "}
+            {street.name}; that&rsquo;s what&rsquo;s counted above. Points on neighbouring streets within {NEAR_METRES} m are listed for context but not counted.
+          </p>
+        ) : (
+          <p className="note">
+            police.uk has no point of its own on {street.name}, which is normal for smaller streets. Crimes here are recorded at the nearest points, so the count
+            above uses those within {NEAR_METRES} m. Some of them will be from the neighbouring streets.
+          </p>
+        )}
+        <BarList
+          items={[...own, ...near].slice(0, 8).map((p) => ({
+            key: String(p.i),
+            label: `${data.placeType[data.pointStreet[p.i]] ? p.street + " (venue)" : "On or near " + p.street}${p.own ? "" : ` · ${p.metres} m away`}`,
+            value: p.n,
+            muted: focus.basis === "own" && !p.own,
+            note: focus.basis === "own" && !p.own ? "(not counted)" : undefined,
+          }))}
+        />
+      </section>
+
+      {scan.total ? (
+        <>
+          <section>
+            <h3>Every month</h3>
+            <MonthBars months={data.months} values={scan.series} range={[n - 12, n - 1]} label={`Reports per month on or near ${street.name}`} />
+          </section>
+          <section>
+            <h3>By category</h3>
+            <BarList
+              items={cats.map((c) => ({
+                key: c.slug,
+                label: CATEGORY[c.slug].label,
+                value: c.n,
+                onClick: () => props.onGuide(c.slug),
+                action: `Read the guide to ${CATEGORY[c.slug].label.toLowerCase()}`,
+              }))}
+            />
+          </section>
+          <section>
+            <h3>What happened next</h3>
+            <Outcomes scan={scan} />
+          </section>
+        </>
+      ) : (
+        <p className="note">Nothing recorded on or right beside this street in the last {n} months.</p>
+      )}
+
+      <section className="read-more">
+        <h3>In the news</h3>
+        {focus.news.length ? (
+          <ul className="links">
+            {focus.news.map((it) => (
+              <li key={it.id}>
+                <a href={it.url} target="_blank" rel="noopener">
+                  {it.title} ↗
+                </a>
+                <span>
+                  {it.source} · {new Date(it.published).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" })}
+                  {it.category ? ` · ${CATEGORY[it.category]?.label}` : ""}
+                </span>
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="note">No local news stories name this street in the news archive so far.</p>
+        )}
+        <p className="note">
+          <a href={googleNewsUrl(`"${street.name}" ${street.town}`)} target="_blank" rel="noopener">
+            Search older news about {street.name} ↗
+          </a>
+        </p>
+      </section>
     </div>
   );
 }

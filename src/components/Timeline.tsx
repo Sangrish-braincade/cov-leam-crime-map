@@ -53,6 +53,8 @@ export default function Timeline({ months, values, range, playing, onRange, onPl
   };
 
   const total = Array.from(values).slice(r0, r1 + 1).reduce((s, v) => s + v, 0);
+  // label the first month only when the first January isn't close enough to collide with it
+  const firstJan = months.findIndex((m) => m.endsWith("-01"));
 
   return (
     <section className="timeline" aria-label="Time range">
@@ -132,9 +134,9 @@ export default function Timeline({ months, values, range, playing, onRange, onPl
         </svg>
         <div className="timeline-labels" aria-hidden="true">
           {months.map((m, i) =>
-            m.endsWith("-01") || i === 0 ? (
+            m.endsWith("-01") || (i === 0 && firstJan >= 7) ? (
               <span key={m} style={{ left: `${((i + 0.5) / n) * 100}%` }}>
-                {i === 0 || m.endsWith("-01") ? monthShort(m) : ""}
+                {monthShort(m)}
               </span>
             ) : null,
           )}

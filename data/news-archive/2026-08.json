@@ -1,0 +1,3181 @@
+{
+ "month": "2026-08",
+ "articles": [
+  {
+   "id": "bca77622ad72",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/gunmen-jailed-after-four-weapons-34388297",
+   "source": "CoventryLive",
+   "title": "Gunmen jailed after four weapons seized from parked car in Coventry",
+   "published": "2026-08-01T09:41:32.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Wappenbury Road",
+     "lat": 52.44083,
+     "lng": -1.46387,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Wappenbury",
+     "lat": 52.32159,
+     "lng": -1.44593
+    }
+   ],
+   "place": {
+    "label": "Wappenbury Road, Wood End",
+    "lat": 52.44083,
+    "lng": -1.46387,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "1b0a5dbd88a2",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/jailed-july-worst-criminals-locked-34370227",
+   "source": "CoventryLive",
+   "title": "Jailed in July: The worst criminals locked up across Coventry and Warwickshire this month",
+   "published": "2026-08-01T10:45:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Parry Road",
+     "lat": 52.42756,
+     "lng": -1.47038,
+     "mentions": 1
+    },
+    {
+     "name": "Kenilworth Road",
+     "lat": 52.29958,
+     "lng": -1.53614,
+     "mentions": 1
+    },
+    {
+     "name": "Coventry Airport",
+     "lat": 52.36999,
+     "lng": -1.48151,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Sydenham",
+     "lat": 52.28044,
+     "lng": -1.51665
+    },
+    {
+     "name": "Earlsdon",
+     "lat": 52.40435,
+     "lng": -1.52995
+    },
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    }
+   ],
+   "place": {
+    "label": "Parry Road, Upper Stoke",
+    "lat": 52.42756,
+    "lng": -1.47038,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Courts",
+    "West Midlands Police",
+    "Warwickshire Police",
+    "Coventry Police",
+    "Warwickshire",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "ea0d822f0676",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/moment-coventry-men-arrested-after-34388652",
+   "source": "CoventryLive",
+   "title": "Moment Coventry men arrested after 'deadly' guns found in Vauxhall Corsa",
+   "published": "2026-08-01T11:16:50.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Wappenbury Road",
+     "lat": 52.44083,
+     "lng": -1.46387,
+     "mentions": 2
+    },
+    {
+     "name": "Purcell Road",
+     "lat": 52.43198,
+     "lng": -1.47589,
+     "mentions": 1
+    },
+    {
+     "name": "Crediton Close",
+     "lat": 52.38458,
+     "lng": -1.50084,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Wappenbury",
+     "lat": 52.32159,
+     "lng": -1.44593
+    }
+   ],
+   "place": {
+    "label": "Wappenbury Road, Wood End",
+    "lat": 52.44083,
+    "lng": -1.46387,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Courts"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-08",
+     "2026-07"
+    ],
+    "candidates": 1,
+    "nearest": [
+     {
+      "street": "Budbrooke Close",
+      "lat": 52.442794,
+      "lng": -1.463021,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 225
+     }
+    ]
+   }
+  },
+  {
+   "id": "e083861dc2f2",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-police-officers-reveal-plan-34388988",
+   "source": "CoventryLive",
+   "title": "Coventry police officers reveal plan to tackle 'dangerous off-road bikers'",
+   "published": "2026-08-01T12:16:52.000Z",
+   "category": "anti-social-behaviour",
+   "court": false,
+   "streets": [
+    {
+     "name": "Daventry Road",
+     "lat": 52.39417,
+     "lng": -1.50438,
+     "mentions": 3
+    }
+   ],
+   "areas": [
+    {
+     "name": "Cheylesmore",
+     "lat": 52.39364,
+     "lng": -1.50402
+    }
+   ],
+   "place": {
+    "label": "Daventry Road, Cheylesmore",
+    "lat": 52.39417,
+    "lng": -1.50438,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Cheylesmore",
+    "West Midlands Police",
+    "Coventry Police",
+    "Crime"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-08",
+     "2026-07"
+    ],
+    "candidates": 1,
+    "nearest": [
+     {
+      "street": "Supermarket",
+      "lat": 52.393697,
+      "lng": -1.503912,
+      "month": "2026-07",
+      "n": 1,
+      "metres": 61
+     }
+    ]
+   }
+  },
+  {
+   "id": "4400aa294bbd",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-drug-dealer-jailed-after-34389166",
+   "source": "CoventryLive",
+   "title": "Coventry drug dealer jailed after crimes fund 'out of control' gambling",
+   "published": "2026-08-01T13:57:08.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [
+    {
+     "name": "Sky Blue Way",
+     "lat": 52.40839,
+     "lng": -1.49465,
+     "mentions": 2
+    },
+    {
+     "name": "St Margaret Road",
+     "lat": 52.40584,
+     "lng": -1.49181,
+     "mentions": 1
+    },
+    {
+     "name": "Charterhouse Road",
+     "lat": 52.40504,
+     "lng": -1.49566,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Sky Blue Way, Lower Stoke",
+    "lat": 52.40839,
+    "lng": -1.49465,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Courts",
+    "Sky Blue Way",
+    "Coventry City Centre",
+    "BMW"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "52793e880684",
+   "url": "https://www.coventrytelegraph.net/news/local-news/police-find-solihull-gunman-stratford-34363423",
+   "source": "CoventryLive",
+   "title": "Police find gunman in Stratford hotel with 'cocaine and taser'",
+   "published": "2026-08-01T14:30:00.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [
+    {
+     "name": "Stratford Road",
+     "lat": 52.26218,
+     "lng": -1.6101,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Stratford Road, Sherbourne",
+    "lat": 52.26218,
+    "lng": -1.6101,
+    "precision": "street"
+   },
+   "tags": [
+    "Warwickshire",
+    "Crime",
+    "Courts",
+    "Solihull",
+    "Stratford-upon-Avon",
+    "Stratford-on-Avon",
+    "Premium"
+   ],
+   "police": {
+    "status": "no-match",
+    "months": [
+     "2026-08",
+     "2026-07"
+    ]
+   }
+  },
+  {
+   "id": "8737dfb459eb",
+   "url": "https://www.coventrytelegraph.net/news/local-news/shoplifter-who-targeted-stores-31-34374909",
+   "source": "CoventryLive",
+   "title": "The shoplifter who targeted stores 31 times in a single month - despite being banned from town",
+   "published": "2026-08-02T07:00:00.000Z",
+   "category": "shoplifting",
+   "court": false,
+   "streets": [
+    {
+     "name": "Stratford Road",
+     "lat": 52.26218,
+     "lng": -1.6101,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Stratford Road, Sherbourne",
+    "lat": 52.26218,
+    "lng": -1.6101,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Courts",
+    "West Midlands Police",
+    "Solihull"
+   ],
+   "police": {
+    "status": "no-match",
+    "months": [
+     "2026-08",
+     "2026-07"
+    ]
+   }
+  },
+  {
+   "id": "c1f50a72d7f5",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-dad-raided-home-holidaying-34381776",
+   "source": "CoventryLive",
+   "title": "Coventry dad raided home while holidaying owner watched 'helplessly' on CCTV",
+   "published": "2026-08-03T04:30:00.000Z",
+   "category": "burglary",
+   "court": true,
+   "streets": [
+    {
+     "name": "Bennetts Road",
+     "lat": 52.45468,
+     "lng": -1.53311,
+     "mentions": 1
+    },
+    {
+     "name": "Foleshill Road",
+     "lat": 52.42807,
+     "lng": -1.4997,
+     "mentions": 1
+    },
+    {
+     "name": "Holbrook Lane",
+     "lat": 52.43837,
+     "lng": -1.50729,
+     "mentions": 1
+    },
+    {
+     "name": "Longford Road",
+     "lat": 52.45333,
+     "lng": -1.48519,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Keresley",
+     "lat": 52.45005,
+     "lng": -1.53453
+    },
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    },
+    {
+     "name": "Longford",
+     "lat": 52.45162,
+     "lng": -1.48854
+    }
+   ],
+   "place": {
+    "label": "Bennetts Road, Keresley",
+    "lat": 52.45468,
+    "lng": -1.53311,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Courts",
+    "Longford",
+    "Crime",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "ae07b5ed1d77",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-cctv-appeal-after-man-34398581",
+   "source": "CoventryLive",
+   "title": "Coventry CCTV appeal after man 'kicked and punched'",
+   "published": "2026-08-03T18:00:18.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Trinity Street",
+     "lat": 52.40972,
+     "lng": -1.50936,
+     "mentions": 3
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Trinity Street, Coventry",
+    "lat": 52.40972,
+    "lng": -1.50936,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police",
+    "Crime",
+    "Trinity Street",
+    "Coventry City Centre"
+   ],
+   "police": {
+    "status": "matched",
+    "months": [
+     "2026-08",
+     "2026-07"
+    ],
+    "candidates": 97,
+    "nearest": [
+     {
+      "street": "Supermarket",
+      "lat": 52.409882,
+      "lng": -1.508891,
+      "month": "2026-07",
+      "n": 3,
+      "metres": 37
+     },
+     {
+      "street": "Hales Street",
+      "lat": 52.410424,
+      "lng": -1.509385,
+      "month": "2026-07",
+      "n": 3,
+      "metres": 78
+     },
+     {
+      "street": "Ironmonger Row",
+      "lat": 52.409034,
+      "lng": -1.510253,
+      "month": "2026-07",
+      "n": 3,
+      "metres": 97
+     },
+     {
+      "street": "Cross Cheaping",
+      "lat": 52.409152,
+      "lng": -1.510472,
+      "month": "2026-07",
+      "n": 7,
+      "metres": 98
+     },
+     {
+      "street": "Burges",
+      "lat": 52.410124,
+      "lng": -1.510799,
+      "month": "2026-07",
+      "n": 11,
+      "metres": 107
+     }
+    ]
+   }
+  },
+  {
+   "id": "c46f0e934f2e",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/group-chased-brutally-attacked-man-34389552",
+   "source": "CoventryLive",
+   "title": "Group that chased and brutally attacked man inside Coventry takeaway jailed",
+   "published": "2026-08-04T04:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Primrose Hill Street",
+     "lat": 52.41296,
+     "lng": -1.50276,
+     "mentions": 1
+    },
+    {
+     "name": "Lauderdale Avenue",
+     "lat": 52.44658,
+     "lng": -1.50336,
+     "mentions": 1
+    },
+    {
+     "name": "Legendary Lane",
+     "lat": 52.38547,
+     "lng": -1.47347,
+     "mentions": 1
+    },
+    {
+     "name": "Vauxhall Close",
+     "lat": 52.41194,
+     "lng": -1.4958,
+     "mentions": 1
+    },
+    {
+     "name": "Kilby Mews",
+     "lat": 52.40745,
+     "lng": -1.49519,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    }
+   ],
+   "place": {
+    "label": "Primrose Hill Street, Hillfields",
+    "lat": 52.41296,
+    "lng": -1.50276,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Hillfields",
+    "Courts",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "71e2f4f95d94",
+   "url": "https://www.coventrytelegraph.net/news/local-news/police-warn-significant-fire-risk-34399417",
+   "source": "CoventryLive",
+   "title": "Police warn of 'significant fire risk' as thugs target abandoned buildings",
+   "published": "2026-08-04T07:53:47.000Z",
+   "category": "criminal-damage-arson",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwick",
+    "Warwickshire Police",
+    "Warwickshire Fire and Rescue"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "1f0c1eb35f28",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-charged-after-businesses-targeted-34402948",
+   "source": "CoventryLive",
+   "title": "Man charged after businesses targeted in spate of Coventry burglaries",
+   "published": "2026-08-04T14:27:09.000Z",
+   "category": "burglary",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "eba55c6e8ad9",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-families-left-heartbroken-thieves-34400272",
+   "source": "CoventryLive",
+   "title": "Coventry families left 'heartbroken' as thieves target graves and steal treasured items",
+   "published": "2026-08-05T04:00:00.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Canley",
+     "lat": 52.39525,
+     "lng": -1.57206
+    }
+   ],
+   "place": {
+    "label": "Canley",
+    "lat": 52.39525,
+    "lng": -1.57206,
+    "precision": "area"
+   },
+   "tags": [
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "bb7b25ff8885",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/smiling-thug-left-man-needing-34393765",
+   "source": "CoventryLive",
+   "title": "Smiling thug left man needing surgery after 'frenzied' bottle attack in Coventry",
+   "published": "2026-08-05T04:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Canal Road",
+     "lat": 52.43274,
+     "lng": -1.4935,
+     "mentions": 2
+    },
+    {
+     "name": "Barras Lane",
+     "lat": 52.40998,
+     "lng": -1.52138,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Canal Road, Foleshill",
+    "lat": 52.43274,
+    "lng": -1.4935,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "eba8eb89a35b",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/new-cctv-image-police-probe-34407272",
+   "source": "CoventryLive",
+   "title": "New CCTV image as police probe Coventry pub attack that left man with life-changing injuries",
+   "published": "2026-08-05T10:32:24.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Holbrook Lane",
+     "lat": 52.43837,
+     "lng": -1.50729,
+     "mentions": 1
+    },
+    {
+     "name": "Lythalls Lane",
+     "lat": 52.44159,
+     "lng": -1.50124,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Holbrooks",
+     "lat": 52.44473,
+     "lng": -1.5113
+    }
+   ],
+   "place": {
+    "label": "Holbrook Lane, Holbrooks",
+    "lat": 52.43837,
+    "lng": -1.50729,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry Police",
+    "Holbrooks",
+    "Crime",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "2c02306111b7",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/dolars-aleksanders-charged-over-death-34411974",
+   "source": "CoventryLive",
+   "title": "Dolars Aleksanders charged over death of Keaton Slater in Coventry",
+   "published": "2026-08-05T23:19:17.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police",
+    "Radford",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "6fa1de9a2026",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/court-update-latvian-national-charged-34414095",
+   "source": "CoventryLive",
+   "title": "Court update on Latvian national charged over death of Keaton Slater",
+   "published": "2026-08-06T11:58:57.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford",
+    "lat": 52.42997,
+    "lng": -1.51849,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Courts",
+    "Radford"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "905acfc184d3",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/arson-probe-after-5g-mast-34415468",
+   "source": "CoventryLive",
+   "title": "Arson probe after 5G mast 'deliberately' torched in Coventry",
+   "published": "2026-08-06T18:47:58.000Z",
+   "category": "criminal-damage-arson",
+   "court": false,
+   "streets": [
+    {
+     "name": "Oakmoor Road",
+     "lat": 52.44836,
+     "lng": -1.48316,
+     "mentions": 2
+    },
+    {
+     "name": "Hurst Road",
+     "lat": 52.45048,
+     "lng": -1.4826,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Longford",
+     "lat": 52.45162,
+     "lng": -1.48854
+    },
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    }
+   ],
+   "place": {
+    "label": "Oakmoor Road, Longford",
+    "lat": 52.44836,
+    "lng": -1.48316,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Fire Service",
+    "Longford",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "69afda242e3d",
+   "url": "https://www.coventrytelegraph.net/news/local-news/warwickshire-man-court-admits-stirring-34418655",
+   "source": "CoventryLive",
+   "title": "Warwickshire man in court admits to stirring up 'racial hatred' online",
+   "published": "2026-08-07T07:04:36.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwickshire Police"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "f2cb99fa77fa",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/abuser-jailed-life-after-killing-34420322",
+   "source": "CoventryLive",
+   "title": "Abuser jailed for life after killing Coventry woman in 'brutal' claw hammer attack",
+   "published": "2026-08-07T12:38:12.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "ebe18df54453",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/know-after-dolars-aleksanders-charged-34416818",
+   "source": "CoventryLive",
+   "title": "All we know after Dolars Aleksanders charged in connection with death of Keaton Slater",
+   "published": "2026-08-07T15:35:03.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 4
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Radford",
+    "Courts"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "ffb87ec4ed5e",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/drugs-gangs-armed-burglars-among-34422072",
+   "source": "CoventryLive",
+   "title": "Drugs gangs and armed burglars among those locked up last month",
+   "published": "2026-08-08T11:23:00.000Z",
+   "category": "burglary",
+   "court": true,
+   "streets": [
+    {
+     "name": "Coventry Airport",
+     "lat": 52.36999,
+     "lng": -1.48151,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Coventry Airport, Baginton",
+    "lat": 52.36999,
+    "lng": -1.48151,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "673ea175a33a",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/driver-who-killed-teenage-girl-34406327",
+   "source": "CoventryLive",
+   "title": "Driver who killed teenage girl and injured three others was travelling towards Coventry",
+   "published": "2026-08-09T05:15:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "8e42f7b966f9",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-dad-jailed-after-homeowner-34422310",
+   "source": "CoventryLive",
+   "title": "Coventry dad jailed after homeowner watches break-in live on CCTV",
+   "published": "2026-08-10T04:00:00.000Z",
+   "category": "burglary",
+   "court": true,
+   "streets": [
+    {
+     "name": "Foleshill Road",
+     "lat": 52.42807,
+     "lng": -1.4997,
+     "mentions": 1
+    },
+    {
+     "name": "Holbrook Lane",
+     "lat": 52.43837,
+     "lng": -1.50729,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    }
+   ],
+   "place": {
+    "label": "Foleshill Road, Edgwick",
+    "lat": 52.42807,
+    "lng": -1.4997,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "b03f36edc305",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/cctv-image-issued-after-teenage-34431185",
+   "source": "CoventryLive",
+   "title": "CCTV image issued after teenage girl sexually assaulted at Coventry Railway Station",
+   "published": "2026-08-10T09:45:13.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "British Transport Police",
+    "Crime",
+    "Coventry Railway Station"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "182f7040a9f3",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/teenage-boy-threatened-robbed-longford-34431121",
+   "source": "CoventryLive",
+   "title": "Teenage boy 'threatened and robbed' at Longford Park in Coventry",
+   "published": "2026-08-10T10:49:18.000Z",
+   "category": "robbery",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Longford",
+     "lat": 52.45162,
+     "lng": -1.48854
+    }
+   ],
+   "place": {
+    "label": "Longford",
+    "lat": 52.45162,
+    "lng": -1.48854,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Longford",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "f80ffa708f16",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/warwickshire-residents-threatened-arson-after-34422395",
+   "source": "CoventryLive",
+   "title": "Warwickshire residents 'threatened with arson' after confronting youths in parks",
+   "published": "2026-08-10T14:19:00.000Z",
+   "category": "criminal-damage-arson",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwickshire"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "7d3efca53102",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/five-men-jailed-after-chasing-34434278",
+   "source": "CoventryLive",
+   "title": "Five men jailed after chasing and attacking man inside Coventry's Spice Lounge takeaway",
+   "published": "2026-08-11T04:52:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Primrose Hill Street",
+     "lat": 52.41296,
+     "lng": -1.50276,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    }
+   ],
+   "place": {
+    "label": "Primrose Hill Street, Hillfields",
+    "lat": 52.41296,
+    "lng": -1.50276,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "0f657625950f",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/drugs-mobile-phones-seized-during-34444255",
+   "source": "CoventryLive",
+   "title": "Drugs and mobile phones seized during major raid in Coventry",
+   "published": "2026-08-12T11:45:47.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [
+    {
+     "name": "Roselands Avenue",
+     "lat": 52.43258,
+     "lng": -1.46162,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Roselands Avenue, Henley Green",
+    "lat": 52.43258,
+    "lng": -1.46162,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Wood End",
+    "Coventry",
+    "Drugs"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "6dd403e93724",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/girl-seriously-injured-coventry-stabbing-34445162",
+   "source": "CoventryLive",
+   "title": "Girl seriously injured in Coventry stabbing as another woman left hurt",
+   "published": "2026-08-12T12:23:24.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Roselands Avenue",
+     "lat": 52.43258,
+     "lng": -1.46162,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Roselands Avenue, Henley Green",
+    "lat": 52.43258,
+    "lng": -1.46162,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Ambulance Service",
+    "West Midlands Police",
+    "Wood End"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "74aa4408cbb4",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/woman-arrested-after-16-year-34445911",
+   "source": "CoventryLive",
+   "title": "Woman arrested after 16-year-old girl stabbed in Coventry",
+   "published": "2026-08-12T17:48:56.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Roselands Avenue",
+     "lat": 52.43258,
+     "lng": -1.46162,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Henley Green",
+     "lat": 52.43243,
+     "lng": -1.46275
+    }
+   ],
+   "place": {
+    "label": "Roselands Avenue, Henley Green",
+    "lat": 52.43258,
+    "lng": -1.46162,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police",
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "f802b8825e8d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/heartbreak-after-vandals-trash-treasured-34446770",
+   "source": "CoventryLive",
+   "title": "Heartbreak after vandals trash treasured children's forest school on Coventry's doorstep",
+   "published": "2026-08-13T05:30:00.000Z",
+   "category": "criminal-damage-arson",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Ansty",
+     "lat": 52.44549,
+     "lng": -1.41925
+    }
+   ],
+   "place": {
+    "label": "Ansty",
+    "lat": 52.44549,
+    "lng": -1.41925,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Ansty",
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "d81ec312eceb",
+   "url": "https://www.coventrytelegraph.net/news/local-news/exact-time-police-order-ends-34452803",
+   "source": "CoventryLive",
+   "title": "Exact time police order ends after day of trouble in Warwickshire town",
+   "published": "2026-08-13T12:15:26.000Z",
+   "category": "public-order",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Leamington Spa",
+    "Warwickshire Police",
+    "Warwickshire",
+    "Crime"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "14f7a3a12891",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-update-woman-arrested-after-34452617",
+   "source": "CoventryLive",
+   "title": "Police update on woman arrested after girl stabbed in Coventry",
+   "published": "2026-08-13T12:18:58.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Roselands Avenue",
+     "lat": 52.43258,
+     "lng": -1.46162,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Henley Green",
+     "lat": 52.43243,
+     "lng": -1.46275
+    }
+   ],
+   "place": {
+    "label": "Roselands Avenue, Henley Green",
+    "lat": 52.43258,
+    "lng": -1.46162,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "8f22645a9ea0",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/bungling-burglar-stole-350-russell-34445005",
+   "source": "CoventryLive",
+   "title": "Bungling burglar stole a £350 Russell Hobbs oven from Coventry home in moment of 'sheer stupidity'",
+   "published": "2026-08-14T10:45:00.000Z",
+   "category": "burglary",
+   "court": true,
+   "streets": [
+    {
+     "name": "Sycamore Road",
+     "lat": 52.44085,
+     "lng": -1.47277,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Sycamore Road, Manor House",
+    "lat": 52.44085,
+    "lng": -1.47277,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Courts",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "e0b51fd4acd8",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-denies-murder-over-coventry-34457778",
+   "source": "CoventryLive",
+   "title": "Man denies murder over Coventry wheelie bin death",
+   "published": "2026-08-14T18:06:16.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Daimler Road",
+     "lat": 52.4209,
+     "lng": -1.5135,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Daimler Road, Daimler Green",
+    "lat": 52.4209,
+    "lng": -1.5135,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Courts",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "447808aa23b0",
+   "url": "https://www.coventrytelegraph.net/news/local-news/midlands-drug-dealer-found-dangerous-34431119",
+   "source": "CoventryLive",
+   "title": "Midlands drug dealer found with 'dangerous weapon' as uninsured Ford Mondeo registered in Coventry",
+   "published": "2026-08-15T04:00:00.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [
+    {
+     "name": "Lawford Road",
+     "lat": 52.27381,
+     "lng": -1.52219,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Lawford Road, Sydenham",
+    "lat": 52.27381,
+    "lng": -1.52219,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Drugs",
+    "Crime",
+    "Leicester"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "bccba95c2de3",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/knifepoint-robbery-near-city-centre-34464185",
+   "source": "CoventryLive",
+   "title": "Knifepoint robbery near city centre as police crackdown on youth violence",
+   "published": "2026-08-15T13:07:00.000Z",
+   "category": "robbery",
+   "court": false,
+   "streets": [
+    {
+     "name": "Far Gosford Street",
+     "lat": 52.40787,
+     "lng": -1.49504,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Far Gosford Street, Lower Stoke",
+    "lat": 52.40787,
+    "lng": -1.49504,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry Police",
+    "Coventry City Centre",
+    "Far Gosford Street",
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "35f7344a95ae",
+   "url": "https://www.coventrytelegraph.net/news/local-news/police-find-stolen-tractor-huge-34464166",
+   "source": "CoventryLive",
+   "title": "Police find stolen tractor and huge haul of tyres in Warwick raid",
+   "published": "2026-08-15T14:12:00.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [
+    {
+     "name": "Stratford Road",
+     "lat": 52.26218,
+     "lng": -1.6101,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Stratford Road, Sherbourne",
+    "lat": 52.26218,
+    "lng": -1.6101,
+    "precision": "street"
+   },
+   "tags": [
+    "Warwickshire Police",
+    "Warwickshire",
+    "Warwick",
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "a48b5ce58fbb",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/cctv-appeal-after-assault-coventry-34465976",
+   "source": "CoventryLive",
+   "title": "CCTV appeal after assault in Coventry city centre",
+   "published": "2026-08-16T06:42:08.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Paynes Lane",
+     "lat": 52.41027,
+     "lng": -1.49295,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Coventry city centre",
+     "lat": 52.4081,
+     "lng": -1.5106
+    }
+   ],
+   "place": {
+    "label": "Paynes Lane, Ball Hill",
+    "lat": 52.41027,
+    "lng": -1.49295,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Coventry City Centre",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "b87608318ba5",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/cctv-images-issued-after-items-34469218",
+   "source": "CoventryLive",
+   "title": "CCTV images issued after 'items stolen in Coventry mosque burglary'",
+   "published": "2026-08-17T09:57:41.000Z",
+   "category": "burglary",
+   "court": false,
+   "streets": [
+    {
+     "name": "Paynes Lane",
+     "lat": 52.41027,
+     "lng": -1.49295,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    }
+   ],
+   "place": {
+    "label": "Paynes Lane, Ball Hill",
+    "lat": 52.41027,
+    "lng": -1.49295,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Hillfields"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "5d42b548dbb3",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/moment-thug-hurls-vile-abuse-34471386",
+   "source": "CoventryLive",
+   "title": "Moment thug hurls vile abuse at man on Coventry bus and shouts 'you are a terrorist'",
+   "published": "2026-08-17T15:20:27.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Foleshill Road",
+     "lat": 52.42807,
+     "lng": -1.4997,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    }
+   ],
+   "place": {
+    "label": "Foleshill Road, Edgwick",
+    "lat": 52.42807,
+    "lng": -1.4997,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "West Midlands Police",
+    "Coventry Police",
+    "National Express"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "27a7b3185038",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/cuckooing-concern-coventry-community-police-34474815",
+   "source": "CoventryLive",
+   "title": "'Cuckooing concern' in Coventry community as police launch probe",
+   "published": "2026-08-18T07:07:09.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Holbrooks",
+     "lat": 52.44473,
+     "lng": -1.5113
+    },
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Holbrooks",
+    "lat": 52.44473,
+    "lng": -1.5113,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "a0764192f00d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/kurdish-man-living-coventry-raped-34472172",
+   "source": "CoventryLive",
+   "title": "Kurdish man living in Coventry 'raped woman after offering her a job', jury told",
+   "published": "2026-08-18T07:17:01.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Park Street",
+     "lat": 52.42943,
+     "lng": -1.50079,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Park Street, Edgwick",
+    "lat": 52.42943,
+    "lng": -1.50079,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Stratford-on-Avon",
+    "Crime",
+    "Warwickshire",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "b5511ad95aa1",
+   "url": "https://www.coventrytelegraph.net/news/local-news/cctv-plea-after-man-slashes-34475444",
+   "source": "CoventryLive",
+   "title": "CCTV plea after 'man slashes group of people with knife' in Balsall Common",
+   "published": "2026-08-18T09:09:59.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Balsall Common",
+     "lat": 52.3903,
+     "lng": -1.64848
+    }
+   ],
+   "place": {
+    "label": "Balsall Common",
+    "lat": 52.3903,
+    "lng": -1.64848,
+    "precision": "area"
+   },
+   "tags": [
+    "Balsall Common",
+    "Crime",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "3fea78c5cd13",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-say-coventry-mosque-burglary-34476345",
+   "source": "CoventryLive",
+   "title": "Police say Coventry mosque burglary was 'not religiously motivated'",
+   "published": "2026-08-18T11:07:54.000Z",
+   "category": "burglary",
+   "court": false,
+   "streets": [
+    {
+     "name": "Paynes Lane",
+     "lat": 52.41027,
+     "lng": -1.49295,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Paynes Lane, Ball Hill",
+    "lat": 52.41027,
+    "lng": -1.49295,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "1d7fa73d8214",
+   "url": "https://www.coventrytelegraph.net/news/local-news/moment-prison-throw-over-kit-34479048",
+   "source": "CoventryLive",
+   "title": "Moment prison 'throw over kit' found in Warwickshire raid as police storm house",
+   "published": "2026-08-18T16:22:52.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwickshire Police",
+    "Warwickshire",
+    "Warwick"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "721a55d698cd",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/callous-coventry-carer-stole-31k-34469217",
+   "source": "CoventryLive",
+   "title": "Callous Coventry carer stole £31k from elderly man and told sickening lie",
+   "published": "2026-08-19T04:00:00.000Z",
+   "category": "other-theft",
+   "court": true,
+   "streets": [
+    {
+     "name": "Arch Road",
+     "lat": 52.4173,
+     "lng": -1.45402,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Arch Road, Wyken",
+    "lat": 52.4173,
+    "lng": -1.45402,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Coventry Police",
+    "West Midlands Police",
+    "Courts",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "9bc3f092d926",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/face-knife-man-behind-frightening-34480752",
+   "source": "CoventryLive",
+   "title": "Face of knife man behind frightening robberies rampage across Coventry",
+   "published": "2026-08-19T06:17:45.000Z",
+   "category": "robbery",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    }
+   ],
+   "place": {
+    "label": "Hillfields",
+    "lat": 52.41396,
+    "lng": -1.50114,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "d46069efcd26",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-investigation-after-dog-walker-34482650",
+   "source": "CoventryLive",
+   "title": "Police investigation after dog walker kicked and punched in Tile Hill street",
+   "published": "2026-08-19T11:18:46.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Tile Hill",
+     "lat": 52.40256,
+     "lng": -1.58357
+    }
+   ],
+   "place": {
+    "label": "Tile Hill",
+    "lat": 52.40256,
+    "lng": -1.58357,
+    "precision": "area"
+   },
+   "tags": [
+    "Tile Hill",
+    "West Midlands Ambulance Service",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "7b5925db5e02",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/trial-date-five-men-accused-34478026",
+   "source": "CoventryLive",
+   "title": "Trial date for five men accused of serious offences in Coventry",
+   "published": "2026-08-19T11:21:45.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Iden Road",
+     "lat": 52.41665,
+     "lng": -1.49632,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Iden Road, Hillfields",
+    "lat": 52.41665,
+    "lng": -1.49632,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "4c4c545ade4a",
+   "url": "https://www.coventrytelegraph.net/news/local-news/syrian-man-charged-sexual-assault-34484570",
+   "source": "CoventryLive",
+   "title": "Syrian man charged with sexual assault of two girls after incident at Warwickshire hotel",
+   "published": "2026-08-19T14:39:52.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Edward Road",
+     "lat": 52.44579,
+     "lng": -1.5245,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Edward Road, Whitmore Park",
+    "lat": 52.44579,
+    "lng": -1.5245,
+    "precision": "street"
+   },
+   "tags": [
+    "Nuneaton",
+    "Courts",
+    "Warwickshire Police",
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "a275cfb4b91e",
+   "url": "https://www.coventrytelegraph.net/news/local-news/police-want-speak-two-boys-34489306",
+   "source": "CoventryLive",
+   "title": "Police want to speak to this boy after Warwickshire train knifepoint robbery",
+   "published": "2026-08-20T11:12:00.000Z",
+   "category": "robbery",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwickshire",
+    "Crime",
+    "British Transport Police"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "bc419acc4f77",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/hmrc-raid-coventry-shops-crackdown-34489958",
+   "source": "CoventryLive",
+   "title": "HMRC raid Coventry shops in crackdown on criminals 'using them as fronts'",
+   "published": "2026-08-20T12:25:46.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "HMRC",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "79b304c6d1ff",
+   "url": "https://www.coventrytelegraph.net/news/local-news/woman-arrested-connection-mans-death-34493998",
+   "source": "CoventryLive",
+   "title": "Woman arrested in connection with man's death in Kenilworth",
+   "published": "2026-08-21T06:38:21.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Chestnut Avenue",
+     "lat": 52.33686,
+     "lng": -1.58235,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Chestnut Avenue, Borrowell",
+    "lat": 52.33686,
+    "lng": -1.58235,
+    "precision": "street"
+   },
+   "tags": [
+    "Kenilworth",
+    "Crime",
+    "Warwickshire Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "ffa9def6dde0",
+   "url": "https://www.coventrytelegraph.net/news/local-news/500k-underground-cannabis-farm-near-34494064",
+   "source": "CoventryLive",
+   "title": "£500k underground cannabis farm near Coventry 'like something from a Guy Ritchie film'",
+   "published": "2026-08-21T07:30:25.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Cannabis",
+    "Warwickshire Police",
+    "Wolston"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "3f4eec3f866c",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-burglar-jailed-stealing-350-34465422",
+   "source": "CoventryLive",
+   "title": "Coventry burglar jailed for stealing £350 Russell Hobbs oven from home",
+   "published": "2026-08-21T10:55:00.000Z",
+   "category": "burglary",
+   "court": true,
+   "streets": [
+    {
+     "name": "Sycamore Road",
+     "lat": 52.44085,
+     "lng": -1.47277,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Sycamore Road, Manor House",
+    "lat": 52.44085,
+    "lng": -1.47277,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "ad1a8ae23491",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-accused-barbershop-rape-34495751",
+   "source": "CoventryLive",
+   "title": "Coventry man accused of barbershop rape denied doing anything 'bad'",
+   "published": "2026-08-21T13:18:43.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Park Street",
+     "lat": 52.42943,
+     "lng": -1.50079,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Park Street, Edgwick",
+    "lat": 52.42943,
+    "lng": -1.50079,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "Stratford-on-Avon",
+    "Warwickshire"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "2a303518f58d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/jury-retires-barbershop-rape-trial-34497181",
+   "source": "CoventryLive",
+   "title": "Jury retires in barbershop rape trial as judge tells them to 'concentrate'",
+   "published": "2026-08-21T15:37:22.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Stratford-on-Avon",
+    "Warwickshire",
+    "Courts",
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "7a45386d85d4",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/university-graduate-avoids-jail-after-34465484",
+   "source": "CoventryLive",
+   "title": "University graduate avoids jail after being caught with £62k cannabis in Warwick",
+   "published": "2026-08-22T04:11:00.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [
+    {
+     "name": "Coten End",
+     "lat": 52.28443,
+     "lng": -1.57861,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Coten End, Cliff Hill",
+    "lat": 52.28443,
+    "lng": -1.57861,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "6ca0f3b3102d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/vicious-thug-strangled-partner-during-34470481",
+   "source": "CoventryLive",
+   "title": "Vicious thug strangled partner during violent Coventry attack after 'cocaine binge'",
+   "published": "2026-08-22T04:31:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Dunsmore Avenue",
+     "lat": 52.38671,
+     "lng": -1.46758,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Willenhall",
+     "lat": 52.38627,
+     "lng": -1.46642
+    }
+   ],
+   "place": {
+    "label": "Dunsmore Avenue, Willenhall",
+    "lat": 52.38671,
+    "lng": -1.46758,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Willenhall",
+    "Courts",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "2b156ec72969",
+   "url": "https://www.coventrytelegraph.net/news/local-news/predator-long-history-offending-assaulted-34475447",
+   "source": "CoventryLive",
+   "title": "Predator with 'long history' of offending assaulted young girl and said he loved her",
+   "published": "2026-08-22T04:45:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Spencer Street",
+     "lat": 52.28573,
+     "lng": -1.53353,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Spencer Street, Leamington Spa",
+    "lat": 52.28573,
+    "lng": -1.53353,
+    "precision": "street"
+   },
+   "tags": [
+    "Leamington Spa",
+    "Warwickshire",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "684a08fdedbf",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/arsenal-weapons-seized-during-night-34500413",
+   "source": "CoventryLive",
+   "title": "Arsenal of weapons seized during night-time sting across Coventry city centre",
+   "published": "2026-08-22T07:21:11.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Coventry city centre",
+     "lat": 52.4081,
+     "lng": -1.5106
+    }
+   ],
+   "place": {
+    "label": "Coventry city centre",
+    "lat": 52.4081,
+    "lng": -1.5106,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "93f7629350f5",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/more-four-phones-stolen-every-34499364",
+   "source": "CoventryLive",
+   "title": "More than four phones stolen every day in West Midlands",
+   "published": "2026-08-22T11:00:00.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "107285a90b38",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/more-dozen-arrests-crackdown-youth-34501187",
+   "source": "CoventryLive",
+   "title": "More than a dozen arrests in crackdown on youth violence across Coventry",
+   "published": "2026-08-22T11:40:54.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "b0b3ee58d074",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/closure-orders-loom-problem-premises-34505882",
+   "source": "CoventryLive",
+   "title": "Closure orders loom for 'problem premises' in Coventry city centre",
+   "published": "2026-08-24T06:23:55.000Z",
+   "category": "anti-social-behaviour",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Coventry city centre",
+     "lat": 52.4081,
+     "lng": -1.5106
+    }
+   ],
+   "place": {
+    "label": "Coventry city centre",
+    "lat": 52.4081,
+    "lng": -1.5106,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police",
+    "Coventry City Centre"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "211308181ead",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/thug-scaled-drainpipe-attack-ex-34508037",
+   "source": "CoventryLive",
+   "title": "Thug 'scaled drainpipe to attack ex-partner in her Coventry home'",
+   "published": "2026-08-24T15:07:47.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Stoke Heath",
+     "lat": 52.42119,
+     "lng": -1.48541
+    }
+   ],
+   "place": {
+    "label": "Stoke Heath",
+    "lat": 52.42119,
+    "lng": -1.48541,
+    "precision": "area"
+   },
+   "tags": [
+    "Bedworth",
+    "Warwickshire",
+    "Crime",
+    "Courts",
+    "Coventry",
+    "Stoke"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "7205a26b2046",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-speak-out-ahead-nicola-34510081",
+   "source": "CoventryLive",
+   "title": "Police speak out ahead of Nicola Payne 'The Never Ending Murder' on Channel 4",
+   "published": "2026-08-26T04:00:00.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police",
+    "Nicola Payne"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "092ee0e9e81b",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-carer-stole-31k-elderly-34507132",
+   "source": "CoventryLive",
+   "title": "Coventry carer stole £31k from elderly man to fund alcohol addiction and avoids jail",
+   "published": "2026-08-26T04:37:00.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [
+    {
+     "name": "Arch Road",
+     "lat": 52.4173,
+     "lng": -1.45402,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Arch Road, Wyken",
+    "lat": 52.4173,
+    "lng": -1.45402,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "1b15ca6e2819",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/far-gosford-street-stabbing-leaves-34518320",
+   "source": "CoventryLive",
+   "title": "Far Gosford Street stabbing leaves man seriously injured",
+   "published": "2026-08-26T09:07:34.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Far Gosford Street",
+     "lat": 52.40787,
+     "lng": -1.49504,
+     "mentions": 3
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Far Gosford Street, Lower Stoke",
+    "lat": 52.40787,
+    "lng": -1.49504,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police",
+    "West Midlands Ambulance Service"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "9f90aba6eb08",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-thug-robbed-city-petrol-34506635",
+   "source": "CoventryLive",
+   "title": "Coventry thug 'robbed city petrol station at knifepoint to fund drug habit'",
+   "published": "2026-08-26T09:15:00.000Z",
+   "category": "robbery",
+   "court": true,
+   "streets": [
+    {
+     "name": "Leamington Road",
+     "lat": 52.38833,
+     "lng": -1.51618,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Willenhall",
+     "lat": 52.38627,
+     "lng": -1.46642
+    }
+   ],
+   "place": {
+    "label": "Leamington Road, Stivichall",
+    "lat": 52.38833,
+    "lng": -1.51618,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "A45",
+    "Crime",
+    "Courts",
+    "West Midlands Police",
+    "Coventry Police",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "a08c494ffa19",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/far-gosford-street-arrest-confirmed-34518712",
+   "source": "CoventryLive",
+   "title": "Far Gosford Street arrest confirmed by police after teen stabbed",
+   "published": "2026-08-26T09:40:33.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Far Gosford Street",
+     "lat": 52.40787,
+     "lng": -1.49504,
+     "mentions": 3
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Far Gosford Street, Lower Stoke",
+    "lat": 52.40787,
+    "lng": -1.49504,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "9a012b10c9d5",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-seriously-injured-after-stabbing-34520065",
+   "source": "CoventryLive",
+   "title": "Man seriously injured after stabbing in Coventry",
+   "published": "2026-08-26T12:26:33.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Upper Spon Street",
+     "lat": 52.40844,
+     "lng": -1.52411,
+     "mentions": 1
+    },
+    {
+     "name": "Windsor Street",
+     "lat": 52.40733,
+     "lng": -1.52306,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Spon End",
+     "lat": 52.40691,
+     "lng": -1.52475
+    }
+   ],
+   "place": {
+    "label": "Upper Spon Street, Spon End",
+    "lat": 52.40844,
+    "lng": -1.52411,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Spon End",
+    "West Midlands Police",
+    "West Midlands Ambulance Service"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "eab32bbcd0d7",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/far-gosford-street-live-police-34517876",
+   "source": "CoventryLive",
+   "title": "Far Gosford Street live as teen stabbing shuts road for hours",
+   "published": "2026-08-26T17:04:28.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Far Gosford Street",
+     "lat": 52.40787,
+     "lng": -1.49504,
+     "mentions": 26
+    },
+    {
+     "name": "Sky Blue Way",
+     "lat": 52.40839,
+     "lng": -1.49465,
+     "mentions": 6
+    },
+    {
+     "name": "Gosford Street",
+     "lat": 52.40665,
+     "lng": -1.50149,
+     "mentions": 2
+    },
+    {
+     "name": "Bramble Street",
+     "lat": 52.40664,
+     "lng": -1.49578,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Far Gosford Street, Lower Stoke",
+    "lat": 52.40787,
+    "lng": -1.49504,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry City Centre",
+    "West Midlands Police",
+    "West Midlands Ambulance Service",
+    "Far Gosford Street"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "1b251a74402c",
+   "url": "https://www.coventrytelegraph.net/news/local-news/angry-dad-harassed-assaulted-ex-34507204",
+   "source": "CoventryLive",
+   "title": "Angry man 'grabbed ex-partner by the neck' in series of 'troubling' incidents",
+   "published": "2026-08-27T04:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Waverley Road",
+     "lat": 52.27837,
+     "lng": -1.52301,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Waverley Road, Sydenham",
+    "lat": 52.27837,
+    "lng": -1.52301,
+    "precision": "street"
+   },
+   "tags": [
+    "Leamington Spa",
+    "Warwickshire",
+    "Crime",
+    "Courts",
+    "Warwickshire Police",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "3c1f00033e2a",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-sex-offender-who-made-34507188",
+   "source": "CoventryLive",
+   "title": "Coventry sex offender who made indecent images of children had 'secret devices'",
+   "published": "2026-08-27T04:30:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Roseberry Avenue",
+     "lat": 52.43738,
+     "lng": -1.47187,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Roseberry Avenue, Bell Green",
+    "lat": 52.43738,
+    "lng": -1.47187,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "Coventry Police",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "3bb113c41b88",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/migrant-who-lived-coventry-stabbed-34524352",
+   "source": "CoventryLive",
+   "title": "Migrant who lived in Coventry 'stabbed woman with broken bottle up to 30 times'",
+   "published": "2026-08-27T09:28:16.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Birmingham",
+    "Crime",
+    "Courts",
+    "Immigration"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "ed41c4151ff8",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/five-arrested-after-far-gosford-34525392",
+   "source": "CoventryLive",
+   "title": "Five arrested after Far Gosford Street stabbing as urgent appeal made",
+   "published": "2026-08-27T10:08:06.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Far Gosford Street",
+     "lat": 52.40787,
+     "lng": -1.49504,
+     "mentions": 3
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Far Gosford Street, Lower Stoke",
+    "lat": 52.40787,
+    "lng": -1.49504,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police",
+    "Crime",
+    "Far Gosford Street",
+    "Coventry City Centre"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "de1fd3a260d9",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/two-arrested-suspicion-affray-after-34527969",
+   "source": "CoventryLive",
+   "title": "Two arrested on suspicion of affray after man 'stabbed' in Coventry",
+   "published": "2026-08-27T14:08:07.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Upper Spon Street",
+     "lat": 52.40844,
+     "lng": -1.52411,
+     "mentions": 2
+    },
+    {
+     "name": "Windsor Street",
+     "lat": 52.40733,
+     "lng": -1.52306,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Upper Spon Street, Spon End",
+    "lat": 52.40844,
+    "lng": -1.52411,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Coventry City Centre",
+    "West Midlands Police",
+    "Coventry Police",
+    "West Midlands Ambulance Service"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "e025eb535b51",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-gang-jailed-over-128k-34520329",
+   "source": "CoventryLive",
+   "title": "Coventry gang jailed over £128k 'Carlos Line' drugs conspiracy",
+   "published": "2026-08-28T04:00:00.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [
+    {
+     "name": "Legendary Lane",
+     "lat": 52.38547,
+     "lng": -1.47347,
+     "mentions": 1
+    },
+    {
+     "name": "Tennyson Road",
+     "lat": 52.41003,
+     "lng": -1.46646,
+     "mentions": 1
+    },
+    {
+     "name": "Stoney Stanton Road",
+     "lat": 52.42114,
+     "lng": -1.49652,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Legendary Lane, Stonehouse Estate",
+    "lat": 52.38547,
+    "lng": -1.47347,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "Drugs",
+    "Birmingham",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "8edcaa93bb6c",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-warwickshire-criminals-locked-up-34517398",
+   "source": "CoventryLive",
+   "title": "Coventry and Warwickshire criminals locked up in August including murderers, thieves and thugs",
+   "published": "2026-08-29T04:33:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Canal Road",
+     "lat": 52.43274,
+     "lng": -1.4935,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    }
+   ],
+   "place": {
+    "label": "Canal Road, Foleshill",
+    "lat": 52.43274,
+    "lng": -1.4935,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Courts",
+    "Warwickshire",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "6e1b0ce2f9a9",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/vicious-coventry-thug-jailed-after-34512735",
+   "source": "CoventryLive",
+   "title": "Vicious Coventry thug jailed after strangling partner during cocaine-fuelled attack",
+   "published": "2026-08-29T10:21:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Dunsmore Avenue",
+     "lat": 52.38671,
+     "lng": -1.46758,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Dunsmore Avenue, Willenhall",
+    "lat": 52.38671,
+    "lng": -1.46758,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "6aa49a5a6b37",
+   "url": "https://www.coventrytelegraph.net/news/local-news/steak-thief-strikes-hours-after-34525718",
+   "source": "CoventryLive",
+   "title": "Steak thief strikes hours after being banned from every Sainsburys in Warwickshire",
+   "published": "2026-08-30T04:00:00.000Z",
+   "category": "other-theft",
+   "court": true,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 1
+    },
+    {
+     "name": "Grange Close",
+     "lat": 52.28863,
+     "lng": -1.56071,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Courts",
+    "Crime",
+    "Leamington Spa",
+    "Warwickshire",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "8ac43c6d7990",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/domestic-abusers-who-terrorised-women-34517417",
+   "source": "CoventryLive",
+   "title": "The domestic abusers who terrorised women in Coventry and Warwickshire",
+   "published": "2026-08-30T04:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Courts",
+    "Warwickshire",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "3beb334b4b9a",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/teen-found-knife-cannabis-pool-34541162",
+   "source": "CoventryLive",
+   "title": "Teen found with knife and cannabis at Pool Meadow in Coventry",
+   "published": "2026-08-30T11:01:27.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Edgwick",
+     "lat": 52.43072,
+     "lng": -1.49449
+    }
+   ],
+   "place": {
+    "label": "Edgwick",
+    "lat": 52.43072,
+    "lng": -1.49449,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police",
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "d2620dfba89b",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/cctv-appeal-pair-wanted-after-34538898",
+   "source": "CoventryLive",
+   "title": "CCTV appeal for pair wanted after violent robbery in Coventry",
+   "published": "2026-08-30T11:56:39.000Z",
+   "category": "robbery",
+   "court": false,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 2
+    },
+    {
+     "name": "Bede Road",
+     "lat": 52.42175,
+     "lng": -1.51885,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Radford"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-08"
+    ]
+   }
+  },
+  {
+   "id": "38b8f2e13167",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-spared-jail-sending-34513515",
+   "source": "CoventryLive",
+   "title": "Coventry man spared jail for sending explicit messages to decoy children on Kik and ChatU",
+   "published": "2026-08-30T13:43:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "d37a0c4abf10",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-given-suspended-sentence-34506864",
+   "source": "CoventryLive",
+   "title": "Coventry man given suspended sentence for child abuse images and messaging a child",
+   "published": "2026-08-31T04:11:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Binley",
+     "lat": 52.40016,
+     "lng": -1.44441
+    }
+   ],
+   "place": {
+    "label": "Binley",
+    "lat": 52.40016,
+    "lng": -1.44441,
+    "precision": "area"
+   },
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  }
+ ]
+}

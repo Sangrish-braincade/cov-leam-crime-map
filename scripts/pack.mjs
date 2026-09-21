@@ -8,6 +8,7 @@
 //   p           point index per row, delta-encoded within each month
 //   c, o        category / outcome index per row
 import { copyFileSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -171,10 +172,17 @@ mkdirSync(GEN, { recursive: true });
 const json = JSON.stringify(packed);
 writeFileSync(join(PUB, file), json);
 
+// OSM street list for address search, loaded only when someone searches
+const streetsRaw = JSON.parse(readFileSync(join(ROOT, "data", "streets.json"), "utf8")).streets;
+const streetsJson = JSON.stringify(streetsRaw);
+const streetsFile = `streets-${createHash("sha1").update(streetsJson).digest("hex").slice(0, 10)}.json`;
+writeFileSync(join(PUB, streetsFile), streetsJson);
+
 const [y, mo] = latest.split("-").map(Number);
 const next = new Date(Date.UTC(y, mo, 1)); // the month after `latest`
 const dataset = {
   file: `/data/${file}`,
+  streetsFile: `/data/${streetsFile}`,
   bytes: json.length,
   months,
   latest,
