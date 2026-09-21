@@ -1,0 +1,40 @@
+# Daily check for a new police.uk month. police.uk publishes once a month
+# (~7-8 weeks after the month ends), so most runs find nothing and exit.
+# When a month lands, this commits data/crimes/<month>.json WITHOUT [skip-cd],
+# so Amplify rebuilds and the site picks it up.
+name: police.uk data
+
+on:
+  schedule:
+    - cron: "17 6 * * *" # daily, 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-commits
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch any new months
+        id: fetch
+        run: node scripts/fetch-crimes.mjs
+      - name: Commit
+        if: steps.fetch.outputs.new_month != ''
+        run: |
+          git config user.name "crime-map-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/crimes
+          git diff --cached --quiet && exit 0
+          git commit -m "data: police.uk ${{ steps.fetch.outputs.new_month }}"
+          git pull --rebase
+          git push

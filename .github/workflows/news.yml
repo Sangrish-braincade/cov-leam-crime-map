@@ -1,0 +1,45 @@
+# Every 30 minutes: read local news RSS, tag new crime stories with Claude,
+# commit data/news.json. [skip-cd] stops Amplify rebuilding; the site's
+# /api/news route reads the committed file from GitHub instead.
+#
+# Needs the repo secret ANTHROPIC_API_KEY.
+name: news
+
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-commits
+  cancel-in-progress: false
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: jobs/news/package-lock.json
+      - run: npm ci --no-audit --no-fund
+        working-directory: jobs/news
+      - name: Read feeds and tag stories
+        run: node jobs/news/fetch-news.mjs
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Commit
+        run: |
+          git config user.name "crime-map-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/news.json
+          git diff --cached --quiet && exit 0
+          git commit -m "news: update feed [skip-cd]"
+          git pull --rebase
+          git push

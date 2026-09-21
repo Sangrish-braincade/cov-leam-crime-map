@@ -1,0 +1,28 @@
+{
+  "name": "cov-leam-crime-map",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/pack.mjs && next dev",
+    "prebuild": "node scripts/pack.mjs",
+    "build": "next build",
+    "start": "next start",
+    "pack": "node scripts/pack.mjs",
+    "fetch:crimes": "node scripts/fetch-crimes.mjs",
+    "fetch:news": "node jobs/news/fetch-news.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "maplibre-gl": "^6.10.0",
+    "next": "16.3.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5.9.0"
+  }
+}
