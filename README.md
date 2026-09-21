@@ -13,7 +13,7 @@ publisher sitemaps + BBC RSS ──(4×/day GH Action, polite scraper)──► 
 
 - **No database, no server load.** 160k crimes pack into a 1.4 MB columnar JSON file (about 360 KB gzipped) that the browser loads once and filters itself in milliseconds (`src/lib/crimeData.ts`).
 - **police.uk updates monthly,** about 7 to 8 weeks after each month ends. `police-data.yml` checks daily. When a month lands it commits the new file (plus refreshed outcomes for the last 3 months), and Amplify rebuilds. Old months are never deleted, so history keeps growing past police.uk's 36-month window.
-- **News, four times a day.** `news.yml` runs `jobs/news/scrape.mjs`. It reads CoventryLive's monthly article sitemap and the BBC Coventry & Warwickshire RSS, keeps local-news URLs that look like crime, and fetches each page politely: robots.txt rules are obeyed and CoventryLive's 10-second crawl delay is honoured. From the page it keeps only facts: headline, publish time, a police.uk category (keyword rules), a court-report flag, and the streets and areas it names. Those are found by string-matching against police.uk's own street names and `data/places.json`, so there's no geocoding service and pins land on police.uk's own anonymised points. **Article text is never stored and never sent to an AI model**; these publishers opt out of AI crawlers. Warwickshire World is left out because its Cloudflare challenges automated clients.
+- **News, every 20 minutes.** `news.yml` runs `jobs/news/scrape.mjs`. It reads CoventryLive's monthly article sitemap and the BBC Coventry & Warwickshire RSS, keeps local-news URLs that look like crime, and fetches each page politely: robots.txt rules are obeyed and CoventryLive's 10-second crawl delay is honoured. From the page it keeps only facts: headline, publish time, a police.uk category (keyword rules), a court-report flag, and the streets and areas it names. Those are found by string-matching against police.uk's own street names and `data/places.json`, so there's no geocoding service and pins land on police.uk's own anonymised points. **Article text is never stored and never sent to an AI model**; these publishers opt out of AI crawlers. Warwickshire World is left out because its Cloudflare challenges automated clients.
 - **News ↔ police.uk.** `scripts/correlate.mjs` runs after every scrape and every police.uk refresh. For months police.uk has published, a story is *matched* to the same-category records within ~300 m of its street (~1 km of its area), "likely one of N". Matched stories are never counted again. For months police.uk hasn't published, stories show as *not yet in police data*: hollow pins and a list tag, kept out of the heat colours, because news covers well under 1% of recorded crime.
 - The browser never talks to police.uk, and the site holds no secrets.
 
@@ -45,7 +45,7 @@ node scripts/correlate.mjs                             # link stories to police.
 
 **Branding:** the favicons (`src/app/favicon.ico`, `icon.png`, `apple-icon.png`) and the W mark (`public/brand/`, with a light-ink copy for dark themes) come from the Warwick Connect repo. The page keeps its own colours.
 
-**Actions minutes:** the news job runs 4 times a day for a few minutes each (about 20 new articles a day at 10 s apart), roughly 400 minutes a month. That's well inside a private repo's 2,000 free minutes.
+**Actions minutes:** the news job runs every 20 minutes, usually for under a minute (it only fetches articles it hasn't seen). The repo is public, so Actions minutes are free.
 
 ## Honest limits (also shown in the app)
 

@@ -31,7 +31,7 @@ export default function NewsPanel({
     <div className="panel-body">
       <section className="news-intro">
         <p>
-          Crime stories from CoventryLive and BBC News over the last three months, checked four times a day. A story is pinned when the article names a street or
+          Crime stories from CoventryLive and BBC News over the last three months, checked every 20 minutes. A story is pinned when the article names a street or
           area we can place.
         </p>
         <p className="note">

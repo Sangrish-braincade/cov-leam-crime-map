@@ -96,7 +96,7 @@ export default function AboutDialog({
         <section>
           <h3>News pins</h3>
           <p>
-            Four times a day we check CoventryLive and BBC News for new local crime stories and note the streets and areas each one names. We keep only those
+            Every 20 minutes we check CoventryLive and BBC News for new local crime stories and note the streets and areas each one names. We keep only those
             facts and the link, never the article. When police.uk publishes a month, each story is matched to the police reports of the same kind nearby, so it&rsquo;s
             never counted twice. Stories from months police.uk hasn&rsquo;t published yet show as hollow pins marked &ldquo;not yet in police data&rdquo;.
           </p>

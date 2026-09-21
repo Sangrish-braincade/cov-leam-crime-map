@@ -1,4 +1,4 @@
-# Four times a day: find new local crime articles (publisher sitemaps + BBC RSS),
+# Every 20 minutes: find new local crime articles (publisher sitemaps + BBC RSS),
 # fetch each page politely, extract street / area / category with string matching
 # (no AI), and commit data/news-archive/. [skip-cd] stops Amplify rebuilding;
 # the site's /api/news route reads the committed files from GitHub instead.
@@ -6,7 +6,7 @@ name: news
 
 on:
   schedule:
-    - cron: "23 5,11,17,23 * * *"
+    - cron: "*/20 * * * *"
   workflow_dispatch:
 
 permissions:
