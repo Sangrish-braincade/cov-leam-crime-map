@@ -187,6 +187,23 @@ const COURT = /\b(crown court|magistrates'? court|jailed|sentenced|pleaded|found
 const IN_TOWNS = /\b(Coventry|Leamington|Kenilworth|Whitnash|Warwick(?! Crown Court| University| Law| Business School)|University of Warwick)\b/;
 const OUT_TOWNS = /\b(Nuneaton|Rugby|Bedworth|Birmingham|Solihull|Stratford|Southam|Wellesbourne|Atherstone|Alcester|Shipston|Kineton|Wolverhampton|Walsall|Dudley|Sandwell|West Bromwich|Leicester|Northampton|Hinckley|Redditch|Daventry|Banbury)\b/;
 
+// Court reports give people's home addresses ("Jane Doe, 34, of Keresley Road, Coventry,
+// was jailed…", "a 24-year-old man from Tile Hill"). Those are where someone lives, not
+// where a crime happened, and pinning them would put a defendant's home on the map.
+const RESIDENCE = [
+  /\b\d{1,3},\s+(?:of|from)\s+[^.;]*?(?=,\s*(?:was|were|has|had|is|who|appeared|admitted|pleaded|denied|will|faces|received)\b|[.;])/g,
+  /\baged\s+\d{1,3},?\s+(?:of|from)\s+[^.;]*?(?=,|[.;])/g,
+  // these three consume only the capitalised place name, so "…from Tile Hill was stabbed on Walsgrave Road" keeps the incident street
+  /(\b\d{1,3}-year-old\b[^.;]*?)\s+(?:of|from)\s+(?:[A-Z][\w'’-]*[\s,]*)+/g,
+  /\bwho lives? (?:in|on|at)\s+(?:[A-Z][\w'’-]*[\s,]*)+/g,
+  /\b(?:his|her|their) home (?:in|on|at)\s+(?:[A-Z][\w'’-]*[\s,]*)+/g,
+];
+function stripResidence(text) {
+  let t = text;
+  for (const re of RESIDENCE) t = t.replace(re, (m, keep) => (typeof keep === "string" ? `${keep} ` : " "));
+  return t;
+}
+
 function classify(headline, body) {
   const lede = `${headline}. ${body.slice(0, 900)}`;
   for (const [cat, re] of RULES) if (re.test(headline)) return cat;
@@ -202,6 +219,8 @@ const flag = (name, fallback) => {
 };
 const backfill = flag("--backfill", 0);
 const limit = flag("--limit", Infinity);
+// re-fetch articles already in the archive and re-extract them with the current rules
+const refresh = args.includes("--refresh");
 
 function monthsBack(n) {
   const out = [];
@@ -228,15 +247,37 @@ const { extract } = loadGazetteer(ROOT);
 let fetched = 0;
 const tally = {};
 const bump = (k) => (tally[k] = (tally[k] ?? 0) + 1);
+const drop = (id) => {
+  for (const f of monthFiles.values()) f.articles = f.articles.filter((x) => x.id !== id);
+};
+function save() {
+  for (const [ym, f] of monthFiles) {
+    f.articles.sort((a, b) => a.published.localeCompare(b.published));
+    writeFileSync(join(OUT, `${ym}.json`), JSON.stringify(f, null, 1) + "\n");
+  }
+  writeFileSync(INDEX, JSON.stringify(Object.fromEntries(Object.entries(seen).sort()), null, 0) + "\n");
+}
+
+async function archivedCandidates(source) {
+  const out = [];
+  for (const ym of months) {
+    for (const a of monthFile(ym).articles) if (a.source === source.name) out.push({ url: a.url, lastmod: a.published });
+  }
+  return out;
+}
 
 for (const source of SOURCES) {
-  const candidates = (await discover(source, months)).filter((c) => !seen[idOf(c.url)]);
-  console.log(`${source.name}: ${candidates.length} new candidate articles (${months.join(", ")})`);
+  const candidates = refresh ? await archivedCandidates(source) : (await discover(source, months)).filter((c) => !seen[idOf(c.url)]);
+  console.log(`${source.name}: ${candidates.length} ${refresh ? "archived articles to re-check" : "new candidate articles"} (${months.join(", ")})`);
   for (const c of candidates) {
     if (fetched >= limit) break;
     const id = idOf(c.url);
     const r = await politeGet(c.url);
     fetched++;
+    if (fetched % 20 === 0) {
+      save(); // an interrupted run keeps what it has done
+      console.log(`  … ${fetched} fetched`, JSON.stringify(tally));
+    }
     if (r.status !== "ok") {
       seen[id] = r.status;
       bump(r.status);
@@ -246,13 +287,15 @@ for (const source of SOURCES) {
     const category = classify(a.headline, a.body);
     if (!category) {
       seen[id] = "not-crime";
+      drop(id);
       bump("not-crime");
       continue;
     }
-    const facts = extract(`${a.headline}. ${a.body} ${a.tags.join(". ")}`);
+    const facts = extract(stripResidence(`${a.headline}. ${a.body} ${a.tags.join(". ")}`));
     const inArea = facts.streets.length > 0 || facts.areas.length > 0 || (IN_TOWNS.test(`${a.headline} ${a.body.slice(0, 600)}`) && !OUT_TOWNS.test(a.headline));
     if (!inArea) {
       seen[id] = "out-of-area";
+      drop(id);
       bump("out-of-area");
       continue;
     }
@@ -270,17 +313,12 @@ for (const source of SOURCES) {
       place: facts.place,
       tags: a.tags.slice(0, 12),
     };
-    const file = monthFile(published.slice(0, 7));
-    file.articles = file.articles.filter((x) => x.id !== id).concat(record);
+    drop(id);
+    monthFile(published.slice(0, 7)).articles.push(record);
     seen[id] = "crime";
     bump(facts.place ? `crime-${facts.place.precision}` : "crime-town-only");
-    if (fetched % 25 === 0) console.log(`  … ${fetched} fetched`, JSON.stringify(tally));
   }
 }
 
-for (const [ym, f] of monthFiles) {
-  f.articles.sort((a, b) => a.published.localeCompare(b.published));
-  writeFileSync(join(OUT, `${ym}.json`), JSON.stringify(f, null, 1) + "\n");
-}
-writeFileSync(INDEX, JSON.stringify(Object.fromEntries(Object.entries(seen).sort()), null, 0) + "\n");
+save();
 console.log(`done: ${fetched} fetched`, JSON.stringify(tally));
