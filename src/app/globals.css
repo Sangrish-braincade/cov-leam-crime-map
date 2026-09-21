@@ -271,10 +271,13 @@ h3 {
   gap: 12px;
   align-items: center;
 }
-.brand-mark svg {
-  width: 36px;
-  height: 36px;
+.brand-mark {
   display: block;
+  flex: none;
+  line-height: 0;
+}
+.brand-mark:focus-visible {
+  border-radius: 6px;
 }
 .brand h1 {
   font-size: 21px;
@@ -1373,4 +1376,60 @@ dialog.drawer[open] {
   border-radius: 2px;
   background: var(--accent);
   transform: rotate(45deg);
+}
+
+/* ---------- Warwickly branding ---------- */
+.wk-mark {
+  position: relative;
+  display: inline-block;
+  flex: none;
+}
+.wk-mark img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.wk-ink-light {
+  visibility: hidden;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .wk-ink-dark {
+    visibility: hidden;
+  }
+  :root:not([data-theme="light"]) .wk-ink-light {
+    visibility: visible;
+  }
+}
+:root[data-theme="dark"] .wk-ink-dark {
+  visibility: hidden;
+}
+:root[data-theme="dark"] .wk-ink-light {
+  visibility: visible;
+}
+.made-by {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  align-self: flex-start;
+  padding: 6px 12px 6px 9px;
+  border: 1px solid var(--line-2);
+  border-radius: 999px;
+  color: var(--ink-2);
+  text-decoration: none;
+  font-size: 13px;
+  background: var(--panel);
+  transition: border-color 0.15s, color 0.15s;
+}
+.made-by strong {
+  color: var(--ink);
+  font-family: var(--font-head);
+}
+.made-by:hover {
+  border-color: var(--ink-2);
+  color: var(--ink);
+}
+.made-by.compact {
+  padding: 4px 10px 4px 7px;
+  font-size: 12px;
 }

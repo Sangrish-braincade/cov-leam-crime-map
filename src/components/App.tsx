@@ -11,6 +11,7 @@ import { focusStreet } from "@/lib/streetFocus";
 import type { Street } from "@/lib/streets";
 import { BASEMAPS, HEAT, type Basemap, type Theme } from "@/lib/theme";
 import AboutDialog, { publishMonth } from "./AboutDialog";
+import { MadeByWarwickly, WarwicklyMark } from "./Brand";
 import GuideDrawer from "./GuideDrawer";
 import MapView, { type FocusFeatures, type HexFeatures, type NewsFeatures } from "./MapView";
 import NewsPanel from "./NewsPanel";
@@ -313,12 +314,9 @@ export default function App({ dataset }: { dataset: Dataset }) {
     <div className="app">
       <aside className="rail">
         <header className="brand">
-          <div className="brand-mark" aria-hidden="true">
-            <svg viewBox="0 0 28 28">
-              <path d="M14 2.5 24 8.25v11.5L14 25.5 4 19.75V8.25Z" fill={palette[4]} />
-              <path d="M14 8.5 19 11.4v5.2L14 19.5 9 16.6v-5.2Z" fill={palette[1]} />
-            </svg>
-          </div>
+          <a className="brand-mark" href="https://warwickly.com/?utm_source=covcrimeinfo&utm_medium=referral&utm_campaign=logo" target="_blank" rel="noopener" aria-label="Warwickly">
+            <WarwicklyMark height={30} />
+          </a>
           <div>
             <h1>
               Cov &amp; Leam <span>Crime Map</span>
@@ -388,6 +386,7 @@ export default function App({ dataset }: { dataset: Dataset }) {
         </details>
 
         <footer className="rail-foot">
+          <MadeByWarwickly />
           <button type="button" className="linkish" onClick={() => setAbout(true)}>
             How to read this map
           </button>

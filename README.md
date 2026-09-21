@@ -1,5 +1,7 @@
 # Cov & Leam Crime Map
 
+**Live:** https://covcrimeinfo.warwickly.com · made by [Warwickly](https://warwickly.com)
+
 Three years of police.uk street-level crime for Coventry, Leamington Spa, Warwick and Kenilworth, drawn as a hex map for students. It has filters for every police.uk category, "Personal safety" and "House hunting" views, a 36-month timeline you can play, per-area breakdowns (streets, venues, outcomes), plain-English guides for each crime type, and a live feed of local crime news.
 
 ## How it works: git is the database
@@ -39,6 +41,9 @@ node scripts/correlate.mjs                             # link stories to police.
 2. **Amplify:** connect the repo's `main` branch; `amplify.yml` is included (Next.js SSR). One environment variable, and it isn't a secret:
    - `NEWS_BASE_URL` = `https://raw.githubusercontent.com/<owner>/<repo>/main`
 3. Run both workflows once from the Actions tab (`workflow_dispatch`) to check they work.
+4. **Domain:** `covcrimeinfo.warwickly.com` is an Amplify domain association on the `main` branch. `warwickly.com` is a Route 53 zone in the same AWS account, so Amplify manages the CNAME and certificate. The bare `<app-id>.amplifyapp.com` address always 404s; that's Amplify, not the site.
+
+**Branding:** the favicons (`src/app/favicon.ico`, `icon.png`, `apple-icon.png`) and the W mark (`public/brand/`, with a light-ink copy for dark themes) come from the Warwick Connect repo. The page keeps its own colours.
 
 **Actions minutes:** the news job runs 4 times a day for a few minutes each (about 20 new articles a day at 10 s apart), roughly 400 minutes a month. That's well inside a private repo's 2,000 free minutes.
 

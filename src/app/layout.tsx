@@ -7,10 +7,26 @@ const display = Schibsted_Grotesk({ subsets: ["latin"], weight: ["600", "700", "
 const body = Atkinson_Hyperlegible({ subsets: ["latin"], weight: ["400", "700"], variable: "--font-body" });
 const mono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400", "500"], variable: "--font-mono" });
 
+const DESCRIPTION =
+  "Three years of police.uk street-level crime for Coventry, Leamington Spa, Warwick and Kenilworth, mapped for students. Search your street, read plain-English guides, and follow local crime news.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL("https://covcrimeinfo.warwickly.com"),
   title: "Cov & Leam Crime Map",
-  description:
-    "Three years of police.uk street-level crime for Coventry, Leamington Spa, Warwick and Kenilworth, mapped for students, with plain-English guides and the latest local news.",
+  description: DESCRIPTION,
+  applicationName: "Cov & Leam Crime Map",
+  creator: "Warwickly",
+  publisher: "Warwickly",
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    url: "/",
+    siteName: "Warwickly",
+    title: "Cov & Leam Crime Map",
+    description: DESCRIPTION,
+    locale: "en_GB",
+  },
+  twitter: { card: "summary", title: "Cov & Leam Crime Map", description: DESCRIPTION },
 };
 
 export const viewport: Viewport = {
