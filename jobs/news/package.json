@@ -2,12 +2,11 @@
   "name": "cov-leam-news-job",
   "private": true,
   "type": "module",
-  "description": "Reads local news RSS, tags crime stories with Claude, geocodes them against police.uk street names, writes data/news.json",
+  "description": "Scrapes local crime news (publisher sitemaps + BBC RSS), extracts street/area/category by string matching against police.uk street names, writes data/news-archive",
   "scripts": {
-    "start": "node fetch-news.mjs"
+    "start": "node scrape.mjs"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.127.0",
     "fast-xml-parser": "^5.11.1"
   }
 }

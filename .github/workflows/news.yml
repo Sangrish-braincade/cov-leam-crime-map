@@ -1,13 +1,12 @@
-# Every 30 minutes: read local news RSS, tag new crime stories with Claude,
-# commit data/news.json. [skip-cd] stops Amplify rebuilding; the site's
-# /api/news route reads the committed file from GitHub instead.
-#
-# Needs the repo secret ANTHROPIC_API_KEY.
+# Four times a day: find new local crime articles (publisher sitemaps + BBC RSS),
+# fetch each page politely, extract street / area / category with string matching
+# (no AI), and commit data/news-archive/. [skip-cd] stops Amplify rebuilding;
+# the site's /api/news route reads the committed files from GitHub instead.
 name: news
 
 on:
   schedule:
-    - cron: "7,37 * * * *"
+    - cron: "23 5,11,17,23 * * *"
   workflow_dispatch:
 
 permissions:
@@ -18,9 +17,9 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  news:
+  scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 45 # CoventryLive asks for 10 s between requests
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -30,16 +29,16 @@ jobs:
           cache-dependency-path: jobs/news/package-lock.json
       - run: npm ci --no-audit --no-fund
         working-directory: jobs/news
-      - name: Read feeds and tag stories
-        run: node jobs/news/fetch-news.mjs
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Scrape new articles
+        run: node jobs/news/scrape.mjs
+      - name: Link stories to police.uk records
+        run: node scripts/correlate.mjs
       - name: Commit
         run: |
           git config user.name "crime-map-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/news.json
+          git add data/news-archive
           git diff --cached --quiet && exit 0
-          git commit -m "news: update feed [skip-cd]"
+          git commit -m "news: new articles [skip-cd]"
           git pull --rebase
           git push

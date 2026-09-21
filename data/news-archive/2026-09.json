@@ -1,0 +1,145 @@
+{
+ "month": "2026-09",
+ "articles": [
+  {
+   "id": "26509ba505b0",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-found-cocaine-mdma-34508812",
+   "source": "CoventryLive",
+   "title": "Coventry man found with cocaine and MDMA tablets had been 'preyed upon'",
+   "published": "2026-09-01T04:00:00.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [
+    {
+     "name": "Stoney Stanton Road",
+     "lat": 52.42114,
+     "lng": -1.49652,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Stoney Stanton Road, Stoke Heath",
+    "lat": 52.42114,
+    "lng": -1.49652,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "Drugs",
+    "Premium"
+   ]
+  },
+  {
+   "id": "6ac496d955ed",
+   "url": "https://www.coventrytelegraph.net/news/local-news/warwickshire-thug-repeatedly-punched-man-34525105",
+   "source": "CoventryLive",
+   "title": "Warwickshire thug repeatedly punched man in jealous rage after 'flirty messages'",
+   "published": "2026-09-01T09:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "High Street",
+     "lat": 52.2806,
+     "lng": -1.58893,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "High Street, Warwick",
+    "lat": 52.2806,
+    "lng": -1.58893,
+    "precision": "street"
+   },
+   "tags": [
+    "Warwickshire",
+    "Shipston-on-Stour",
+    "Courts",
+    "Crime",
+    "Premium"
+   ]
+  },
+  {
+   "id": "8faaf06c3460",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-dad-jailed-26-weeks-34512442",
+   "source": "CoventryLive",
+   "title": "Coventry dad jailed 26 weeks for assaulting ex-partner after breaching family home ban",
+   "published": "2026-09-01T10:44:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Courts"
+   ]
+  },
+  {
+   "id": "a4ae0df095cd",
+   "url": "https://www.coventrytelegraph.net/news/local-news/court-update-syrian-man-charged-34550155",
+   "source": "CoventryLive",
+   "title": "Court update on Syrian man charged with sex offences against girls at Warwickshire hotel",
+   "published": "2026-09-01T11:40:41.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Edward Road",
+     "lat": 52.44579,
+     "lng": -1.5245,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Edward Road, Whitmore Park",
+    "lat": 52.44579,
+    "lng": -1.5245,
+    "precision": "street"
+   },
+   "tags": [
+    "Nuneaton",
+    "Crime",
+    "Courts",
+    "Kenilworth",
+    "Warwickshire"
+   ]
+  },
+  {
+   "id": "dc4f00b06d46",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-thug-forced-man-work-34550141",
+   "source": "CoventryLive",
+   "title": "Coventry thug forced man to work at his Bedworth skip company as 'scrapyard dog'",
+   "published": "2026-09-01T12:52:33.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Keresley",
+     "lat": 52.45005,
+     "lng": -1.53453
+    }
+   ],
+   "place": {
+    "label": "Keresley",
+    "lat": 52.45005,
+    "lng": -1.53453,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Bedworth",
+    "Warwickshire Police",
+    "Courts",
+    "Keresley"
+   ]
+  }
+ ]
+}

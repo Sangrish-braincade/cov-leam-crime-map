@@ -162,6 +162,7 @@ export default function App({ dataset }: { dataset: Dataset }) {
           cat: it.category ? CATEGORY[it.category]?.label ?? "Crime" : "Crime",
           url: it.url,
           area: it.place.precision === "area" ? 1 : 0,
+          u: it.police.status === "unconfirmed" ? 1 : 0,
         },
       });
     }
@@ -492,6 +493,7 @@ export default function App({ dataset }: { dataset: Dataset }) {
             <NewsPanel
               feed={news}
               error={newsError}
+              latestPoliceMonth={dataset.latest}
               showPins={showNews}
               onTogglePins={() => setShowNews((v) => !v)}
               onShow={(lng, lat) => fly(lng, lat, 15)}

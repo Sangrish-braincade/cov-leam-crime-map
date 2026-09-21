@@ -11,7 +11,7 @@ frontend:
       commands:
         # Amplify console env vars only reach the Next.js server runtime if they
         # are written to .env.production at build time. Allowlist, not a dump.
-        - 'env | grep -E "^(NEWS_JSON_URL|GITHUB_TOKEN)=" >> .env.production || true'
+        - 'env | grep -E "^NEWS_BASE_URL=" >> .env.production || true'
         # prebuild runs scripts/pack.mjs: data/crimes/*.json -> public/data/
         - npm run build
   artifacts:

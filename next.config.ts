@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   productionBrowserSourceMaps: false,
   // /api/news falls back to the bundled copy when GitHub can't be reached
-  outputFileTracingIncludes: { "/api/news": ["./data/news.json"] },
+  outputFileTracingIncludes: { "/api/news": ["./data/news-archive/*.json"] },
   async headers() {
     return [
       {

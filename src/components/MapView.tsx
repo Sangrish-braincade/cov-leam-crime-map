@@ -8,7 +8,7 @@ import { levelForZoom } from "@/lib/hex";
 import { HEAT, MAP_STYLE, NEWS_PIN, SELECT_LINE, type Theme } from "@/lib/theme";
 
 export type HexFeatures = GeoJSON.FeatureCollection<GeoJSON.Polygon, { n: number; k: number; h: number }>;
-export type NewsFeatures = GeoJSON.FeatureCollection<GeoJSON.Point, { id: string; title: string; source: string; when: string; cat: string; url: string; area: number }>;
+export type NewsFeatures = GeoJSON.FeatureCollection<GeoJSON.Point, { id: string; title: string; source: string; when: string; cat: string; url: string; area: number; u: number }>;
 
 type Props = {
   theme: Theme;
@@ -134,7 +134,7 @@ export default function MapView(props: Props) {
       a.textContent = p.title;
       const tag = document.createElement("div");
       tag.className = "news-pop-tag";
-      tag.textContent = p.area ? `${p.cat} · approximate area` : p.cat;
+      tag.textContent = [p.cat, p.area ? "approximate area" : "", p.u ? "not yet in police data" : ""].filter(Boolean).join(" · ");
       el.append(meta, a, tag);
       new maplibregl.Popup({ offset: 12, maxWidth: "300px", closeButton: true })
         .setLngLat((f.geometry as GeoJSON.Point).coordinates as [number, number])
@@ -290,11 +290,12 @@ function addLayers(map: MLMap, p: Props) {
     type: "circle",
     source: "news",
     layout: { visibility: p.showNews ? "visible" : "none" },
+    // filled pin: police.uk has published that month; hollow pin: not yet in police data
     paint: {
       "circle-radius": ["interpolate", ["linear"], ["zoom"], 10, 5, 15, 8],
-      "circle-color": NEWS_PIN[theme].fill,
-      "circle-stroke-width": 2.5,
-      "circle-stroke-color": NEWS_PIN[theme].ring,
+      "circle-color": ["case", ["==", ["get", "u"], 1], NEWS_PIN[theme].ring, NEWS_PIN[theme].fill],
+      "circle-stroke-width": ["case", ["==", ["get", "u"], 1], 3, 2.5],
+      "circle-stroke-color": ["case", ["==", ["get", "u"], 1], NEWS_PIN[theme].fill, NEWS_PIN[theme].ring],
     },
   });
 }

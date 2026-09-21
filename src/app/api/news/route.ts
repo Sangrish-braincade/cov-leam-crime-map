@@ -1,44 +1,76 @@
-// Serves data/news.json. The news GitHub Action commits that file every 30
-// minutes with [skip-cd], so the site doesn't rebuild; instead this route reads
-// the latest committed copy from GitHub and caches it for 10 minutes.
+// Serves the last ~3 months of scraped local crime news (data/news-archive/YYYY-MM.json).
+// The news Action commits those files with [skip-cd], so the site doesn't rebuild;
+// this route reads the latest committed copies from GitHub and caches them for 10 minutes.
 //
 // Env (Amplify, server-side only):
-//   NEWS_JSON_URL  raw URL of data/news.json, e.g.
-//                  https://api.github.com/repos/<owner>/<repo>/contents/data/news.json?ref=main
-//   GITHUB_TOKEN   fine-grained read-only token, only needed for a private repo
-// Without NEWS_JSON_URL (local dev) it falls back to the copy bundled at build time.
+//   NEWS_BASE_URL  raw base of the repo, e.g. https://raw.githubusercontent.com/<owner>/<repo>/main
+//                  (public repo: no token needed, and raw.githubusercontent has no 60/hour API limit)
+// Without NEWS_BASE_URL (local dev) it reads the files from disk.
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
+import { DATASET } from "@/generated/dataset";
 import type { NewsFeed, NewsItem } from "@/lib/news";
 
 export const revalidate = 600;
 
-const KEEP_DAYS = 30;
+const WINDOW_DAYS = 95;
 
-async function fromGitHub(url: string): Promise<unknown> {
-  const headers: Record<string, string> = { Accept: "application/vnd.github.raw+json", "User-Agent": "cov-leam-crime-map" };
-  if (process.env.GITHUB_TOKEN) headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
-  const res = await fetch(url, { headers, next: { revalidate } });
-  if (!res.ok) throw new Error(`news source ${res.status}`);
-  return res.json();
+type Archived = {
+  id: string;
+  url: string;
+  source: string;
+  title: string;
+  published: string;
+  category: NewsItem["category"];
+  court: boolean;
+  place: NewsItem["place"];
+  police?: NewsItem["police"];
+};
+
+function recentMonths(n: number): string[] {
+  const d = new Date();
+  return Array.from({ length: n }, (_, i) => new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() - i, 1)).toISOString().slice(0, 7));
 }
 
-async function fromDisk(): Promise<unknown> {
-  return JSON.parse(await readFile(join(process.cwd(), "data", "news.json"), "utf8"));
+async function readMonth(ym: string): Promise<Archived[]> {
+  const base = process.env.NEWS_BASE_URL;
+  try {
+    if (base) {
+      const res = await fetch(`${base}/data/news-archive/${ym}.json`, { headers: { "User-Agent": "cov-leam-crime-map" }, next: { revalidate } });
+      if (res.status === 404) return [];
+      if (!res.ok) throw new Error(`news source ${res.status}`);
+      return ((await res.json()) as { articles: Archived[] }).articles ?? [];
+    }
+  } catch {
+    // fall through to the copy bundled at build time
+  }
+  try {
+    return (JSON.parse(await readFile(join(process.cwd(), "data", "news-archive", `${ym}.json`), "utf8")) as { articles: Archived[] }).articles ?? [];
+  } catch {
+    return [];
+  }
 }
 
 export async function GET() {
-  let raw: { updated?: string; items?: NewsItem[] };
-  try {
-    const url = process.env.NEWS_JSON_URL;
-    raw = (await (url ? fromGitHub(url).catch(fromDisk) : fromDisk())) as typeof raw;
-  } catch {
-    raw = { updated: undefined, items: [] };
-  }
-  const cutoff = Date.now() - KEEP_DAYS * 86400_000;
-  const items = (raw.items ?? [])
-    .filter((i) => new Date(i.published).getTime() >= cutoff)
-    .sort((a, b) => b.published.localeCompare(a.published));
-  const body: NewsFeed = { updated: raw.updated ?? null, items };
+  const months = recentMonths(4);
+  const cutoff = Date.now() - WINDOW_DAYS * 86400_000;
+  const all = (await Promise.all(months.map(readMonth))).flat();
+  const items: NewsItem[] = all
+    .filter((a) => new Date(a.published).getTime() >= cutoff)
+    .sort((a, b) => b.published.localeCompare(a.published))
+    .map((a) => ({
+      id: a.id,
+      url: a.url,
+      title: a.title,
+      source: a.source,
+      published: a.published,
+      category: a.category,
+      place: a.place,
+      timing: a.court ? "court" : "recent",
+      // scripts/correlate.mjs sets this; before it has run, fall back on the month alone
+      police: a.police ?? { status: a.published.slice(0, 7) > DATASET.latest ? "unconfirmed" : a.court ? "court" : a.place ? "no-match" : "unplaced" },
+    }));
+  const updated = items[0]?.published ?? null;
+  const body: NewsFeed = { updated, items };
   return Response.json(body, { headers: { "Cache-Control": "public, s-maxage=600, stale-while-revalidate=1800" } });
 }

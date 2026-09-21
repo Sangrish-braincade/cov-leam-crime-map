@@ -95,8 +95,9 @@ export default function AboutDialog({
         <section>
           <h3>News pins</h3>
           <p>
-            Local news stories are read every 30 minutes. Claude, an AI model, sorts out which ones are about crime in this area, and picks out the street or area
-            named. Pins are approximate, never merged into the counts, and always link to the original article.
+            Four times a day we check CoventryLive and BBC News for new local crime stories and note the streets and areas each one names. We keep only those
+            facts and the link, never the article. When police.uk publishes a month, each story is matched to the police reports of the same kind nearby, so it&rsquo;s
+            never counted twice. Stories from months police.uk hasn&rsquo;t published yet show as hollow pins marked &ldquo;not yet in police data&rdquo;.
           </p>
         </section>
 

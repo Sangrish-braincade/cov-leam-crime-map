@@ -28,12 +28,15 @@ jobs:
       - name: Fetch any new months
         id: fetch
         run: node scripts/fetch-crimes.mjs
+      - name: Link news stories to the new police.uk month
+        if: steps.fetch.outputs.new_month != ''
+        run: node scripts/correlate.mjs
       - name: Commit
         if: steps.fetch.outputs.new_month != ''
         run: |
           git config user.name "crime-map-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/crimes
+          git add data/crimes data/news-archive
           git diff --cached --quiet && exit 0
           git commit -m "data: police.uk ${{ steps.fetch.outputs.new_month }}"
           git pull --rebase
