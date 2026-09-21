@@ -1958,6 +1958,63 @@
      "2026-09"
     ]
    }
+  },
+  {
+   "id": "0677d91f82e0",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/meat-thief-who-swiped-400-34648808",
+   "source": "CoventryLive",
+   "title": "Meat thief who swiped £400 haul jailed after repeatedly targeting Coventry Sainsburys",
+   "published": "2026-09-21T12:09:52.000Z",
+   "category": "other-theft",
+   "court": true,
+   "streets": [
+    {
+     "name": "Trinity Street",
+     "lat": 52.40972,
+     "lng": -1.50936,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Trinity Street, Coventry",
+    "lat": 52.40972,
+    "lng": -1.50936,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Trinity Street",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "ae426f81f48d",
+   "url": "https://www.coventrytelegraph.net/news/local-news/man-critical-condition-second-arrest-34644612",
+   "source": "CoventryLive",
+   "title": "Man in critical condition as second arrest made in Bulkington crash probe",
+   "published": "2026-09-21T13:17:03.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Bulkington",
+    "Crime",
+    "Warwickshire",
+    "Warwickshire Police",
+    "Nuneaton"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
