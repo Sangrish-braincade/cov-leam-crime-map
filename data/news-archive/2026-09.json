@@ -1995,6 +1995,58 @@
    }
   },
   {
+   "id": "f81b629ce59b",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/two-migrants-stabbed-man-screwdriver-34642812",
+   "source": "CoventryLive",
+   "title": "Two migrants stabbed man with screwdriver in Coventry in 'Afghan protection racket plot'",
+   "published": "2026-09-21T13:04:53.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Holbrook Lane",
+     "lat": 52.43837,
+     "lng": -1.50729,
+     "mentions": 1
+    },
+    {
+     "name": "Edward Road",
+     "lat": 52.44579,
+     "lng": -1.5245,
+     "mentions": 1
+    },
+    {
+     "name": "New Union Street",
+     "lat": 52.40493,
+     "lng": -1.51,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Holbrooks",
+     "lat": 52.44473,
+     "lng": -1.5113
+    }
+   ],
+   "place": {
+    "label": "Holbrook Lane, Holbrooks",
+    "lat": 52.43837,
+    "lng": -1.50729,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Holbrooks",
+    "Crime",
+    "Courts",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
    "id": "ae426f81f48d",
    "url": "https://www.coventrytelegraph.net/news/local-news/man-critical-condition-second-arrest-34644612",
    "source": "CoventryLive",
@@ -2014,6 +2066,41 @@
    ],
    "police": {
     "status": "unplaced"
+   }
+  },
+  {
+   "id": "c0e0195ca55c",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/18-arrests-less-month-coventry-34652174",
+   "source": "CoventryLive",
+   "title": "18 arrests in less than a month in this Coventry area as police reveal priority list",
+   "published": "2026-09-22T06:20:27.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    }
+   ],
+   "place": {
+    "label": "Hillfields",
+    "lat": 52.41396,
+    "lng": -1.50114,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Hillfields",
+    "Coventry Police",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-09"
+    ]
    }
   }
  ]
