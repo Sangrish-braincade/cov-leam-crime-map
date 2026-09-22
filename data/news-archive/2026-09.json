@@ -2102,6 +2102,24 @@
      "2026-09"
     ]
    }
+  },
+  {
+   "id": "67ed77834fa3",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/car-thieves-who-stole-high-34620852",
+   "source": "CoventryLive",
+   "title": "Car thieves who stole high-value vehicles while residents slept caught by Red Bull can",
+   "published": "2026-09-22T14:54:00.000Z",
+   "category": "vehicle-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
