@@ -2120,6 +2120,40 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "2b6c4a7e934a",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-charged-after-stabbing-lower-34615674",
+   "source": "CoventryLive",
+   "title": "Man charged after stabbing at Lower Precinct in Coventry",
+   "published": "2026-09-22T18:23:11.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Lower Precinct",
+     "lat": 52.40795,
+     "lng": -1.51405
+    }
+   ],
+   "place": {
+    "label": "Lower Precinct",
+    "lat": 52.40795,
+    "lng": -1.51405,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Lower Precinct",
+    "Coventry City Centre"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
