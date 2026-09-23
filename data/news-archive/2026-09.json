@@ -2154,6 +2154,25 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "d5a1c44b9480",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/teen-jailed-after-grabbing-coventry-34657126",
+   "source": "CoventryLive",
+   "title": "Teen jailed after grabbing Coventry student by neck and trying to steal chain",
+   "published": "2026-09-23T06:02:00.000Z",
+   "category": "other-theft",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
