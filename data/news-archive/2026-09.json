@@ -2173,6 +2173,27 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "fb25d5246eab",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/three-arrested-after-robbers-tried-34659744",
+   "source": "CoventryLive",
+   "title": "Three arrested after robbers tried to snatch jewellery from woman's wrist",
+   "published": "2026-09-23T11:58:35.000Z",
+   "category": "robbery",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police",
+    "Crime"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
