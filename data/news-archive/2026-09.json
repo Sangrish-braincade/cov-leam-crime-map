@@ -2194,6 +2194,163 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "1ae547510de7",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-cex-robbery-man-given-34659152",
+   "source": "CoventryLive",
+   "title": "Coventry CeX robbery: Man given suspended sentence after broken bottle threat",
+   "published": "2026-09-24T13:27:00.000Z",
+   "category": "robbery",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "28acad5bc041",
+   "url": "https://www.bbc.co.uk/news/articles/c6jrxvn9evl2o",
+   "source": "BBC News",
+   "title": "Man, 27, denies sexually assaulting two girls at Kenilworth hotel",
+   "published": "2026-09-24T14:21:12.871Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Edward Road",
+     "lat": 52.44579,
+     "lng": -1.5245,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Edward Road, Whitmore Park",
+    "lat": 52.44579,
+    "lng": -1.5245,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-09"
+    ]
+   }
+  },
+  {
+   "id": "a909add40fb3",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/migrants-who-stabbed-coventry-shopkeeper-34665445",
+   "source": "CoventryLive",
+   "title": "Migrants who stabbed Coventry shopkeeper in conspiracy 'abused the hospitality of the UK'",
+   "published": "2026-09-24T15:06:24.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Edward Road",
+     "lat": 52.44579,
+     "lng": -1.5245,
+     "mentions": 1
+    },
+    {
+     "name": "New Union Street",
+     "lat": 52.40493,
+     "lng": -1.51,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Holbrooks",
+     "lat": 52.44473,
+     "lng": -1.5113
+    }
+   ],
+   "place": {
+    "label": "Edward Road, Whitmore Park",
+    "lat": 52.44579,
+    "lng": -1.5245,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Holbrooks",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "98827b35b6c9",
+   "url": "https://www.coventrytelegraph.net/news/local-news/man-dies-after-serious-crash-34667922",
+   "source": "CoventryLive",
+   "title": "Man dies after serious crash in Bulkington as teen probed for 'dangerous driving'",
+   "published": "2026-09-24T16:02:58.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Bulkington",
+    "Warwickshire",
+    "Warwickshire Police",
+    "Nuneaton"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "a80d4aed9bef",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/call-999-you-see-wanted-34660415",
+   "source": "CoventryLive",
+   "title": "'Call 999' if you see this wanted man from Coventry",
+   "published": "2026-09-24T17:13:12.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [
+    {
+     "name": "Nuffield Road",
+     "lat": 52.42878,
+     "lng": -1.47968,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Courthouse Green",
+     "lat": 52.43064,
+     "lng": -1.48288
+    }
+   ],
+   "place": {
+    "label": "Nuffield Road, Courthouse Green",
+    "lat": 52.42878,
+    "lng": -1.47968,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-09"
+    ]
+   }
   }
  ]
 }
