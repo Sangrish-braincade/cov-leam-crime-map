@@ -2351,6 +2351,104 @@
      "2026-09"
     ]
    }
+  },
+  {
+   "id": "74535bb99314",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/number-murders-coventry-past-five-34667607",
+   "source": "CoventryLive",
+   "title": "Number of murders in Coventry in the past five years as stats unveil city's violence",
+   "published": "2026-09-25T05:30:00.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Coventry City Centre",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "c7f0f7b515ad",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/spotlight-foleshill-crime-mp-says-34667725",
+   "source": "CoventryLive",
+   "title": "Spotlight on Foleshill crime as MP says residents 'deserve to feel safe'",
+   "published": "2026-09-25T06:08:00.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [
+    {
+     "name": "Foleshill Road",
+     "lat": 52.42807,
+     "lng": -1.4997,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    }
+   ],
+   "place": {
+    "label": "Foleshill Road, Edgwick",
+    "lat": 52.42807,
+    "lng": -1.4997,
+    "precision": "street"
+   },
+   "tags": [
+    "Foleshill",
+    "Crime",
+    "Politics"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-09"
+    ]
+   }
+  },
+  {
+   "id": "ed4c46da5315",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/three-arrested-school-lockdown-amid-34669242",
+   "source": "CoventryLive",
+   "title": "Three arrested as school on lockdown amid 'car driven at teacher' report",
+   "published": "2026-09-25T06:22:02.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Shelley Avenue",
+     "lat": 52.27096,
+     "lng": -1.60149,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Shelley Avenue, Warwick",
+    "lat": 52.27096,
+    "lng": -1.60149,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Warwickshire",
+    "Warwickshire Police",
+    "Warwick"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-09"
+    ]
+   }
   }
  ]
 }
