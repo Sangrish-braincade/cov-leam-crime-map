@@ -2449,6 +2449,149 @@
      "2026-09"
     ]
    }
+  },
+  {
+   "id": "4e59292c0125",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-pulls-knife-stranger-34657715",
+   "source": "CoventryLive",
+   "title": "Coventry man pulls knife on stranger who refused to buy him a Greggs",
+   "published": "2026-09-25T10:31:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Pandora Road",
+     "lat": 52.4295,
+     "lng": -1.45033,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Pandora Road, Manor Farm Estate",
+    "lat": 52.4295,
+    "lng": -1.45033,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Courts",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "24bd1a261eaf",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/moment-coventry-people-smuggling-ringleader-34659232",
+   "source": "CoventryLive",
+   "title": "Moment Coventry people-smuggling ringleader is arrested in Birmingham",
+   "published": "2026-09-25T10:35:26.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "fd11dba201ce",
+   "url": "https://www.coventrytelegraph.net/news/local-news/man-seriously-injured-outside-warwickshire-34671737",
+   "source": "CoventryLive",
+   "title": "Man seriously injured outside Warwickshire hospital as police release CCTV",
+   "published": "2026-09-25T12:10:41.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwickshire Police",
+    "Warwick",
+    "Crime"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "72e363dee8a3",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-brothels-raided-man-charged-34672520",
+   "source": "CoventryLive",
+   "title": "Coventry brothels raided as man charged with modern slavery offences",
+   "published": "2026-09-25T13:06:57.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Crime",
+    "Courts",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "91ac70173e1e",
+   "url": "https://www.bbc.co.uk/news/articles/ckgjqej78ly8o",
+   "source": "BBC News",
+   "title": "Arrests after car driven towards teacher outside Warwick school",
+   "published": "2026-09-25T13:58:27.020Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Shelley Avenue",
+     "lat": 52.27096,
+     "lng": -1.60149,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Shelley Avenue, Warwick",
+    "lat": 52.27096,
+    "lng": -1.60149,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-09"
+    ]
+   }
   }
  ]
 }
