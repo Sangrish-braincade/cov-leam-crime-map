@@ -2668,6 +2668,740 @@
      "2026-09"
     ]
    }
+  },
+  {
+   "id": "9f0b2034d69f",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/every-coventry-street-targeted-burglars-34677524",
+   "source": "CoventryLive",
+   "title": "Every Coventry street targeted by burglars - full list",
+   "published": "2026-09-27T11:00:00.000Z",
+   "category": "burglary",
+   "court": false,
+   "streets": [
+    {
+     "name": "Kilby Mews",
+     "lat": 52.40745,
+     "lng": -1.49519,
+     "mentions": 2
+    },
+    {
+     "name": "Burnsall Grove",
+     "lat": 52.39577,
+     "lng": -1.55159,
+     "mentions": 1
+    },
+    {
+     "name": "Daventry Road",
+     "lat": 52.39417,
+     "lng": -1.50438,
+     "mentions": 1
+    },
+    {
+     "name": "Jim Forrest Close",
+     "lat": 52.39532,
+     "lng": -1.44416,
+     "mentions": 1
+    },
+    {
+     "name": "Knoll Drive",
+     "lat": 52.38645,
+     "lng": -1.5106,
+     "mentions": 1
+    },
+    {
+     "name": "Lichfield Road",
+     "lat": 52.39502,
+     "lng": -1.50576,
+     "mentions": 1
+    },
+    {
+     "name": "Newcombe Road",
+     "lat": 52.40125,
+     "lng": -1.52978,
+     "mentions": 1
+    },
+    {
+     "name": "Somerly Close",
+     "lat": 52.39544,
+     "lng": -1.44883,
+     "mentions": 1
+    },
+    {
+     "name": "Tybalt Close",
+     "lat": 52.38212,
+     "lng": -1.46733,
+     "mentions": 1
+    },
+    {
+     "name": "Upper Ride",
+     "lat": 52.38499,
+     "lng": -1.45955,
+     "mentions": 1
+    },
+    {
+     "name": "Willowherb Close",
+     "lat": 52.39477,
+     "lng": -1.44441,
+     "mentions": 1
+    },
+    {
+     "name": "Byron Street",
+     "lat": 52.41457,
+     "lng": -1.50579,
+     "mentions": 1
+    },
+    {
+     "name": "Crossley Court",
+     "lat": 52.42903,
+     "lng": -1.4901,
+     "mentions": 1
+    },
+    {
+     "name": "Edgwick Road",
+     "lat": 52.42796,
+     "lng": -1.49145,
+     "mentions": 1
+    },
+    {
+     "name": "Gressingham Grove",
+     "lat": 52.42673,
+     "lng": -1.50201,
+     "mentions": 1
+    },
+    {
+     "name": "Ivor Road",
+     "lat": 52.44106,
+     "lng": -1.48963,
+     "mentions": 1
+    },
+    {
+     "name": "Newdigate Mews",
+     "lat": 52.42129,
+     "lng": -1.48958,
+     "mentions": 1
+    },
+    {
+     "name": "Oliver Street",
+     "lat": 52.42347,
+     "lng": -1.49152,
+     "mentions": 1
+    },
+    {
+     "name": "Pridmore Road",
+     "lat": 52.42609,
+     "lng": -1.5048,
+     "mentions": 1
+    },
+    {
+     "name": "Alvyn Smith Close",
+     "lat": 52.44309,
+     "lng": -1.47257,
+     "mentions": 1
+    },
+    {
+     "name": "Baptist Close",
+     "lat": 52.45273,
+     "lng": -1.45999,
+     "mentions": 1
+    },
+    {
+     "name": "Cheadle Close",
+     "lat": 52.44938,
+     "lng": -1.47908,
+     "mentions": 1
+    },
+    {
+     "name": "Clennon Rise",
+     "lat": 52.43207,
+     "lng": -1.45971,
+     "mentions": 1
+    },
+    {
+     "name": "Curlew Close",
+     "lat": 52.44479,
+     "lng": -1.47506,
+     "mentions": 1
+    },
+    {
+     "name": "Grindle Road",
+     "lat": 52.45112,
+     "lng": -1.4903,
+     "mentions": 1
+    },
+    {
+     "name": "Paignton Place",
+     "lat": 52.43213,
+     "lng": -1.45872,
+     "mentions": 1
+    },
+    {
+     "name": "Rafferty Adams Way",
+     "lat": 52.45568,
+     "lng": -1.47633,
+     "mentions": 1
+    },
+    {
+     "name": "Recreation Road",
+     "lat": 52.44522,
+     "lng": -1.48403,
+     "mentions": 1
+    },
+    {
+     "name": "Tallants Close",
+     "lat": 52.43349,
+     "lng": -1.48317,
+     "mentions": 1
+    },
+    {
+     "name": "Watcombe Road",
+     "lat": 52.43362,
+     "lng": -1.45593,
+     "mentions": 1
+    },
+    {
+     "name": "Bablake Close",
+     "lat": 52.43169,
+     "lng": -1.53259,
+     "mentions": 1
+    },
+    {
+     "name": "Benson Road",
+     "lat": 52.43706,
+     "lng": -1.52884,
+     "mentions": 1
+    },
+    {
+     "name": "Bowness Close",
+     "lat": 52.43411,
+     "lng": -1.52508,
+     "mentions": 1
+    },
+    {
+     "name": "Broome Croft",
+     "lat": 52.44744,
+     "lng": -1.51815,
+     "mentions": 1
+    },
+    {
+     "name": "Canal View",
+     "lat": 52.417,
+     "lng": -1.51027,
+     "mentions": 1
+    },
+    {
+     "name": "Chesholme Road",
+     "lat": 52.44399,
+     "lng": -1.51957,
+     "mentions": 1
+    },
+    {
+     "name": "Chesterton Road",
+     "lat": 52.43021,
+     "lng": -1.52712,
+     "mentions": 1
+    },
+    {
+     "name": "Colledge Road",
+     "lat": 52.43641,
+     "lng": -1.50492,
+     "mentions": 1
+    },
+    {
+     "name": "Draper's Fields",
+     "lat": 52.41465,
+     "lng": -1.51141,
+     "mentions": 1
+    },
+    {
+     "name": "Farm Close",
+     "lat": 52.44688,
+     "lng": -1.52157,
+     "mentions": 1
+    },
+    {
+     "name": "Fraser Road",
+     "lat": 52.43669,
+     "lng": -1.52886,
+     "mentions": 1
+    },
+    {
+     "name": "Harborough Road",
+     "lat": 52.44339,
+     "lng": -1.5203,
+     "mentions": 1
+    },
+    {
+     "name": "Herders Way",
+     "lat": 52.45903,
+     "lng": -1.53457,
+     "mentions": 1
+    },
+    {
+     "name": "Hollow Crescent",
+     "lat": 52.41812,
+     "lng": -1.51933,
+     "mentions": 1
+    },
+    {
+     "name": "Jackson Road",
+     "lat": 52.43795,
+     "lng": -1.50593,
+     "mentions": 1
+    },
+    {
+     "name": "Links Road",
+     "lat": 52.43127,
+     "lng": -1.5216,
+     "mentions": 1
+    },
+    {
+     "name": "Mossdale Close",
+     "lat": 52.42477,
+     "lng": -1.52334,
+     "mentions": 1
+    },
+    {
+     "name": "Newfield Road",
+     "lat": 52.4206,
+     "lng": -1.51042,
+     "mentions": 1
+    },
+    {
+     "name": "St Nicholas Close",
+     "lat": 52.4171,
+     "lng": -1.51479,
+     "mentions": 1
+    },
+    {
+     "name": "Tulliver Street",
+     "lat": 52.42119,
+     "lng": -1.51788,
+     "mentions": 1
+    },
+    {
+     "name": "Watery Lane",
+     "lat": 52.45089,
+     "lng": -1.53254,
+     "mentions": 1
+    },
+    {
+     "name": "Widdrington Road",
+     "lat": 52.41927,
+     "lng": -1.51042,
+     "mentions": 1
+    },
+    {
+     "name": "Yellowstone Close",
+     "lat": 52.44937,
+     "lng": -1.52734,
+     "mentions": 1
+    },
+    {
+     "name": "Alfred Road",
+     "lat": 52.41449,
+     "lng": -1.49229,
+     "mentions": 1
+    },
+    {
+     "name": "Chester Street",
+     "lat": 52.41133,
+     "lng": -1.52281,
+     "mentions": 1
+    },
+    {
+     "name": "Cope Street",
+     "lat": 52.40865,
+     "lng": -1.5048,
+     "mentions": 1
+    },
+    {
+     "name": "Coronation Road",
+     "lat": 52.41366,
+     "lng": -1.49344,
+     "mentions": 1
+    },
+    {
+     "name": "Corporation Street",
+     "lat": 52.40937,
+     "lng": -1.51398,
+     "mentions": 1
+    },
+    {
+     "name": "Greyfriars Lane",
+     "lat": 52.40647,
+     "lng": -1.51053,
+     "mentions": 1
+    },
+    {
+     "name": "Harnall Lane East",
+     "lat": 52.41587,
+     "lng": -1.49697,
+     "mentions": 1
+    },
+    {
+     "name": "Hay Lane",
+     "lat": 52.40746,
+     "lng": -1.50864,
+     "mentions": 1
+    },
+    {
+     "name": "Humber Avenue",
+     "lat": 52.40323,
+     "lng": -1.49056,
+     "mentions": 1
+    },
+    {
+     "name": "Lower Ford Street",
+     "lat": 52.40953,
+     "lng": -1.50082,
+     "mentions": 1
+    },
+    {
+     "name": "Northumberland Road",
+     "lat": 52.40995,
+     "lng": -1.52528,
+     "mentions": 1
+    },
+    {
+     "name": "Paradise Street",
+     "lat": 52.40332,
+     "lng": -1.50248,
+     "mentions": 1
+    },
+    {
+     "name": "Seagrave Road",
+     "lat": 52.40345,
+     "lng": -1.49953,
+     "mentions": 1
+    },
+    {
+     "name": "St Margaret Road",
+     "lat": 52.40584,
+     "lng": -1.49181,
+     "mentions": 1
+    },
+    {
+     "name": "Swan Lane",
+     "lat": 52.41497,
+     "lng": -1.48946,
+     "mentions": 1
+    },
+    {
+     "name": "Upper Spon Street",
+     "lat": 52.40844,
+     "lng": -1.52411,
+     "mentions": 1
+    },
+    {
+     "name": "Vecqueray Street",
+     "lat": 52.40659,
+     "lng": -1.49686,
+     "mentions": 1
+    },
+    {
+     "name": "Victoria Street",
+     "lat": 52.41334,
+     "lng": -1.50102,
+     "mentions": 1
+    },
+    {
+     "name": "Vincent Street",
+     "lat": 52.40625,
+     "lng": -1.52187,
+     "mentions": 1
+    },
+    {
+     "name": "Vogue Close",
+     "lat": 52.41087,
+     "lng": -1.50037,
+     "mentions": 1
+    },
+    {
+     "name": "White Friars Street",
+     "lat": 52.4061,
+     "lng": -1.50396,
+     "mentions": 1
+    },
+    {
+     "name": "Willowbank Mews",
+     "lat": 52.40415,
+     "lng": -1.49592,
+     "mentions": 1
+    },
+    {
+     "name": "Acorn Street",
+     "lat": 52.3982,
+     "lng": -1.47472,
+     "mentions": 1
+    },
+    {
+     "name": "Border Court",
+     "lat": 52.39959,
+     "lng": -1.48659,
+     "mentions": 1
+    },
+    {
+     "name": "Camden Street",
+     "lat": 52.41506,
+     "lng": -1.48632,
+     "mentions": 1
+    },
+    {
+     "name": "Carpenter Road",
+     "lat": 52.42363,
+     "lng": -1.47905,
+     "mentions": 1
+    },
+    {
+     "name": "Clara Street",
+     "lat": 52.40701,
+     "lng": -1.48568,
+     "mentions": 1
+    },
+    {
+     "name": "Emscote Road",
+     "lat": 52.40658,
+     "lng": -1.4718,
+     "mentions": 1
+    },
+    {
+     "name": "Gresham Street",
+     "lat": 52.40757,
+     "lng": -1.48468,
+     "mentions": 1
+    },
+    {
+     "name": "Hamilton Road",
+     "lat": 52.40922,
+     "lng": -1.48623,
+     "mentions": 1
+    },
+    {
+     "name": "Hartland Avenue",
+     "lat": 52.42095,
+     "lng": -1.47261,
+     "mentions": 1
+    },
+    {
+     "name": "Kings Grove",
+     "lat": 52.41076,
+     "lng": -1.47801,
+     "mentions": 1
+    },
+    {
+     "name": "Pendenis Close",
+     "lat": 52.43165,
+     "lng": -1.48126,
+     "mentions": 1
+    },
+    {
+     "name": "Stepney Road",
+     "lat": 52.41395,
+     "lng": -1.48643,
+     "mentions": 1
+    },
+    {
+     "name": "Stoke Row",
+     "lat": 52.41418,
+     "lng": -1.48153,
+     "mentions": 1
+    },
+    {
+     "name": "Whitworth Avenue",
+     "lat": 52.39899,
+     "lng": -1.47233,
+     "mentions": 1
+    },
+    {
+     "name": "Broomfield Place",
+     "lat": 52.40781,
+     "lng": -1.52904,
+     "mentions": 1
+    },
+    {
+     "name": "Consort Close",
+     "lat": 52.39673,
+     "lng": -1.56387,
+     "mentions": 1
+    },
+    {
+     "name": "Downey Birch",
+     "lat": 52.39525,
+     "lng": -1.5559,
+     "mentions": 1
+    },
+    {
+     "name": "Empire Road",
+     "lat": 52.40695,
+     "lng": -1.58423,
+     "mentions": 1
+    },
+    {
+     "name": "Gerard Avenue",
+     "lat": 52.39546,
+     "lng": -1.56268,
+     "mentions": 1
+    },
+    {
+     "name": "Howcotte Green",
+     "lat": 52.39481,
+     "lng": -1.58379,
+     "mentions": 1
+    },
+    {
+     "name": "Joshua Close",
+     "lat": 52.40711,
+     "lng": -1.57431,
+     "mentions": 1
+    },
+    {
+     "name": "Latham Road",
+     "lat": 52.40667,
+     "lng": -1.53049,
+     "mentions": 1
+    },
+    {
+     "name": "Leasowe's Avenue",
+     "lat": 52.37986,
+     "lng": -1.5354,
+     "mentions": 1
+    },
+    {
+     "name": "Lichen Green",
+     "lat": 52.38449,
+     "lng": -1.54924,
+     "mentions": 1
+    },
+    {
+     "name": "Lonscale Drive",
+     "lat": 52.38153,
+     "lng": -1.52049,
+     "mentions": 1
+    },
+    {
+     "name": "Pepys Corner",
+     "lat": 52.40898,
+     "lng": -1.58559,
+     "mentions": 1
+    },
+    {
+     "name": "Robert Mounford Way",
+     "lat": 52.39877,
+     "lng": -1.57641,
+     "mentions": 1
+    },
+    {
+     "name": "Rosemary Close",
+     "lat": 52.41193,
+     "lng": -1.58764,
+     "mentions": 1
+    },
+    {
+     "name": "Utrillo Close",
+     "lat": 52.41016,
+     "lng": -1.5577,
+     "mentions": 1
+    },
+    {
+     "name": "Wedon Close",
+     "lat": 52.39385,
+     "lng": -1.58603,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    },
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    },
+    {
+     "name": "Binley",
+     "lat": 52.40016,
+     "lng": -1.44441
+    },
+    {
+     "name": "Willenhall",
+     "lat": 52.38627,
+     "lng": -1.46642
+    },
+    {
+     "name": "Cheylesmore",
+     "lat": 52.39364,
+     "lng": -1.50402
+    },
+    {
+     "name": "Earlsdon",
+     "lat": 52.40435,
+     "lng": -1.52995
+    },
+    {
+     "name": "Edgwick",
+     "lat": 52.43072,
+     "lng": -1.49449
+    },
+    {
+     "name": "Longford",
+     "lat": 52.45162,
+     "lng": -1.48854
+    },
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    },
+    {
+     "name": "Emscote",
+     "lat": 52.28876,
+     "lng": -1.56691
+    },
+    {
+     "name": "Whoberley",
+     "lat": 52.4086,
+     "lng": -1.55388
+    }
+   ],
+   "place": {
+    "label": "Kilby Mews, Lower Stoke",
+    "lat": 52.40745,
+    "lng": -1.49519,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-09"
+    ]
+   }
+  },
+  {
+   "id": "3b7a67aebafe",
+   "url": "https://www.coventrytelegraph.net/news/local-news/catcalling-anti-social-e-bike-34677584",
+   "source": "CoventryLive",
+   "title": "Catcalling and anti-social e-bike riding to be banned in parts of Warwick",
+   "published": "2026-09-27T14:00:00.000Z",
+   "category": "anti-social-behaviour",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwick",
+    "Warwickshire"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
