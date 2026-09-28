@@ -3402,6 +3402,41 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "ed44561c8e69",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/paedophile-sexually-assaulted-two-girls-34668206",
+   "source": "CoventryLive",
+   "title": "Paedophile sexually assaulted two girls and tried to rape woman in Coventry",
+   "published": "2026-09-28T10:52:41.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Middlemarch Road",
+     "lat": 52.4271,
+     "lng": -1.51597,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Middlemarch Road, Daimler Green",
+    "lat": 52.4271,
+    "lng": -1.51597,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Courts",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
