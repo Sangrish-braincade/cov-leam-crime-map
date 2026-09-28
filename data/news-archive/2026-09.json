@@ -3437,6 +3437,41 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "37cc2b5fa801",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/former-coventry-hotel-hit-arson-34683755",
+   "source": "CoventryLive",
+   "title": "Former Coventry hotel hit by arson attacks to be urgently demolished",
+   "published": "2026-09-28T14:25:47.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Allesley",
+     "lat": 52.42374,
+     "lng": -1.56352
+    }
+   ],
+   "place": {
+    "label": "Allesley",
+    "lat": 52.42374,
+    "lng": -1.56352,
+    "precision": "area"
+   },
+   "tags": [
+    "ldrcontent",
+    "Allesley",
+    "Planning Applications",
+    "Coventry City Council"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-09"
+    ]
+   }
   }
  ]
 }
