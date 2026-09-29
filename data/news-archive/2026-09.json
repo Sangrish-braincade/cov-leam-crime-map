@@ -3472,6 +3472,174 @@
      "2026-09"
     ]
    }
+  },
+  {
+   "id": "ad3525570d3d",
+   "url": "https://www.coventrytelegraph.net/news/local-news/police-reveal-issue-all-over-34686645",
+   "source": "CoventryLive",
+   "title": "Police reveal issue 'all over' this part of Coventry as undercover cops called in",
+   "published": "2026-09-29T06:44:03.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    }
+   ],
+   "place": {
+    "label": "Foleshill",
+    "lat": 52.43357,
+    "lng": -1.49447,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police",
+    "Foleshill",
+    "Motoring"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-09"
+    ]
+   }
+  },
+  {
+   "id": "37cb9438fcc5",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/burglar-raided-garden-shed-before-34666095",
+   "source": "CoventryLive",
+   "title": "Burglar raided garden shed before stealing £1,600 e-bikes from Coventry HMO",
+   "published": "2026-09-29T10:00:00.000Z",
+   "category": "burglary",
+   "court": true,
+   "streets": [
+    {
+     "name": "Foleshill Road",
+     "lat": 52.42807,
+     "lng": -1.4997,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    }
+   ],
+   "place": {
+    "label": "Foleshill Road, Edgwick",
+    "lat": 52.42807,
+    "lng": -1.4997,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "Foleshill",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "18431b42227f",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/two-jailed-screwdriver-attack-coventry-34684280",
+   "source": "CoventryLive",
+   "title": "Two jailed for screwdriver attack on Coventry shopkeeper in protection racket",
+   "published": "2026-09-29T10:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Holbrook Lane",
+     "lat": 52.43837,
+     "lng": -1.50729,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Holbrook Lane, Holbrooks",
+    "lat": 52.43837,
+    "lng": -1.50729,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "c6b3520bd6bf",
+   "url": "https://www.bbc.co.uk/news/articles/cm74k23x9kdyo",
+   "source": "BBC News",
+   "title": "Coventry man jailed for sexually assaulting two girls",
+   "published": "2026-09-29T11:24:44.794Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Tile Hill",
+     "lat": 52.40256,
+     "lng": -1.58357
+    }
+   ],
+   "place": {
+    "label": "Tile Hill",
+    "lat": 52.40256,
+    "lng": -1.58357,
+    "precision": "area"
+   },
+   "tags": [],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "c27d33cb4d1b",
+   "url": "https://www.bbc.co.uk/news/articles/cwx2zegnlzz7o",
+   "source": "BBC News",
+   "title": "Arson-hit Allesley Hotel in Coventry to be 'urgently demolished'",
+   "published": "2026-09-29T12:55:01.105Z",
+   "category": "criminal-damage-arson",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Allesley",
+     "lat": 52.42374,
+     "lng": -1.56352
+    },
+    {
+     "name": "Tile Hill",
+     "lat": 52.40256,
+     "lng": -1.58357
+    }
+   ],
+   "place": {
+    "label": "Allesley",
+    "lat": 52.42374,
+    "lng": -1.56352,
+    "precision": "area"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-09"
+    ]
+   }
   }
  ]
 }
