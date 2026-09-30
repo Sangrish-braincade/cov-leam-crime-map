@@ -3640,6 +3640,41 @@
      "2026-09"
     ]
    }
+  },
+  {
+   "id": "8f787ccecdbc",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-fraud-checks-stop-325k-34689920",
+   "source": "CoventryLive",
+   "title": "Coventry fraud checks stop £325k overpayments including parking permits, housing, Blue Badges",
+   "published": "2026-09-30T04:30:00.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    }
+   ],
+   "place": {
+    "label": "Wyken",
+    "lat": 52.41839,
+    "lng": -1.4591,
+    "precision": "area"
+   },
+   "tags": [
+    "ldrcontent",
+    "Crime",
+    "Coventry City Council",
+    "DWP"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-09"
+    ]
+   }
   }
  ]
 }
