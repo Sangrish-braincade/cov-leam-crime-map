@@ -135,6 +135,359 @@
      "2026-09"
     ]
    }
+  },
+  {
+   "id": "4e45bae9f96d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-streets-shoplifters-targeting-most-34704587",
+   "source": "CoventryLive",
+   "title": "The Coventry streets shoplifters are targeting the most",
+   "published": "2026-10-02T10:11:00.000Z",
+   "category": "shoplifting",
+   "court": false,
+   "streets": [
+    {
+     "name": "Ironmonger Row",
+     "lat": 52.40903,
+     "lng": -1.51025,
+     "mentions": 2
+    },
+    {
+     "name": "Dalby Close",
+     "lat": 52.3945,
+     "lng": -1.45477,
+     "mentions": 2
+    },
+    {
+     "name": "Cross Cheaping",
+     "lat": 52.40915,
+     "lng": -1.51047,
+     "mentions": 2
+    },
+    {
+     "name": "Burnsall Road",
+     "lat": 52.39615,
+     "lng": -1.55153,
+     "mentions": 1
+    },
+    {
+     "name": "Fletchamstead Highway",
+     "lat": 52.39318,
+     "lng": -1.55096,
+     "mentions": 1
+    },
+    {
+     "name": "Kingsmead Mews",
+     "lat": 52.38896,
+     "lng": -1.4651,
+     "mentions": 1
+    },
+    {
+     "name": "Montgomery Close",
+     "lat": 52.37973,
+     "lng": -1.46571,
+     "mentions": 1
+    },
+    {
+     "name": "Pilkington Road",
+     "lat": 52.39914,
+     "lng": -1.54581,
+     "mentions": 1
+    },
+    {
+     "name": "Renolds Close",
+     "lat": 52.40421,
+     "lng": -1.55627,
+     "mentions": 1
+    },
+    {
+     "name": "Wheler Road",
+     "lat": 52.3922,
+     "lng": -1.48177,
+     "mentions": 1
+    },
+    {
+     "name": "Barton Road",
+     "lat": 52.44003,
+     "lng": -1.49333,
+     "mentions": 1
+    },
+    {
+     "name": "Bridge Street",
+     "lat": 52.42904,
+     "lng": -1.48669,
+     "mentions": 1
+    },
+    {
+     "name": "Heera Close",
+     "lat": 52.43043,
+     "lng": -1.50237,
+     "mentions": 1
+    },
+    {
+     "name": "Ivor Road",
+     "lat": 52.44106,
+     "lng": -1.48963,
+     "mentions": 1
+    },
+    {
+     "name": "Meto Lakha Close",
+     "lat": 52.43106,
+     "lng": -1.48829,
+     "mentions": 1
+    },
+    {
+     "name": "Princess Street",
+     "lat": 52.42813,
+     "lng": -1.49332,
+     "mentions": 1
+    },
+    {
+     "name": "Broad Park Road",
+     "lat": 52.43113,
+     "lng": -1.45757,
+     "mentions": 1
+    },
+    {
+     "name": "Bablake Close",
+     "lat": 52.43169,
+     "lng": -1.53259,
+     "mentions": 1
+    },
+    {
+     "name": "Bevington Crescent",
+     "lat": 52.41795,
+     "lng": -1.54409,
+     "mentions": 1
+    },
+    {
+     "name": "Compton Road",
+     "lat": 52.4427,
+     "lng": -1.50227,
+     "mentions": 1
+    },
+    {
+     "name": "Maplebeck Close",
+     "lat": 52.40972,
+     "lng": -1.52958,
+     "mentions": 1
+    },
+    {
+     "name": "Pembrook Road",
+     "lat": 52.44202,
+     "lng": -1.51036,
+     "mentions": 1
+    },
+    {
+     "name": "Cobb Close",
+     "lat": 52.4134,
+     "lng": -1.48915,
+     "mentions": 1
+    },
+    {
+     "name": "Fairfax Street",
+     "lat": 52.40966,
+     "lng": -1.50607,
+     "mentions": 1
+    },
+    {
+     "name": "Greyfriars Lane",
+     "lat": 52.40647,
+     "lng": -1.51053,
+     "mentions": 1
+    },
+    {
+     "name": "High Street",
+     "lat": 52.40731,
+     "lng": -1.50898,
+     "mentions": 1
+    },
+    {
+     "name": "Hill Top",
+     "lat": 52.4095,
+     "lng": -1.50757,
+     "mentions": 1
+    },
+    {
+     "name": "Poppleton Close",
+     "lat": 52.40357,
+     "lng": -1.52244,
+     "mentions": 1
+    },
+    {
+     "name": "Priory Street",
+     "lat": 52.409,
+     "lng": -1.50633,
+     "mentions": 1
+    },
+    {
+     "name": "Upper Well Street",
+     "lat": 52.41068,
+     "lng": -1.5142,
+     "mentions": 1
+    },
+    {
+     "name": "Victoria Street",
+     "lat": 52.41334,
+     "lng": -1.50102,
+     "mentions": 1
+    },
+    {
+     "name": "White Friars Street",
+     "lat": 52.4061,
+     "lng": -1.50396,
+     "mentions": 1
+    },
+    {
+     "name": "Downderry Way",
+     "lat": 52.4256,
+     "lng": -1.4823,
+     "mentions": 1
+    },
+    {
+     "name": "Hipswell Highway",
+     "lat": 52.41065,
+     "lng": -1.45938,
+     "mentions": 1
+    },
+    {
+     "name": "Sturminster Close",
+     "lat": 52.41431,
+     "lng": -1.44015,
+     "mentions": 1
+    },
+    {
+     "name": "Villiers Street",
+     "lat": 52.41098,
+     "lng": -1.48487,
+     "mentions": 1
+    },
+    {
+     "name": "Cheriton Close",
+     "lat": 52.41445,
+     "lng": -1.55176,
+     "mentions": 1
+    },
+    {
+     "name": "Gramercy Park",
+     "lat": 52.41185,
+     "lng": -1.59834,
+     "mentions": 1
+    },
+    {
+     "name": "Greenland Avenue",
+     "lat": 52.42067,
+     "lng": -1.57588,
+     "mentions": 1
+    },
+    {
+     "name": "Prior Deram Walk",
+     "lat": 52.39438,
+     "lng": -1.56001,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Longford",
+     "lat": 52.45162,
+     "lng": -1.48854
+    },
+    {
+     "name": "Binley",
+     "lat": 52.40016,
+     "lng": -1.44441
+    },
+    {
+     "name": "Willenhall",
+     "lat": 52.38627,
+     "lng": -1.46642
+    },
+    {
+     "name": "Cheylesmore",
+     "lat": 52.39364,
+     "lng": -1.50402
+    },
+    {
+     "name": "Earlsdon",
+     "lat": 52.40435,
+     "lng": -1.52995
+    },
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    },
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    },
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    },
+    {
+     "name": "Whoberley",
+     "lat": 52.4086,
+     "lng": -1.55388
+    }
+   ],
+   "place": {
+    "label": "Ironmonger Row, Coventry",
+    "lat": 52.40903,
+    "lng": -1.51025,
+    "precision": "street"
+   },
+   "tags": [
+    "West Midlands Police",
+    "Coventry Police",
+    "Crime",
+    "Coventry City Centre",
+    "Premium"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10",
+     "2026-09"
+    ]
+   }
+  },
+  {
+   "id": "9a6cc172e297",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-avoids-prison-sentence-34700344",
+   "source": "CoventryLive",
+   "title": "Coventry man avoids prison sentence after threatening stranger with knife near Greggs",
+   "published": "2026-10-02T13:00:00.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [
+    {
+     "name": "Pandora Road",
+     "lat": 52.4295,
+     "lng": -1.45033,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Pandora Road, Manor Farm Estate",
+    "lat": 52.4295,
+    "lng": -1.45033,
+    "precision": "street"
+   },
+   "tags": [
+    "Greggs",
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10",
+     "2026-09"
+    ]
+   }
   }
  ]
 }
