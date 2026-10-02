@@ -1,11 +1,11 @@
 # Research export: Coventry, Leamington, Warwick & Kenilworth crime panel
 
-police.uk street-level crime, 2023-08 to 2026-07, assigned to 2021 Lower Layer Super Output Areas (LSOAs).
+police.uk street-level crime, 2023-08 to 2026-08, assigned to 2021 Lower Layer Super Output Areas (LSOAs).
 Regenerate with `node scripts/export-panel.mjs`.
 
 ## Files
 
-**`panel_lsoa_month_category_outcome.csv`**: long format, one row per non-empty cell (80,764 rows).
+**`panel_lsoa_month_category_outcome.csv`**: long format, one row per non-empty cell (83,049 rows).
 
 | column | meaning |
 |---|---|
@@ -21,8 +21,8 @@ Cells with zero crimes are omitted: treat a missing combination as 0.
 
 ## Coverage
 
-- 159,487 crimes; 159,487 fall inside an LSOA in the lookup, 0 fall outside it (edge of the box).
-- 5,578 distinct police.uk locations, each assigned to an LSOA by point-in-polygon on the full-resolution boundaries.
+- 164,211 crimes; 164,211 fall inside an LSOA in the lookup, 0 fall outside it (edge of the box).
+- 5,579 distinct police.uk locations, each assigned to an LSOA by point-in-polygon on the full-resolution boundaries.
 
 ## Caveats for analysis
 

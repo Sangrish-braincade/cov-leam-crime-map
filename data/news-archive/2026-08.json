@@ -309,10 +309,29 @@
     "Premium"
    ],
    "police": {
-    "status": "no-match",
+    "status": "matched",
     "months": [
      "2026-08",
      "2026-07"
+    ],
+    "candidates": 2,
+    "nearest": [
+     {
+      "street": "Warwick By-pass",
+      "lat": 52.262078,
+      "lng": -1.611696,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 109
+     },
+     {
+      "street": "Stratford Road",
+      "lat": 52.261083,
+      "lng": -1.606972,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 244
+     }
     ]
    }
   },
@@ -458,47 +477,47 @@
      "2026-08",
      "2026-07"
     ],
-    "candidates": 97,
+    "candidates": 200,
     "nearest": [
+     {
+      "street": "Trinity Street",
+      "lat": 52.409722,
+      "lng": -1.509363,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 0
+     },
      {
       "street": "Supermarket",
       "lat": 52.409882,
       "lng": -1.508891,
-      "month": "2026-07",
-      "n": 3,
+      "month": "2026-08",
+      "n": 8,
       "metres": 37
+     },
+     {
+      "street": "Palmer Lane",
+      "lat": 52.409949,
+      "lng": -1.509934,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 46
      },
      {
       "street": "Hales Street",
       "lat": 52.410424,
       "lng": -1.509385,
-      "month": "2026-07",
-      "n": 3,
+      "month": "2026-08",
+      "n": 7,
       "metres": 78
      },
      {
       "street": "Ironmonger Row",
       "lat": 52.409034,
       "lng": -1.510253,
-      "month": "2026-07",
-      "n": 3,
+      "month": "2026-08",
+      "n": 9,
       "metres": 97
-     },
-     {
-      "street": "Cross Cheaping",
-      "lat": 52.409152,
-      "lng": -1.510472,
-      "month": "2026-07",
-      "n": 7,
-      "metres": 98
-     },
-     {
-      "street": "Burges",
-      "lat": 52.410124,
-      "lng": -1.510799,
-      "month": "2026-07",
-      "n": 11,
-      "metres": 107
      }
     ]
    }
@@ -634,9 +653,52 @@
     "Crime"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 6,
+    "nearest": [
+     {
+      "street": "Skylark Street",
+      "lat": 52.394868,
+      "lng": -1.571074,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 79
+     },
+     {
+      "street": "Hemsby Close",
+      "lat": 52.394292,
+      "lng": -1.568625,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 256
+     },
+     {
+      "street": "Mitchell Avenue",
+      "lat": 52.391571,
+      "lng": -1.569431,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 446
+     },
+     {
+      "street": "Blanchfort Close",
+      "lat": 52.401396,
+      "lng": -1.576434,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 744
+     },
+     {
+      "street": "Dormer Harris Avenue",
+      "lat": 52.400047,
+      "lng": -1.581268,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 820
+     }
     ]
    }
   },
@@ -722,9 +784,20 @@
     "West Midlands Police"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 1,
+    "nearest": [
+     {
+      "street": "Sports/recreation Area",
+      "lat": 52.439344,
+      "lng": -1.511344,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 295
+     }
     ]
    }
   },
@@ -766,7 +839,7 @@
     "Courts"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "no-match",
     "months": [
      "2026-08"
     ]
@@ -853,9 +926,28 @@
     "West Midlands Police"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 3,
+    "nearest": [
+     {
+      "street": "Kegworth Close",
+      "lat": 52.448685,
+      "lng": -1.483991,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 67
+     },
+     {
+      "street": "Elmhurst Road",
+      "lat": 52.448762,
+      "lng": -1.485167,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 143
+     }
     ]
    }
   },
@@ -935,7 +1027,7 @@
     "Courts"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "no-match",
     "months": [
      "2026-08"
     ]
@@ -1085,9 +1177,44 @@
     "Coventry Police"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 4,
+    "nearest": [
+     {
+      "street": "Kegworth Close",
+      "lat": 52.448685,
+      "lng": -1.483991,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 449
+     },
+     {
+      "street": "Oakmoor Road",
+      "lat": 52.448358,
+      "lng": -1.483156,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 514
+     },
+     {
+      "street": "Supermarket",
+      "lat": 52.44426,
+      "lng": -1.491663,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 844
+     },
+     {
+      "street": "Parking Area",
+      "lat": 52.444599,
+      "lng": -1.493366,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 845
+     }
     ]
    }
   },
@@ -1177,9 +1304,20 @@
     "Drugs"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 1,
+    "nearest": [
+     {
+      "street": "Clennon Rise",
+      "lat": 52.432071,
+      "lng": -1.45971,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 141
+     }
     ]
    }
   },
@@ -1214,9 +1352,52 @@
     "Wood End"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 12,
+    "nearest": [
+     {
+      "street": "Roselands Avenue",
+      "lat": 52.432583,
+      "lng": -1.461616,
+      "month": "2026-08",
+      "n": 4,
+      "metres": 0
+     },
+     {
+      "street": "Blossom Walk",
+      "lat": 52.433619,
+      "lng": -1.462118,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 120
+     },
+     {
+      "street": "Winston Close",
+      "lat": 52.433697,
+      "lng": -1.46144,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 125
+     },
+     {
+      "street": "Clennon Rise",
+      "lat": 52.432071,
+      "lng": -1.45971,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 141
+     },
+     {
+      "street": "Eccles Close",
+      "lat": 52.433309,
+      "lng": -1.46496,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 240
+     }
     ]
    }
   },
@@ -1256,9 +1437,52 @@
     "Crime"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 12,
+    "nearest": [
+     {
+      "street": "Roselands Avenue",
+      "lat": 52.432583,
+      "lng": -1.461616,
+      "month": "2026-08",
+      "n": 4,
+      "metres": 0
+     },
+     {
+      "street": "Blossom Walk",
+      "lat": 52.433619,
+      "lng": -1.462118,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 120
+     },
+     {
+      "street": "Winston Close",
+      "lat": 52.433697,
+      "lng": -1.46144,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 125
+     },
+     {
+      "street": "Clennon Rise",
+      "lat": 52.432071,
+      "lng": -1.45971,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 141
+     },
+     {
+      "street": "Eccles Close",
+      "lat": 52.433309,
+      "lng": -1.46496,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 240
+     }
     ]
    }
   },
@@ -1290,7 +1514,7 @@
     "Crime"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "no-match",
     "months": [
      "2026-08"
     ]
@@ -1353,9 +1577,52 @@
     "Coventry Police"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 12,
+    "nearest": [
+     {
+      "street": "Roselands Avenue",
+      "lat": 52.432583,
+      "lng": -1.461616,
+      "month": "2026-08",
+      "n": 4,
+      "metres": 0
+     },
+     {
+      "street": "Blossom Walk",
+      "lat": 52.433619,
+      "lng": -1.462118,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 120
+     },
+     {
+      "street": "Winston Close",
+      "lat": 52.433697,
+      "lng": -1.46144,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 125
+     },
+     {
+      "street": "Clennon Rise",
+      "lat": 52.432071,
+      "lng": -1.45971,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 141
+     },
+     {
+      "street": "Eccles Close",
+      "lat": 52.433309,
+      "lng": -1.46496,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 240
+     }
     ]
    }
   },
@@ -1490,9 +1757,36 @@
     "Crime"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 3,
+    "nearest": [
+     {
+      "street": "Kilby Mews",
+      "lat": 52.407451,
+      "lng": -1.495188,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 48
+     },
+     {
+      "street": "Bramble Street",
+      "lat": 52.406636,
+      "lng": -1.495785,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 146
+     },
+     {
+      "street": "East Street",
+      "lat": 52.410131,
+      "lng": -1.495363,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 252
+     }
     ]
    }
   },
@@ -1526,7 +1820,7 @@
     "Crime"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "no-match",
     "months": [
      "2026-08"
     ]
@@ -1568,9 +1862,52 @@
     "Coventry Police"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 41,
+    "nearest": [
+     {
+      "street": "Paynes Lane",
+      "lat": 52.410273,
+      "lng": -1.492951,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 0
+     },
+     {
+      "street": "Lansdowne Street",
+      "lat": 52.409497,
+      "lng": -1.492122,
+      "month": "2026-08",
+      "n": 21,
+      "metres": 103
+     },
+     {
+      "street": "Further/higher Educational Building",
+      "lat": 52.409123,
+      "lng": -1.493052,
+      "month": "2026-08",
+      "n": 6,
+      "metres": 128
+     },
+     {
+      "street": "Sparkbrook Street",
+      "lat": 52.411348,
+      "lng": -1.494129,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 144
+     },
+     {
+      "street": "Vauxhall Street",
+      "lat": 52.411048,
+      "lng": -1.495397,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 187
+     }
     ]
    }
   },
@@ -1611,9 +1948,20 @@
     "Hillfields"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 1,
+    "nearest": [
+     {
+      "street": "Paynes Lane",
+      "lat": 52.410273,
+      "lng": -1.492951,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 0
+     }
     ]
    }
   },
@@ -1655,9 +2003,36 @@
     "National Express"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 18,
+    "nearest": [
+     {
+      "street": "Webster Street",
+      "lat": 52.427665,
+      "lng": -1.498251,
+      "month": "2026-08",
+      "n": 3,
+      "metres": 108
+     },
+     {
+      "street": "Gressingham Grove",
+      "lat": 52.426728,
+      "lng": -1.502012,
+      "month": "2026-08",
+      "n": 6,
+      "metres": 216
+     },
+     {
+      "street": "Broad Street",
+      "lat": 52.426851,
+      "lng": -1.497011,
+      "month": "2026-08",
+      "n": 9,
+      "metres": 227
+     }
     ]
    }
   },
@@ -1694,9 +2069,36 @@
     "West Midlands Police"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 3,
+    "nearest": [
+     {
+      "street": "Holborn Avenue",
+      "lat": 52.443525,
+      "lng": -1.511474,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 134
+     },
+     {
+      "street": "Butlin Road",
+      "lat": 52.448445,
+      "lng": -1.509801,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 425
+     },
+     {
+      "street": "Bransdale Avenue",
+      "lat": 52.447515,
+      "lng": -1.502543,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 669
+     }
     ]
    }
   },
@@ -1762,9 +2164,52 @@
     "West Midlands Police"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 5,
+    "nearest": [
+     {
+      "street": "Supermarket",
+      "lat": 52.391134,
+      "lng": -1.649388,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 111
+     },
+     {
+      "street": "Petrol Station",
+      "lat": 52.391278,
+      "lng": -1.650439,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 171
+     },
+     {
+      "street": "Parking Area",
+      "lat": 52.392475,
+      "lng": -1.649716,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 256
+     },
+     {
+      "street": "Leveson Crescent",
+      "lat": 52.387713,
+      "lng": -1.647902,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 290
+     },
+     {
+      "street": "Welsh Road",
+      "lat": 52.383059,
+      "lng": -1.642738,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 893
+     }
     ]
    }
   },
@@ -1798,9 +2243,20 @@
     "Coventry Police"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 1,
+    "nearest": [
+     {
+      "street": "Paynes Lane",
+      "lat": 52.410273,
+      "lng": -1.492951,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 0
+     }
     ]
    }
   },
@@ -1920,9 +2376,52 @@
     "West Midlands Police"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 53,
+    "nearest": [
+     {
+      "street": "Falstaff Road",
+      "lat": 52.403595,
+      "lng": -1.583072,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 120
+     },
+     {
+      "street": "Howlette Road",
+      "lat": 52.404215,
+      "lng": -1.583081,
+      "month": "2026-08",
+      "n": 3,
+      "metres": 187
+     },
+     {
+      "street": "Pinnock Place",
+      "lat": 52.40293,
+      "lng": -1.580726,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 197
+     },
+     {
+      "street": "Frisby Road",
+      "lat": 52.404694,
+      "lng": -1.583605,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 237
+     },
+     {
+      "street": "Wheate Croft",
+      "lat": 52.404693,
+      "lng": -1.580886,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 299
+     }
     ]
    }
   },
@@ -2059,7 +2558,7 @@
     "Warwickshire Police"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "no-match",
     "months": [
      "2026-08"
     ]
@@ -2306,9 +2805,52 @@
     "West Midlands Police"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 18,
+    "nearest": [
+     {
+      "street": "Trinity Lane",
+      "lat": 52.408581,
+      "lng": -1.509464,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 94
+     },
+     {
+      "street": "Ironmonger Row",
+      "lat": 52.409034,
+      "lng": -1.510253,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 106
+     },
+     {
+      "street": "Priory Street",
+      "lat": 52.408999,
+      "lng": -1.506328,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 306
+     },
+     {
+      "street": "Bus/coach Station",
+      "lat": 52.410011,
+      "lng": -1.507087,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 319
+     },
+     {
+      "street": "Pool Meadow Bus Station",
+      "lat": 52.410323,
+      "lng": -1.506872,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 353
+     }
     ]
    }
   },
@@ -2380,9 +2922,52 @@
     "Coventry City Centre"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 23,
+    "nearest": [
+     {
+      "street": "Shopping Area",
+      "lat": 52.408539,
+      "lng": -1.512448,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 134
+     },
+     {
+      "street": "Greyfriars Lane",
+      "lat": 52.406473,
+      "lng": -1.510531,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 181
+     },
+     {
+      "street": "Parking Area",
+      "lat": 52.409482,
+      "lng": -1.5121,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 184
+     },
+     {
+      "street": "Burges",
+      "lat": 52.410124,
+      "lng": -1.510799,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 225
+     },
+     {
+      "street": "Hill Top",
+      "lat": 52.409499,
+      "lng": -1.507572,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 257
+     }
     ]
    }
   },
@@ -2469,7 +3054,7 @@
     "Courts"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "no-match",
     "months": [
      "2026-08"
     ]
@@ -2505,9 +3090,52 @@
     "West Midlands Ambulance Service"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 46,
+    "nearest": [
+     {
+      "street": "Far Gosford Street",
+      "lat": 52.407873,
+      "lng": -1.495036,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 0
+     },
+     {
+      "street": "Sky Blue Way",
+      "lat": 52.408393,
+      "lng": -1.494648,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 64
+     },
+     {
+      "street": "Shopping Area",
+      "lat": 52.407755,
+      "lng": -1.493956,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 75
+     },
+     {
+      "street": "Shopping Area",
+      "lat": 52.407863,
+      "lng": -1.493704,
+      "month": "2026-08",
+      "n": 5,
+      "metres": 91
+     },
+     {
+      "street": "Grafton Street",
+      "lat": 52.406935,
+      "lng": -1.494282,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 116
+     }
     ]
    }
   },
@@ -2582,9 +3210,52 @@
     "Coventry Police"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 46,
+    "nearest": [
+     {
+      "street": "Far Gosford Street",
+      "lat": 52.407873,
+      "lng": -1.495036,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 0
+     },
+     {
+      "street": "Sky Blue Way",
+      "lat": 52.408393,
+      "lng": -1.494648,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 64
+     },
+     {
+      "street": "Shopping Area",
+      "lat": 52.407755,
+      "lng": -1.493956,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 75
+     },
+     {
+      "street": "Shopping Area",
+      "lat": 52.407863,
+      "lng": -1.493704,
+      "month": "2026-08",
+      "n": 5,
+      "metres": 91
+     },
+     {
+      "street": "Grafton Street",
+      "lat": 52.406935,
+      "lng": -1.494282,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 116
+     }
     ]
    }
   },
@@ -2630,9 +3301,52 @@
     "West Midlands Ambulance Service"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 15,
+    "nearest": [
+     {
+      "street": "Waveley Road",
+      "lat": 52.409595,
+      "lng": -1.524374,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 129
+     },
+     {
+      "street": "Windsor Street",
+      "lat": 52.407333,
+      "lng": -1.523061,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 142
+     },
+     {
+      "street": "Northumberland Road",
+      "lat": 52.409949,
+      "lng": -1.525282,
+      "month": "2026-08",
+      "n": 3,
+      "metres": 185
+     },
+     {
+      "street": "Minster Road",
+      "lat": 52.410208,
+      "lng": -1.522603,
+      "month": "2026-08",
+      "n": 4,
+      "metres": 221
+     },
+     {
+      "street": "Barras Lane",
+      "lat": 52.409978,
+      "lng": -1.521385,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 251
+     }
     ]
    }
   },
@@ -2685,9 +3399,52 @@
     "Far Gosford Street"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 46,
+    "nearest": [
+     {
+      "street": "Far Gosford Street",
+      "lat": 52.407873,
+      "lng": -1.495036,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 0
+     },
+     {
+      "street": "Sky Blue Way",
+      "lat": 52.408393,
+      "lng": -1.494648,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 64
+     },
+     {
+      "street": "Shopping Area",
+      "lat": 52.407755,
+      "lng": -1.493956,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 75
+     },
+     {
+      "street": "Shopping Area",
+      "lat": 52.407863,
+      "lng": -1.493704,
+      "month": "2026-08",
+      "n": 5,
+      "metres": 91
+     },
+     {
+      "street": "Grafton Street",
+      "lat": 52.406935,
+      "lng": -1.494282,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 116
+     }
     ]
    }
   },
@@ -2814,9 +3571,52 @@
     "Coventry City Centre"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 46,
+    "nearest": [
+     {
+      "street": "Far Gosford Street",
+      "lat": 52.407873,
+      "lng": -1.495036,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 0
+     },
+     {
+      "street": "Sky Blue Way",
+      "lat": 52.408393,
+      "lng": -1.494648,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 64
+     },
+     {
+      "street": "Shopping Area",
+      "lat": 52.407755,
+      "lng": -1.493956,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 75
+     },
+     {
+      "street": "Shopping Area",
+      "lat": 52.407863,
+      "lng": -1.493704,
+      "month": "2026-08",
+      "n": 5,
+      "metres": 91
+     },
+     {
+      "street": "Grafton Street",
+      "lat": 52.406935,
+      "lng": -1.494282,
+      "month": "2026-08",
+      "n": 2,
+      "metres": 116
+     }
     ]
    }
   },
@@ -2858,9 +3658,52 @@
     "West Midlands Ambulance Service"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-08"
+    ],
+    "candidates": 15,
+    "nearest": [
+     {
+      "street": "Waveley Road",
+      "lat": 52.409595,
+      "lng": -1.524374,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 129
+     },
+     {
+      "street": "Windsor Street",
+      "lat": 52.407333,
+      "lng": -1.523061,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 142
+     },
+     {
+      "street": "Northumberland Road",
+      "lat": 52.409949,
+      "lng": -1.525282,
+      "month": "2026-08",
+      "n": 3,
+      "metres": 185
+     },
+     {
+      "street": "Minster Road",
+      "lat": 52.410208,
+      "lng": -1.522603,
+      "month": "2026-08",
+      "n": 4,
+      "metres": 221
+     },
+     {
+      "street": "Barras Lane",
+      "lat": 52.409978,
+      "lng": -1.521385,
+      "month": "2026-08",
+      "n": 1,
+      "metres": 251
+     }
     ]
    }
   },
@@ -3122,7 +3965,7 @@
     "Radford"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "no-match",
     "months": [
      "2026-08"
     ]
