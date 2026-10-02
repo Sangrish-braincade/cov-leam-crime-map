@@ -91,6 +91,50 @@
      "2026-09"
     ]
    }
+  },
+  {
+   "id": "d96f301db792",
+   "url": "https://www.coventrytelegraph.net/news/local-news/stolen-1000cc-bmw-bike-hurtled-34703525",
+   "source": "CoventryLive",
+   "title": "Stolen 1,000cc BMW bike 'hurtled down M6 at 140mph'",
+   "published": "2026-10-02T05:44:00.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [
+    {
+     "name": "Bayton Road",
+     "lat": 52.46462,
+     "lng": -1.47375,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Exhall",
+     "lat": 52.4633,
+     "lng": -1.48132
+    }
+   ],
+   "place": {
+    "label": "Bayton Road, Exhall",
+    "lat": 52.46462,
+    "lng": -1.47375,
+    "precision": "street"
+   },
+   "tags": [
+    "Bedworth",
+    "M6",
+    "Warwickshire Police",
+    "Crime",
+    "Exhall"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10",
+     "2026-09"
+    ]
+   }
   }
  ]
 }
