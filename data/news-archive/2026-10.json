@@ -488,6 +488,49 @@
      "2026-09"
     ]
    }
+  },
+  {
+   "id": "1877e22459d7",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-community-hit-much-knife-34705509",
+   "source": "CoventryLive",
+   "title": "The Coventry community hit by so much knife crime that extra action has been taken",
+   "published": "2026-10-03T04:30:00.000Z",
+   "category": "possession-of-weapons",
+   "court": false,
+   "streets": [
+    {
+     "name": "Remembrance Road",
+     "lat": 52.38819,
+     "lng": -1.4607,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Willenhall",
+     "lat": 52.38627,
+     "lng": -1.46642
+    }
+   ],
+   "place": {
+    "label": "Remembrance Road, Willenhall",
+    "lat": 52.38819,
+    "lng": -1.4607,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Willenhall",
+    "Coventry Police",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10",
+     "2026-09"
+    ]
+   }
   }
  ]
 }
