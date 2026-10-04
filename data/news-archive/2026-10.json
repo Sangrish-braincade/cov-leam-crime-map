@@ -550,6 +550,126 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "f3e54e14b42c",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/thugs-predators-organised-crime-bosses-34701573",
+   "source": "CoventryLive",
+   "title": "The thugs, predators and organised crime bosses locked up in Coventry and Warwickshire in September",
+   "published": "2026-10-04T04:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Gosford Street",
+     "lat": 52.40665,
+     "lng": -1.50149,
+     "mentions": 2
+    },
+    {
+     "name": "Claremont Road",
+     "lat": 52.27986,
+     "lng": -1.53237,
+     "mentions": 1
+    },
+    {
+     "name": "Corporation Street",
+     "lat": 52.40937,
+     "lng": -1.51398,
+     "mentions": 1
+    },
+    {
+     "name": "Lower Holyhead Road",
+     "lat": 52.40895,
+     "lng": -1.51721,
+     "mentions": 1
+    },
+    {
+     "name": "Sky Blue Way",
+     "lat": 52.40839,
+     "lng": -1.49465,
+     "mentions": 1
+    },
+    {
+     "name": "Holbrook Lane",
+     "lat": 52.43837,
+     "lng": -1.50729,
+     "mentions": 1
+    },
+    {
+     "name": "Trinity Street",
+     "lat": 52.40972,
+     "lng": -1.50936,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Willenhall",
+     "lat": 52.38627,
+     "lng": -1.46642
+    },
+    {
+     "name": "Coventry city centre",
+     "lat": 52.4081,
+     "lng": -1.5106
+    },
+    {
+     "name": "Holbrooks",
+     "lat": 52.44473,
+     "lng": -1.5113
+    }
+   ],
+   "place": {
+    "label": "Gosford Street, Coventry",
+    "lat": 52.40665,
+    "lng": -1.50149,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Courts",
+    "West Midlands Police",
+    "Warwickshire Police",
+    "Coventry Police",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "902ee502b303",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/brave-survivor-abused-child-shares-34666728",
+   "source": "CoventryLive",
+   "title": "Brave survivor abused as a child shares true impact and says 'it's changed everything'",
+   "published": "2026-10-04T04:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Middlemarch Road",
+     "lat": 52.4271,
+     "lng": -1.51597,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Middlemarch Road, Daimler Green",
+    "lat": 52.4271,
+    "lng": -1.51597,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
