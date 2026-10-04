@@ -670,6 +670,42 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "8ee455ffe78d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/trainee-shaman-drugs-peru-medicine-34714717",
+   "source": "CoventryLive",
+   "title": "'Trainee shaman' had drugs from Peru 'medicine man' posted to his Midland home",
+   "published": "2026-10-04T14:05:49.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [
+    {
+     "name": "Coventry Airport",
+     "lat": 52.36999,
+     "lng": -1.48151,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Coventry Airport, Baginton",
+    "lat": 52.36999,
+    "lng": -1.48151,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry Airport",
+    "Coventry",
+    "Courts",
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
