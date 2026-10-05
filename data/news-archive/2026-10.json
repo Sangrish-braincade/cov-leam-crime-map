@@ -706,6 +706,93 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "e2735bfa34d9",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-sex-offender-who-abused-34684077",
+   "source": "CoventryLive",
+   "title": "Coventry sex offender who abused two girls and tried to rape woman jailed 24 years",
+   "published": "2026-10-05T10:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "d108d247d46c",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/two-dangerous-driving-arrests-after-34718751",
+   "source": "CoventryLive",
+   "title": "Two dangerous driving arrests after man seriously hurt in Coventry crash",
+   "published": "2026-10-05T13:43:35.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Dunsmore Avenue",
+     "lat": 52.38671,
+     "lng": -1.46758,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Dunsmore Avenue, Willenhall",
+    "lat": 52.38671,
+    "lng": -1.46758,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
+  },
+  {
+   "id": "7ab47c015835",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/wanted-man-goes-coventry-gym-34719238",
+   "source": "CoventryLive",
+   "title": "Wanted man goes to Coventry gym and ends up in jail as armed police shoot out tyres",
+   "published": "2026-10-05T14:31:25.000Z",
+   "category": "criminal-damage-arson",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Binley",
+     "lat": 52.40016,
+     "lng": -1.44441
+    }
+   ],
+   "place": {
+    "label": "Binley",
+    "lat": 52.40016,
+    "lng": -1.44441,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "West Midlands Police",
+    "Coventry Police",
+    "Binley"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
