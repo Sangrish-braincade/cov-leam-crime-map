@@ -793,6 +793,51 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "242b08b5a96d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/huge-cannabis-farm-found-coventry-34718533",
+   "source": "CoventryLive",
+   "title": "Huge cannabis farm found in Coventry as two men arrested",
+   "published": "2026-10-06T06:49:52.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [
+    {
+     "name": "Hipswell Highway",
+     "lat": 52.41065,
+     "lng": -1.45938,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    }
+   ],
+   "place": {
+    "label": "Hipswell Highway, Stoke Hill",
+    "lat": 52.41065,
+    "lng": -1.45938,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Cannabis",
+    "Drugs",
+    "West Midlands Police",
+    "Coventry Police",
+    "Wyken"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
