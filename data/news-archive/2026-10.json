@@ -1086,6 +1086,41 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "4c4a25e92060",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/dangerous-driving-arrests-update-after-34731140",
+   "source": "CoventryLive",
+   "title": "Dangerous driving arrests update after man seriously hurt at Coventry junction",
+   "published": "2026-10-07T14:39:16.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Dunsmore Avenue",
+     "lat": 52.38671,
+     "lng": -1.46758,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Dunsmore Avenue, Willenhall",
+    "lat": 52.38671,
+    "lng": -1.46758,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
