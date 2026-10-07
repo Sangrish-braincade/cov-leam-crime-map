@@ -951,6 +951,141 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "9a09ab1a493b",
+   "url": "https://www.coventrytelegraph.net/news/local-news/biker-threatened-machete-waiting-traffic-34726978",
+   "source": "CoventryLive",
+   "title": "Biker threatened with machete while waiting at traffic lights",
+   "published": "2026-10-07T09:10:44.000Z",
+   "category": "possession-of-weapons",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwick",
+    "Crime",
+    "Warwickshire Police",
+    "Warwickshire"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "2a7fdfec27db",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/thug-who-attacked-family-members-34716579",
+   "source": "CoventryLive",
+   "title": "Thug who attacked family members with pitchfork and billhook wanted to be the 'big man'",
+   "published": "2026-10-07T09:54:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Fletchamstead Highway",
+     "lat": 52.39318,
+     "lng": -1.55096,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Ryton-on-Dunsmore",
+     "lat": 52.36735,
+     "lng": -1.43674
+    }
+   ],
+   "place": {
+    "label": "Fletchamstead Highway, Canley Gardens",
+    "lat": 52.39318,
+    "lng": -1.55096,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Courts",
+    "Warwickshire",
+    "Crime",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "2beec8cd11ea",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/solihull-chocolate-thief-fined-141-34695899",
+   "source": "CoventryLive",
+   "title": "Solihull chocolate thief fined £141 - 'it was an expensive piece of chocolate'",
+   "published": "2026-10-07T10:23:00.000Z",
+   "category": "other-theft",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Meriden",
+     "lat": 52.43732,
+     "lng": -1.64712
+    }
+   ],
+   "place": {
+    "label": "Meriden",
+    "lat": 52.43732,
+    "lng": -1.64712,
+    "precision": "area"
+   },
+   "tags": [
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "ceb8110301cc",
+   "url": "https://www.coventrytelegraph.net/news/local-news/face-shoplifter-banned-every-ms-34728705",
+   "source": "CoventryLive",
+   "title": "Face of shoplifter banned from every M&S and Sainsbury's in Warwickshire",
+   "published": "2026-10-07T11:07:34.000Z",
+   "category": "shoplifting",
+   "court": true,
+   "streets": [
+    {
+     "name": "Emscote Road",
+     "lat": 52.28703,
+     "lng": -1.56739,
+     "mentions": 1
+    },
+    {
+     "name": "Coten End",
+     "lat": 52.28443,
+     "lng": -1.57861,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Emscote",
+     "lat": 52.28876,
+     "lng": -1.56691
+    }
+   ],
+   "place": {
+    "label": "Emscote Road, Emscote",
+    "lat": 52.28703,
+    "lng": -1.56739,
+    "precision": "street"
+   },
+   "tags": [
+    "Warwickshire",
+    "Warwickshire Police",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
