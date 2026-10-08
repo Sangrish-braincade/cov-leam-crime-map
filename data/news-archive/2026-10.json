@@ -1155,6 +1155,59 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "e2d1e05bc0f6",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-street-police-say-double-34733004",
+   "source": "CoventryLive",
+   "title": "The Coventry street where police say double-parking is 'not safe' as drivers fined",
+   "published": "2026-10-08T06:40:22.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [
+    {
+     "name": "Churchill Avenue",
+     "lat": 52.43453,
+     "lng": -1.49922,
+     "mentions": 2
+    },
+    {
+     "name": "Stoney Stanton Road",
+     "lat": 52.42114,
+     "lng": -1.49652,
+     "mentions": 1
+    },
+    {
+     "name": "Foleshill Road",
+     "lat": 52.42807,
+     "lng": -1.4997,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    }
+   ],
+   "place": {
+    "label": "Churchill Avenue, Foleshill",
+    "lat": 52.43453,
+    "lng": -1.49922,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "Foleshill"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
