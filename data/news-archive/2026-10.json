@@ -1121,6 +1121,40 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "f8f4a2bd978d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-viciously-attacked-thieves-coventry-34731770",
+   "source": "CoventryLive",
+   "title": "Man 'viciously' attacked by thieves - as Coventry community rallies to support him",
+   "published": "2026-10-08T04:30:00.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Spon End",
+     "lat": 52.40691,
+     "lng": -1.52475
+    }
+   ],
+   "place": {
+    "label": "Spon End",
+    "lat": 52.40691,
+    "lng": -1.52475,
+    "precision": "area"
+   },
+   "tags": [
+    "Crime",
+    "West Midlands Police",
+    "Spon End"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
