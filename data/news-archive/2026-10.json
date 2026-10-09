@@ -1208,6 +1208,49 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "4aedde49b1d4",
+   "url": "https://www.coventrytelegraph.net/news/local-news/former-bedworth-cannabis-bank-refurbished-34735300",
+   "source": "CoventryLive",
+   "title": "Former Bedworth 'cannabis' bank to be refurbished in a bid to get new tenant in",
+   "published": "2026-10-09T04:05:00.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [
+    {
+     "name": "High Street",
+     "lat": 52.43825,
+     "lng": -1.53257,
+     "mentions": 3
+    }
+   ],
+   "areas": [
+    {
+     "name": "Keresley",
+     "lat": 52.45005,
+     "lng": -1.53453
+    }
+   ],
+   "place": {
+    "label": "High Street, Whitmore Park",
+    "lat": 52.43825,
+    "lng": -1.53257,
+    "precision": "street"
+   },
+   "tags": [
+    "Bedworth",
+    "Nuneaton and Bedworth Borough Council",
+    "Nuneaton",
+    "Bulkington",
+    "Keresley"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
