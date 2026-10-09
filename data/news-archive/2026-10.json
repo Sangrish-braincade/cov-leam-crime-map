@@ -1251,6 +1251,71 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "48f2546b635c",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-shoplifting-streets-listed-332-34716662",
+   "source": "CoventryLive",
+   "title": "Coventry shoplifting: The streets listed in 332 August reports",
+   "published": "2026-10-09T09:56:00.000Z",
+   "category": "shoplifting",
+   "court": false,
+   "streets": [
+    {
+     "name": "Ironmonger Row",
+     "lat": 52.40903,
+     "lng": -1.51025,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Longford",
+     "lat": 52.45162,
+     "lng": -1.48854
+    },
+    {
+     "name": "Binley",
+     "lat": 52.40016,
+     "lng": -1.44441
+    },
+    {
+     "name": "Willenhall",
+     "lat": 52.38627,
+     "lng": -1.46642
+    },
+    {
+     "name": "Cheylesmore",
+     "lat": 52.39364,
+     "lng": -1.50402
+    },
+    {
+     "name": "Earlsdon",
+     "lat": 52.40435,
+     "lng": -1.52995
+    },
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    }
+   ],
+   "place": {
+    "label": "Ironmonger Row, Coventry",
+    "lat": 52.40903,
+    "lng": -1.51025,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
