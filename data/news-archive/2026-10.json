@@ -1316,6 +1316,105 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "3fd1ff704cd1",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/court-hears-lasting-impact-child-34716715",
+   "source": "CoventryLive",
+   "title": "Court hears lasting impact of child sexual abuse as Coventry man jailed",
+   "published": "2026-10-10T04:04:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "112a738cd7c0",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-woman-no-recollection-stealing-34733932",
+   "source": "CoventryLive",
+   "title": "Coventry woman had 'no recollection' of stealing nearly £100 worth of clothes from Primark",
+   "published": "2026-10-10T04:07:00.000Z",
+   "category": "other-theft",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Broadgate",
+     "lat": 52.40815,
+     "lng": -1.51065
+    }
+   ],
+   "place": {
+    "label": "Broadgate",
+    "lat": 52.40815,
+    "lng": -1.51065,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Coventry City Centre",
+    "Primark",
+    "West Midlands Police",
+    "Broadgate",
+    "Premium",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "fb18c5faceb8",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/moment-escaped-prisoner-rammed-police-34739379",
+   "source": "CoventryLive",
+   "title": "Moment escaped prisoner rammed into police cars outside Coventry gym",
+   "published": "2026-10-10T05:00:00.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [
+    {
+     "name": "Santos Close",
+     "lat": 52.39797,
+     "lng": -1.44849,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Binley",
+     "lat": 52.40016,
+     "lng": -1.44441
+    }
+   ],
+   "place": {
+    "label": "Santos Close, Binley",
+    "lat": 52.39797,
+    "lng": -1.44849,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Courts",
+    "Binley"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
