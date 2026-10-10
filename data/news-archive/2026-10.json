@@ -1415,6 +1415,48 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "f633535dc4a7",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/cctv-appeal-after-stolen-bank-34745411",
+   "source": "CoventryLive",
+   "title": "CCTV appeal after 'stolen bank card used in Coventry shop'",
+   "published": "2026-10-10T12:01:17.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [
+    {
+     "name": "King William Street",
+     "lat": 52.41349,
+     "lng": -1.49782,
+     "mentions": 3
+    }
+   ],
+   "areas": [
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    }
+   ],
+   "place": {
+    "label": "King William Street, Hillfields",
+    "lat": 52.41349,
+    "lng": -1.49782,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Hillfields"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
