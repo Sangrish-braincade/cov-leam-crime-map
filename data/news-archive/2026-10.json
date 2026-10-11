@@ -1476,6 +1476,62 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "bfe58b024151",
+   "url": "https://www.coventrytelegraph.net/news/local-news/call-999-plea-hunt-wanted-34745993",
+   "source": "CoventryLive",
+   "title": "'Call 999' plea in hunt for wanted man with links to Coventry",
+   "published": "2026-10-11T09:17:06.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Leamington Spa",
+    "Coventry",
+    "Crime",
+    "Warwickshire Police"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "827a3a121746",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-bit-police-officer-34735650",
+   "source": "CoventryLive",
+   "title": "Coventry man bit police officer and told her 'go back to your country'",
+   "published": "2026-10-11T10:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Jonathan Road",
+     "lat": 52.43276,
+     "lng": -1.44293,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Jonathan Road, Woodway Park",
+    "lat": 52.43276,
+    "lng": -1.44293,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "West Midlands Police",
+    "Coventry Police",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
