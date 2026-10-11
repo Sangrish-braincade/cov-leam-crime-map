@@ -1457,6 +1457,25 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "734f1050a51c",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/local-criminals-jailed-september-list-34718894",
+   "source": "CoventryLive",
+   "title": "Local criminals jailed in September - list in full",
+   "published": "2026-10-11T04:30:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
