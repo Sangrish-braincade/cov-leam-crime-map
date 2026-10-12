@@ -1532,6 +1532,39 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "f46e0415cb19",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-strangled-threatened-kill-34735013",
+   "source": "CoventryLive",
+   "title": "Coventry man 'strangled and threatened to kill ex-partner carrying his child'",
+   "published": "2026-10-12T08:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Hearsall Lane",
+     "lat": 52.40644,
+     "lng": -1.53196,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Hearsall Lane, Earlsdon",
+    "lat": 52.40644,
+    "lng": -1.53196,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "University Hospital Coventry",
+    "Courts",
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
