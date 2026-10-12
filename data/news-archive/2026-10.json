@@ -1565,6 +1565,42 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "8928c948cf78",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/watch-police-chase-through-coventry-34751897",
+   "source": "CoventryLive",
+   "title": "Watch police chase through Coventry as dangerous driver banned for two years",
+   "published": "2026-10-12T11:53:48.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Sir Henry Parkes Road",
+     "lat": 52.39384,
+     "lng": -1.55072,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Sir Henry Parkes Road, Canley Gardens",
+    "lat": 52.39384,
+    "lng": -1.55072,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Warwickshire Police",
+    "Courts",
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
