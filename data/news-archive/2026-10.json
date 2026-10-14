@@ -1601,6 +1601,59 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "827adeae87b9",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-jailed-pitchfork-billhook-34727873",
+   "source": "CoventryLive",
+   "title": "Coventry man jailed for pitchfork and billhook attacks on family members during disputes",
+   "published": "2026-10-14T09:21:54.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Fletchamstead Highway",
+     "lat": 52.39318,
+     "lng": -1.55096,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Ryton-on-Dunsmore",
+     "lat": 52.36735,
+     "lng": -1.43674
+    }
+   ],
+   "place": {
+    "label": "Fletchamstead Highway, Canley Gardens",
+    "lat": 52.39318,
+    "lng": -1.55096,
+    "precision": "street"
+   },
+   "tags": [
+    "Courts",
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "1783d11e15b5",
+   "url": "https://www.bbc.co.uk/news/articles/c94g12n6rp33o",
+   "source": "BBC News",
+   "title": "Crimestoppers offers £200,000 reward in Leamington river death probe",
+   "published": "2026-10-14T09:46:40.142Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
