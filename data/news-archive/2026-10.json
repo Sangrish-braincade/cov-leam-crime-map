@@ -1654,6 +1654,50 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "5c9f7c51ce6f",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/mobile-phone-stolen-coventry-city-34763348",
+   "source": "CoventryLive",
+   "title": "Mobile phone stolen in Coventry city centre as police launch CCTV appeal",
+   "published": "2026-10-14T13:08:25.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [
+    {
+     "name": "Corporation Street",
+     "lat": 52.40937,
+     "lng": -1.51398,
+     "mentions": 4
+    }
+   ],
+   "areas": [
+    {
+     "name": "Coventry city centre",
+     "lat": 52.4081,
+     "lng": -1.5106
+    }
+   ],
+   "place": {
+    "label": "Corporation Street, Coventry",
+    "lat": 52.40937,
+    "lng": -1.51398,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Corporation Street",
+    "Coventry City Centre",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
