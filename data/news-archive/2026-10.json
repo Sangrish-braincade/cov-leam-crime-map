@@ -1814,6 +1814,47 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "1a71cb040d65",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-charged-after-brandishing-weapons-34767469",
+   "source": "CoventryLive",
+   "title": "Man charged after 'brandishing weapons on roof of Coventry building'",
+   "published": "2026-10-15T13:27:09.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Foleshill Road",
+     "lat": 52.42807,
+     "lng": -1.4997,
+     "mentions": 3
+    }
+   ],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    }
+   ],
+   "place": {
+    "label": "Foleshill Road, Edgwick",
+    "lat": 52.42807,
+    "lng": -1.4997,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Foleshill",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
