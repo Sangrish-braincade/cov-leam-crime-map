@@ -1698,6 +1698,42 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "1c0ed75cac15",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/item-coventry-car-thieves-targeting-34763599",
+   "source": "CoventryLive",
+   "title": "The item Coventry car thieves are targeting most as police issue plea to owners",
+   "published": "2026-10-15T04:00:00.000Z",
+   "category": "vehicle-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Longford",
+     "lat": 52.45162,
+     "lng": -1.48854
+    }
+   ],
+   "place": {
+    "label": "Longford",
+    "lat": 52.45162,
+    "lng": -1.48854,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police",
+    "Crime",
+    "Longford"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
