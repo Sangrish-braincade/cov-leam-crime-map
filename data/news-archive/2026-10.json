@@ -1855,6 +1855,22 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "f1f2bf73317f",
+   "url": "https://www.bbc.co.uk/news/articles/cq78p0jpel3do",
+   "source": "BBC News",
+   "title": "MP Manuela Perteghella criticises Warwickshire County Council over SEND delays",
+   "published": "2026-10-16T05:12:15.594Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
