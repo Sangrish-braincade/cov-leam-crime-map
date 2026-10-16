@@ -1871,6 +1871,39 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "695fb6994c96",
+   "url": "https://www.coventrytelegraph.net/news/local-news/man-charged-death-careless-driving-34775680",
+   "source": "CoventryLive",
+   "title": "Man charged with death by careless driving after fatal collision near Hams Hall",
+   "published": "2026-10-16T13:32:07.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Lichfield Road",
+     "lat": 52.39502,
+     "lng": -1.50576,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Lichfield Road, Cheylesmore",
+    "lat": 52.39502,
+    "lng": -1.50576,
+    "precision": "street"
+   },
+   "tags": [
+    "North Warwickshire",
+    "Warwickshire Police",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
