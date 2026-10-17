@@ -2021,6 +2021,27 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "e372285d1358",
+   "url": "https://www.coventrytelegraph.net/news/local-news/teenager-seriously-injured-after-stabbing-34779470",
+   "source": "CoventryLive",
+   "title": "Teenager seriously injured after stabbing in Leamington gardens",
+   "published": "2026-10-17T13:28:30.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Leamington Spa",
+    "Warwickshire Police",
+    "Warwickshire",
+    "Crime"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
