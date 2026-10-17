@@ -1904,6 +1904,72 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "b781b97dad46",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-woman-avoids-jail-stealing-34751261",
+   "source": "CoventryLive",
+   "title": "Coventry woman avoids jail for stealing nearly £100 of Primark clothes and assault",
+   "published": "2026-10-17T04:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Broadgate",
+     "lat": 52.40815,
+     "lng": -1.51065
+    }
+   ],
+   "place": {
+    "label": "Broadgate",
+    "lat": 52.40815,
+    "lng": -1.51065,
+    "precision": "area"
+   },
+   "tags": [
+    "Crime",
+    "Courts",
+    "Coventry City Centre"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "fa2babac190e",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-thug-laughed-clips-him-34770409",
+   "source": "CoventryLive",
+   "title": "Coventry thug 'laughed as clips of him abusing pregnant partner were played'",
+   "published": "2026-10-17T04:01:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Hearsall Lane",
+     "lat": 52.40644,
+     "lng": -1.53196,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Hearsall Lane, Earlsdon",
+    "lat": 52.40644,
+    "lng": -1.53196,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Courts",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
