@@ -2165,6 +2165,48 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "b3642cd910ae",
+   "url": "https://www.coventrytelegraph.net/news/local-news/particularly-violent-warwickshire-street-attack-34783338",
+   "source": "CoventryLive",
+   "title": "'Particularly violent' Warwickshire street attack left man with serious head injury",
+   "published": "2026-10-19T07:14:25.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Chandos Street",
+     "lat": 52.29267,
+     "lng": -1.53381,
+     "mentions": 1
+    },
+    {
+     "name": "Warwick Street",
+     "lat": 52.2919,
+     "lng": -1.53685,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Chandos Street, Leamington Spa",
+    "lat": 52.29267,
+    "lng": -1.53381,
+    "precision": "street"
+   },
+   "tags": [
+    "Warwickshire Police",
+    "Warwickshire",
+    "Leamington Spa",
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
