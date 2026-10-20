@@ -2228,6 +2228,95 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "ec3b4146b52e",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/tactics-used-car-thieves-coventry-34788902",
+   "source": "CoventryLive",
+   "title": "The tactics used by car thieves in Coventry revealed as incidents rise",
+   "published": "2026-10-20T06:37:36.000Z",
+   "category": "vehicle-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Lammas Road",
+     "lat": 52.41476,
+     "lng": -1.5312,
+     "mentions": 1
+    },
+    {
+     "name": "Donnington Avenue",
+     "lat": 52.42053,
+     "lng": -1.5433,
+     "mentions": 1
+    },
+    {
+     "name": "Jubilee Crescent",
+     "lat": 52.43075,
+     "lng": -1.51669,
+     "mentions": 1
+    },
+    {
+     "name": "Somerset Road",
+     "lat": 52.41898,
+     "lng": -1.51252,
+     "mentions": 1
+    },
+    {
+     "name": "Sandhurst Grove",
+     "lat": 52.41893,
+     "lng": -1.51729,
+     "mentions": 1
+    },
+    {
+     "name": "Catesby Road",
+     "lat": 52.43292,
+     "lng": -1.51677,
+     "mentions": 1
+    },
+    {
+     "name": "Widdrington Road",
+     "lat": 52.41927,
+     "lng": -1.51042,
+     "mentions": 1
+    },
+    {
+     "name": "Corbet Road",
+     "lat": 52.42665,
+     "lng": -1.51232,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Holbrooks",
+     "lat": 52.44473,
+     "lng": -1.5113
+    },
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Lammas Road, Chapelfields",
+    "lat": 52.41476,
+    "lng": -1.5312,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "Crime",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
