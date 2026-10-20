@@ -2317,6 +2317,70 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "bda916793254",
+   "url": "https://www.bbc.co.uk/news/articles/ck7vp181m402o",
+   "source": "BBC News",
+   "title": "'I am having to rewire my brain after abuse from Leamington man'",
+   "published": "2026-10-20T11:20:10.010Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford",
+    "lat": 52.42997,
+    "lng": -1.51849,
+    "precision": "area"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
+  },
+  {
+   "id": "9bf139b42aec",
+   "url": "https://www.coventrytelegraph.net/news/local-news/woman-speaks-horrific-abuse-says-34785775",
+   "source": "CoventryLive",
+   "title": "Woman speaks about horrific abuse and says 'I will not let this define my life'",
+   "published": "2026-10-20T14:52:35.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Portland Street",
+     "lat": 52.29073,
+     "lng": -1.5389,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Portland Street, Leamington Spa",
+    "lat": 52.29073,
+    "lng": -1.5389,
+    "precision": "street"
+   },
+   "tags": [
+    "Leamington Spa",
+    "Courts",
+    "Crime",
+    "Warwickshire",
+    "Warwickshire Police"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
