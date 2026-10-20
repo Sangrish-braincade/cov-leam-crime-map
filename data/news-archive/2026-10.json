@@ -2381,6 +2381,37 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "bf0c38e9603b",
+   "url": "https://www.bbc.co.uk/news/articles/cw62yq62j1rno",
+   "source": "BBC News",
+   "title": "Teenagers arrested after Coventry College locked down",
+   "published": "2026-10-20T17:29:04.710Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Swanswell Street",
+     "lat": 52.4134,
+     "lng": -1.50422,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Swanswell Street, Hillfields",
+    "lat": 52.4134,
+    "lng": -1.50422,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
