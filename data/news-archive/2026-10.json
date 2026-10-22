@@ -2513,6 +2513,101 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "abbd8d32eb9a",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/controlling-thug-accused-ex-cheating-34767122",
+   "source": "CoventryLive",
+   "title": "Controlling thug accused ex of cheating while 'sleeping around' himself - now jailed",
+   "published": "2026-10-22T09:57:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Courts",
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "0f37dd07b194",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-university-student-violently-attacked-34783928",
+   "source": "CoventryLive",
+   "title": "Coventry University student violently attacked woman and was found 'lying on top of her'",
+   "published": "2026-10-22T10:08:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Paradise Street",
+     "lat": 52.40332,
+     "lng": -1.50248,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Coventry University",
+     "lat": 52.4059,
+     "lng": -1.5003
+    }
+   ],
+   "place": {
+    "label": "Paradise Street, Lower Stoke",
+    "lat": 52.40332,
+    "lng": -1.50248,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry University",
+    "Students",
+    "Courts",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "e8f9b7662c47",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-charged-after-car-34801409",
+   "source": "CoventryLive",
+   "title": "Coventry man charged after 'car keys stolen from city homes'",
+   "published": "2026-10-22T12:56:06.000Z",
+   "category": "other-theft",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Cheylesmore",
+     "lat": 52.39364,
+     "lng": -1.50402
+    }
+   ],
+   "place": {
+    "label": "Cheylesmore",
+    "lat": 52.39364,
+    "lng": -1.50402,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Courts",
+    "Cheylesmore"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
