@@ -2483,6 +2483,36 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "d9d6c691d61a",
+   "url": "https://www.bbc.co.uk/news/articles/cqlyez74l2x3o",
+   "source": "BBC News",
+   "title": "Warwickshire man with epilepsy 'disregarded' by passers-by",
+   "published": "2026-10-22T05:20:17.221Z",
+   "category": "robbery",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Cubbington",
+     "lat": 52.31254,
+     "lng": -1.50745
+    }
+   ],
+   "place": {
+    "label": "Cubbington",
+    "lat": 52.31254,
+    "lng": -1.50745,
+    "precision": "area"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
