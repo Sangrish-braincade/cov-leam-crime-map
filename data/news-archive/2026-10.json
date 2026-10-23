@@ -2608,6 +2608,92 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "588b5b6eded0",
+   "url": "https://www.bbc.co.uk/news/articles/c65ynj0kzwqyo",
+   "source": "BBC News",
+   "title": "Four more charged over Warwickshire meth lab discovery",
+   "published": "2026-10-23T15:45:59.861Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "b61fb77c0a62",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-smash-cannabis-factory-tile-34805391",
+   "source": "CoventryLive",
+   "title": "Police smash cannabis factory in Tile Hill as 100 plants seized",
+   "published": "2026-10-23T15:58:36.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Tile Hill",
+     "lat": 52.40256,
+     "lng": -1.58357
+    }
+   ],
+   "place": {
+    "label": "Tile Hill",
+    "lat": 52.40256,
+    "lng": -1.58357,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Drugs",
+    "Cannabis",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
+  },
+  {
+   "id": "b64a3b1748b8",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-admits-making-sexual-threats-34810516",
+   "source": "CoventryLive",
+   "title": "Man admits making sexual threats to child through window of house in Nuneaton",
+   "published": "2026-10-23T17:31:19.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Orchard Way",
+     "lat": 52.28348,
+     "lng": -1.40257,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Orchard Way, Long Itchington",
+    "lat": 52.28348,
+    "lng": -1.40257,
+    "precision": "street"
+   },
+   "tags": [
+    "Warwickshire Police",
+    "Nuneaton",
+    "Courts",
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
