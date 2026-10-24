@@ -2851,6 +2851,48 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "f16261b317ef",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-unusual-tattoo-wanted-after-34813245",
+   "source": "CoventryLive",
+   "title": "Man with unusual tattoo wanted after Coventry 'burglary and card fraud'",
+   "published": "2026-10-24T16:49:17.000Z",
+   "category": "burglary",
+   "court": false,
+   "streets": [
+    {
+     "name": "Remembrance Road",
+     "lat": 52.38819,
+     "lng": -1.4607,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Willenhall",
+     "lat": 52.38627,
+     "lng": -1.46642
+    }
+   ],
+   "place": {
+    "label": "Remembrance Road, Willenhall",
+    "lat": 52.38819,
+    "lng": -1.4607,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Willenhall"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
