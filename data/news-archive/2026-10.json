@@ -2736,6 +2736,41 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "505248b96a59",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/teenage-boy-attacked-during-e-34811594",
+   "source": "CoventryLive",
+   "title": "Teenage boy attacked during e-scooter robbery in Coventry",
+   "published": "2026-10-24T09:47:29.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Longford",
+     "lat": 52.45162,
+     "lng": -1.48854
+    }
+   ],
+   "place": {
+    "label": "Longford",
+    "lat": 52.45162,
+    "lng": -1.48854,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police",
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
