@@ -2694,6 +2694,48 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "a83d57609bfb",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-jailed-abusing-pregnant-34778621",
+   "source": "CoventryLive",
+   "title": "Coventry man jailed for abusing pregnant partner after laughing at footage of himself",
+   "published": "2026-10-24T04:00:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "7736070099cb",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/predator-sexually-abused-two-young-34805603",
+   "source": "CoventryLive",
+   "title": "Predator sexually abused two young girls and told them it was 'our little secret'",
+   "published": "2026-10-24T04:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Courts",
+    "Coventry Police",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
