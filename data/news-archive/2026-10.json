@@ -2771,6 +2771,86 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "8afa380323fa",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/evil-man-who-abused-vulnerable-34811592",
+   "source": "CoventryLive",
+   "title": "Evil man who abused vulnerable girl in Coventry vapes as he is jailed",
+   "published": "2026-10-24T11:12:06.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "11b29530f2b2",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-named-charged-after-bike-34257295",
+   "source": "CoventryLive",
+   "title": "Man named and charged after bike robbery in Coventry",
+   "published": "2026-10-24T12:02:36.000Z",
+   "category": "robbery",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "West Midlands Police",
+    "Coventry Police",
+    "Coventry City Centre"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "fb38d103baea",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-hunting-people-behind-100-34812167",
+   "source": "CoventryLive",
+   "title": "Police hunting people behind 100-plant cannabis farm in Coventry",
+   "published": "2026-10-24T12:43:40.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Tile Hill",
+     "lat": 52.40256,
+     "lng": -1.58357
+    }
+   ],
+   "place": {
+    "label": "Tile Hill",
+    "lat": 52.40256,
+    "lng": -1.58357,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Cannabis",
+    "Drugs",
+    "West Midlands Police",
+    "Coventry Police",
+    "Tile Hill"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
