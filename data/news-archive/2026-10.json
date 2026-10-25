@@ -2893,6 +2893,42 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "dd74db7a73d8",
+   "url": "https://www.coventrytelegraph.net/news/local-news/rugby-drug-dealer-stuffed-heroin-34791222",
+   "source": "CoventryLive",
+   "title": "Rugby drug dealer stuffed heroin in his socks as woman made off in Fiat 500",
+   "published": "2026-10-25T05:00:00.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [
+    {
+     "name": "Cambridge Street",
+     "lat": 52.41766,
+     "lng": -1.49819,
+     "mentions": 4
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Cambridge Street, Hillfields",
+    "lat": 52.41766,
+    "lng": -1.49819,
+    "precision": "street"
+   },
+   "tags": [
+    "Rugby",
+    "Crime",
+    "Courts",
+    "Drugs",
+    "Warwickshire",
+    "Warwickshire Police",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
