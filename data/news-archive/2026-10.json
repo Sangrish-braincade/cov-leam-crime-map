@@ -2929,6 +2929,88 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "d075ead50b2b",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-arrested-after-woman-assaulted-34814179",
+   "source": "CoventryLive",
+   "title": "Man arrested after woman allegedly assaulted in Coventry",
+   "published": "2026-10-25T12:16:03.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Stoke Heath",
+     "lat": 52.42119,
+     "lng": -1.48541
+    }
+   ],
+   "place": {
+    "label": "Stoke Heath",
+    "lat": 52.42119,
+    "lng": -1.48541,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
+  },
+  {
+   "id": "6d1da4d8f0ec",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/violent-60-year-old-murder-34784761",
+   "source": "CoventryLive",
+   "title": "The violent 60-year-old murder that saw popular Coventry pub nicknamed 'The Stranglers Arms'",
+   "published": "2026-10-25T13:00:00.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Lythalls Lane",
+     "lat": 52.44159,
+     "lng": -1.50124,
+     "mentions": 1
+    },
+    {
+     "name": "Holbrook Lane",
+     "lat": 52.43837,
+     "lng": -1.50729,
+     "mentions": 1
+    },
+    {
+     "name": "Hen Lane",
+     "lat": 52.4477,
+     "lng": -1.50473,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Lythalls Lane, Holbrooks",
+    "lat": 52.44159,
+    "lng": -1.50124,
+    "precision": "street"
+   },
+   "tags": [
+    "Pubs in Coventry",
+    "Nostalgia",
+    "Coventry City History"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
