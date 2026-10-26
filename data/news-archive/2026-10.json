@@ -3053,6 +3053,29 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "d30029acd800",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/two-men-charged-after-delivery-34817229",
+   "source": "CoventryLive",
+   "title": "Two men charged after 'delivery drivers threatened in Coventry robberies'",
+   "published": "2026-10-26T12:35:06.000Z",
+   "category": "robbery",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Courts",
+    "Christmas"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
