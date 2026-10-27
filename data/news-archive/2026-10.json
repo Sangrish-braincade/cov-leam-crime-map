@@ -3076,6 +3076,34 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "45eb62908aa0",
+   "url": "https://www.bbc.co.uk/news/articles/crkg710lg0q9o",
+   "source": "BBC News",
+   "title": "Men jailed over underground cannabis production in Warwickshire",
+   "published": "2026-10-27T16:28:10.612Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [
+    {
+     "name": "Oxford Street",
+     "lat": 52.40899,
+     "lng": -1.49445,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Oxford Street, Lower Stoke",
+    "lat": 52.40899,
+    "lng": -1.49445,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
