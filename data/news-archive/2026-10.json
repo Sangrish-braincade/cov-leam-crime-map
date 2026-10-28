@@ -3104,6 +3104,24 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "89c54a58403a",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/brookside-actor-philip-foster-jailed-34801213",
+   "source": "CoventryLive",
+   "title": "Brookside actor Philip Foster jailed for nine years over £13.6m Coventry modelling scam",
+   "published": "2026-10-28T05:51:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
