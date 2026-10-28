@@ -3122,6 +3122,100 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "6275a21b0241",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-hospitalised-serious-injuries-after-34830246",
+   "source": "CoventryLive",
+   "title": "Man hospitalised with serious injuries after attack in Coventry",
+   "published": "2026-10-28T16:10:32.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Cannon Hill Road",
+     "lat": 52.38603,
+     "lng": -1.5468,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Cannon Hill Road, Cannon Park",
+    "lat": 52.38603,
+    "lng": -1.5468,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
+  },
+  {
+   "id": "dd9caa3d207a",
+   "url": "https://www.bbc.co.uk/news/articles/cj20v3kq5rlno",
+   "source": "BBC News",
+   "title": "Murder-accused mum filmed video as daughter lay dying",
+   "published": "2026-10-28T16:25:49.372Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "1b4b9eff3b3d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/cctv-appeal-after-phone-stolen-34830850",
+   "source": "CoventryLive",
+   "title": "CCTV appeal after phone stolen from boy playing football in Coventry",
+   "published": "2026-10-28T16:43:59.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [
+    {
+     "name": "King William Street",
+     "lat": 52.41349,
+     "lng": -1.49782,
+     "mentions": 3
+    }
+   ],
+   "areas": [
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    }
+   ],
+   "place": {
+    "label": "King William Street, Hillfields",
+    "lat": 52.41349,
+    "lng": -1.49782,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
