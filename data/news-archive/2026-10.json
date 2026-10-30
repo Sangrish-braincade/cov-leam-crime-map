@@ -3331,6 +3331,67 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "e991587b0331",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-jailed-gang-uses-34840153",
+   "source": "CoventryLive",
+   "title": "Coventry man jailed as gang uses cheese to import £450m cocaine",
+   "published": "2026-10-30T13:35:55.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "fe506d4bf022",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/two-people-arrested-after-drugs-34840639",
+   "source": "CoventryLive",
+   "title": "Two people arrested after drugs swoop in Coventry",
+   "published": "2026-10-30T16:10:31.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [
+    {
+     "name": "Swan Lane",
+     "lat": 52.41497,
+     "lng": -1.48946,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    }
+   ],
+   "place": {
+    "label": "Swan Lane, Ball Hill",
+    "lat": 52.41497,
+    "lng": -1.48946,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Coventry",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
   }
  ]
 }
