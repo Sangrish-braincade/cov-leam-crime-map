@@ -3247,6 +3247,90 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "f86d2d806179",
+   "url": "https://www.coventrytelegraph.net/news/local-news/streets-rugby-targeted-burglars-recently-34821489",
+   "source": "CoventryLive",
+   "title": "All the streets in Rugby targeted by burglars recently",
+   "published": "2026-10-30T05:00:00.000Z",
+   "category": "burglary",
+   "court": false,
+   "streets": [
+    {
+     "name": "Lawford Road",
+     "lat": 52.27381,
+     "lng": -1.52219,
+     "mentions": 2
+    },
+    {
+     "name": "Farm Close",
+     "lat": 52.44688,
+     "lng": -1.52157,
+     "mentions": 2
+    },
+    {
+     "name": "Hall Lane",
+     "lat": 52.42374,
+     "lng": -1.44278,
+     "mentions": 2
+    },
+    {
+     "name": "Coronation Road",
+     "lat": 52.41366,
+     "lng": -1.49344,
+     "mentions": 2
+    },
+    {
+     "name": "Craven Avenue",
+     "lat": 52.39101,
+     "lng": -1.41876,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Lawford Road, Sydenham",
+    "lat": 52.27381,
+    "lng": -1.52219,
+    "precision": "street"
+   },
+   "tags": [
+    "Premium",
+    "Warwickshire Police",
+    "Warwickshire",
+    "Crime",
+    "Rugby"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-10"
+    ]
+   }
+  },
+  {
+   "id": "67541f6b5663",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/faces-coventry-men-wanted-over-34827262",
+   "source": "CoventryLive",
+   "title": "Faces of Coventry men wanted over offences ranging from 'trafficking to stalking'",
+   "published": "2026-10-30T06:12:00.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Warwickshire Police",
+    "Birmingham"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
