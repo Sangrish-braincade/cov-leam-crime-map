@@ -3410,6 +3410,27 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "ab46022e90f0",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/moment-cops-uncover-450m-cocaine-34839332",
+   "source": "CoventryLive",
+   "title": "Moment cops uncover £450m cocaine plot hidden inside cheese wheels as Coventry man jailed",
+   "published": "2026-10-31T06:37:00.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Drugs",
+    "Courts",
+    "Leeds"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
