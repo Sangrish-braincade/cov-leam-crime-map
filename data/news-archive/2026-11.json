@@ -131,6 +131,63 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "b92dfd97a5e8",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/face-coventry-predator-who-attacked-34844919",
+   "source": "CoventryLive",
+   "title": "Face of Coventry predator who attacked girl when she was just 5",
+   "published": "2026-11-01T11:50:17.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Little Park Street",
+     "lat": 52.40594,
+     "lng": -1.50854,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Little Park Street, Coventry",
+    "lat": 52.40594,
+    "lng": -1.50854,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "dde5daa63a11",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/faces-two-men-wanted-over-34846444",
+   "source": "CoventryLive",
+   "title": "Faces of two men wanted over serious allegations with links to Coventry and Warwickshire",
+   "published": "2026-11-01T14:09:54.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Warwickshire",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Alcester"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
