@@ -1,0 +1,136 @@
+{
+ "month": "2026-11",
+ "articles": [
+  {
+   "id": "06035d31928d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-jailed-after-messaging-34838680",
+   "source": "CoventryLive",
+   "title": "Coventry man jailed after messaging children on Snapchat group called 'Slavery'",
+   "published": "2026-11-01T05:31:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "aed6597c8ad5",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/rugby-drug-dealer-hid-heroin-34824299",
+   "source": "CoventryLive",
+   "title": "Rugby drug dealer hid heroin and crack cocaine in his socks as woman fled in Fiat 500",
+   "published": "2026-11-01T05:43:00.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [
+    {
+     "name": "Cambridge Street",
+     "lat": 52.41766,
+     "lng": -1.49819,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Cambridge Street, Hillfields",
+    "lat": 52.41766,
+    "lng": -1.49819,
+    "precision": "street"
+   },
+   "tags": [
+    "Rugby",
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "9dfcb1d76229",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-streets-hit-car-thieves-34838676",
+   "source": "CoventryLive",
+   "title": "Coventry streets hit by car thieves – postcodes worst hit",
+   "published": "2026-11-01T09:23:00.000Z",
+   "category": "vehicle-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Downton Close",
+     "lat": 52.43414,
+     "lng": -1.4407,
+     "mentions": 1
+    },
+    {
+     "name": "Dalton Road",
+     "lat": 52.39926,
+     "lng": -1.52094,
+     "mentions": 1
+    },
+    {
+     "name": "Mellowdew Road",
+     "lat": 52.413,
+     "lng": -1.46731,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Binley",
+     "lat": 52.40016,
+     "lng": -1.44441
+    },
+    {
+     "name": "Willenhall",
+     "lat": 52.38627,
+     "lng": -1.46642
+    },
+    {
+     "name": "Cheylesmore",
+     "lat": 52.39364,
+     "lng": -1.50402
+    },
+    {
+     "name": "Earlsdon",
+     "lat": 52.40435,
+     "lng": -1.52995
+    },
+    {
+     "name": "Longford",
+     "lat": 52.45162,
+     "lng": -1.48854
+    },
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    },
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    }
+   ],
+   "place": {
+    "label": "Downton Close, Woodway Park",
+    "lat": 52.43414,
+    "lng": -1.4407,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11",
+     "2026-10"
+    ]
+   }
+  }
+ ]
+}
