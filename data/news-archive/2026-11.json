@@ -188,6 +188,22 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "f2e998e97cb8",
+   "url": "https://www.bbc.co.uk/news/articles/cm4g1jk8we42o",
+   "source": "BBC News",
+   "title": "Non-league clubs unite to tackle teenage anti-social behaviour",
+   "published": "2026-11-02T06:13:37.525Z",
+   "category": "anti-social-behaviour",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
