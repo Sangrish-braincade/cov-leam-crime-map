@@ -204,6 +204,66 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "83e05b75f7ee",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/woman-headbutted-punched-inside-coventry-34849474",
+   "source": "CoventryLive",
+   "title": "Woman headbutted and punched inside Coventry city centre venue as CCTV issued",
+   "published": "2026-11-02T11:31:32.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Coventry city centre",
+     "lat": 52.4081,
+     "lng": -1.5106
+    }
+   ],
+   "place": {
+    "label": "Coventry city centre",
+    "lat": 52.4081,
+    "lng": -1.5106,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police",
+    "Coventry City Centre",
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11",
+     "2026-10"
+    ]
+   }
+  },
+  {
+   "id": "d25752241462",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-update-boy-14-arrested-34849865",
+   "source": "CoventryLive",
+   "title": "Police update on boy, 14, arrested after 'heartbreaking' Bradley Lowery taunt at Coventry City game",
+   "published": "2026-11-02T11:53:02.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police",
+    "Coventry City FC",
+    "Coventry Building Society Arena",
+    "Crime"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
