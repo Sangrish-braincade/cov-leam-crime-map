@@ -264,6 +264,44 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "79df470b1b2c",
+   "url": "https://www.bbc.co.uk/news/articles/c6n8dnr8v8vko",
+   "source": "BBC News",
+   "title": "Mark Billington's inquest hears a rope at the scene was unlikely to have been tied by him.",
+   "published": "2026-11-02T18:21:49.973Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Packington Lane",
+     "lat": 52.47405,
+     "lng": -1.65306,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Meriden",
+     "lat": 52.43732,
+     "lng": -1.64712
+    }
+   ],
+   "place": {
+    "label": "Packington Lane, Maxstoke",
+    "lat": 52.47405,
+    "lng": -1.65306,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11",
+     "2026-10"
+    ]
+   }
   }
  ]
 }
