@@ -338,6 +338,77 @@
      "2026-10"
     ]
    }
+  },
+  {
+   "id": "eefb6309d418",
+   "url": "https://www.coventrytelegraph.net/news/local-news/conman-told-couple-wouldnt-scam-34852359",
+   "source": "CoventryLive",
+   "title": "Conman told couple he wouldn't scam them because he 'wouldn't want it done to my Granny’",
+   "published": "2026-11-03T05:43:00.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwickshire",
+    "Courts",
+    "Kenilworth",
+    "Warwickshire County Council"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "16bc198e06b1",
+   "url": "https://www.bbc.co.uk/news/articles/cwdd8j4evz02o",
+   "source": "BBC News",
+   "title": "Coventry weaver's trial and deportation inspires descendant's novel",
+   "published": "2026-11-03T06:02:33.621Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Trinity Street",
+     "lat": 52.40972,
+     "lng": -1.50936,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Spon End",
+     "lat": 52.40691,
+     "lng": -1.52475
+    }
+   ],
+   "place": {
+    "label": "Trinity Street, Coventry",
+    "lat": 52.40972,
+    "lng": -1.50936,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "f3bb9c308612",
+   "url": "https://www.bbc.co.uk/news/articles/ck5ynr531xlvo",
+   "source": "BBC News",
+   "title": "Coventry City fan, 14, arrested following Bradley Lowery taunt",
+   "published": "2026-11-03T09:21:56.034Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
