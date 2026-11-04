@@ -409,6 +409,22 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "34aeb0b8e32f",
+   "url": "https://www.bbc.co.uk/news/articles/c6zxjz0kyq7yo",
+   "source": "BBC News",
+   "title": "Lifting vehicle used to steal ATM in Fenny Compton before explosion",
+   "published": "2026-11-04T15:04:01.716Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
