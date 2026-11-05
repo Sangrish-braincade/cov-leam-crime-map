@@ -425,6 +425,56 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "836d8ac38739",
+   "url": "https://www.bbc.co.uk/news/articles/cjzxlznd4w1po",
+   "source": "BBC News",
+   "title": "Grieving mum's CCTV plea after thieves target baby's grave in Coventry",
+   "published": "2026-11-05T06:05:25.835Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Canley",
+     "lat": 52.39525,
+     "lng": -1.57206
+    }
+   ],
+   "place": {
+    "label": "Canley",
+    "lat": 52.39525,
+    "lng": -1.57206,
+    "precision": "area"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
+  },
+  {
+   "id": "6479f22328d8",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/historic-coins-among-stolen-haul-34864979",
+   "source": "CoventryLive",
+   "title": "Historic coins among stolen haul Coventry police want to reunite with owners",
+   "published": "2026-11-05T07:22:39.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
