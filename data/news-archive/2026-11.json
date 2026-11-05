@@ -475,6 +475,92 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "1980ab8770c4",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-seriously-injured-coventry-stabbing-34866876",
+   "source": "CoventryLive",
+   "title": "Man seriously injured in Coventry stabbing",
+   "published": "2026-11-05T12:49:14.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Coundon Street",
+     "lat": 52.41277,
+     "lng": -1.52037,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Coundon",
+     "lat": 52.42333,
+     "lng": -1.53408
+    }
+   ],
+   "place": {
+    "label": "Coundon Street, Spon End",
+    "lat": 52.41277,
+    "lng": -1.52037,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Coundon",
+    "West Midlands Ambulance Service"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
+  },
+  {
+   "id": "2dfc21abd836",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-statement-over-coventry-stabbing-34867603",
+   "source": "CoventryLive",
+   "title": "Police statement over Coventry stabbing as man arrested and patrols stepped up",
+   "published": "2026-11-05T13:59:52.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Coundon Street",
+     "lat": 52.41277,
+     "lng": -1.52037,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Coundon",
+     "lat": 52.42333,
+     "lng": -1.53408
+    }
+   ],
+   "place": {
+    "label": "Coundon Street, Spon End",
+    "lat": 52.41277,
+    "lng": -1.52037,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Coundon",
+    "Coventry Police",
+    "West Midlands Police",
+    "West Midlands Ambulance Service"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
   }
  ]
 }
