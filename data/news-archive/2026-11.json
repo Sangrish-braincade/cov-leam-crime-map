@@ -561,6 +561,49 @@
      "2026-11"
     ]
    }
+  },
+  {
+   "id": "7cd2b9e0c96b",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/five-custody-after-arrests-coventry-34876516",
+   "source": "CoventryLive",
+   "title": "Five in custody after arrests in Coventry city centre",
+   "published": "2026-11-06T19:06:12.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Coventry city centre",
+     "lat": 52.4081,
+     "lng": -1.5106
+    },
+    {
+     "name": "Spon End",
+     "lat": 52.40691,
+     "lng": -1.52475
+    },
+    {
+     "name": "Lower Precinct",
+     "lat": 52.40795,
+     "lng": -1.51405
+    }
+   ],
+   "place": {
+    "label": "Coventry city centre",
+    "lat": 52.4081,
+    "lng": -1.5106,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
   }
  ]
 }
