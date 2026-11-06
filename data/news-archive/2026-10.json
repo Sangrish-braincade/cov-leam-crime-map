@@ -35,7 +35,7 @@
    },
    "tags": [],
    "police": {
-    "status": "unconfirmed",
+    "status": "no-match",
     "months": [
      "2026-10",
      "2026-09"
@@ -85,10 +85,37 @@
     "Hillfields"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-10",
      "2026-09"
+    ],
+    "candidates": 5,
+    "nearest": [
+     {
+      "street": "Stoney Stanton Road",
+      "lat": 52.42114,
+      "lng": -1.496517,
+      "month": "2026-09",
+      "n": 2,
+      "metres": 0
+     },
+     {
+      "street": "Peel Street",
+      "lat": 52.422014,
+      "lng": -1.495022,
+      "month": "2026-09",
+      "n": 1,
+      "metres": 140
+     },
+     {
+      "street": "Edward Street",
+      "lat": 52.419876,
+      "lng": -1.495281,
+      "month": "2026-09",
+      "n": 2,
+      "metres": 164
+     }
     ]
    }
   },
@@ -129,7 +156,7 @@
     "Exhall"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "no-match",
     "months": [
      "2026-10",
      "2026-09"
@@ -447,10 +474,53 @@
     "Premium"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-10",
      "2026-09"
+    ],
+    "candidates": 50,
+    "nearest": [
+     {
+      "street": "Ironmonger Row",
+      "lat": 52.409034,
+      "lng": -1.510253,
+      "month": "2026-09",
+      "n": 19,
+      "metres": 0
+     },
+     {
+      "street": "Cross Cheaping",
+      "lat": 52.409152,
+      "lng": -1.510472,
+      "month": "2026-09",
+      "n": 6,
+      "metres": 20
+     },
+     {
+      "street": "Shopping Area",
+      "lat": 52.408131,
+      "lng": -1.509564,
+      "month": "2026-09",
+      "n": 2,
+      "metres": 110
+     },
+     {
+      "street": "Burges",
+      "lat": 52.410124,
+      "lng": -1.510799,
+      "month": "2026-09",
+      "n": 1,
+      "metres": 127
+     },
+     {
+      "street": "Supermarket",
+      "lat": 52.409882,
+      "lng": -1.508891,
+      "month": "2026-09",
+      "n": 8,
+      "metres": 132
+     }
     ]
    }
   },
@@ -482,7 +552,7 @@
     "Crime"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "no-match",
     "months": [
      "2026-10",
      "2026-09"
@@ -525,10 +595,53 @@
     "West Midlands Police"
    ],
    "police": {
-    "status": "unconfirmed",
+    "status": "matched",
     "months": [
      "2026-10",
      "2026-09"
+    ],
+    "candidates": 6,
+    "nearest": [
+     {
+      "street": "Salcombe Close",
+      "lat": 52.38732,
+      "lng": -1.460006,
+      "month": "2026-09",
+      "n": 1,
+      "metres": 107
+     },
+     {
+      "street": "Soden Close",
+      "lat": 52.389277,
+      "lng": -1.461555,
+      "month": "2026-09",
+      "n": 1,
+      "metres": 134
+     },
+     {
+      "street": "Lorenzo Close",
+      "lat": 52.387799,
+      "lng": -1.458796,
+      "month": "2026-09",
+      "n": 1,
+      "metres": 136
+     },
+     {
+      "street": "Lysander Street",
+      "lat": 52.388841,
+      "lng": -1.462486,
+      "month": "2026-09",
+      "n": 1,
+      "metres": 141
+     },
+     {
+      "street": "Parking Area",
+      "lat": 52.389014,
+      "lng": -1.462836,
+      "month": "2026-09",
+      "n": 1,
+      "metres": 171
+     }
     ]
    }
   },
