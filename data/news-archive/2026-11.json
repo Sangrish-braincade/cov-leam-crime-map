@@ -604,6 +604,142 @@
      "2026-11"
     ]
    }
+  },
+  {
+   "id": "904737920d2d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/evil-abusers-escaped-prisoners-among-34862873",
+   "source": "CoventryLive",
+   "title": "Evil abusers and escaped prisoners among those jailed in Coventry and Warwickshire in October",
+   "published": "2026-11-07T05:57:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Fletchamstead Highway",
+     "lat": 52.39318,
+     "lng": -1.55096,
+     "mentions": 1
+    },
+    {
+     "name": "Hearsall Lane",
+     "lat": 52.40644,
+     "lng": -1.53196,
+     "mentions": 1
+    },
+    {
+     "name": "Cambridge Street",
+     "lat": 52.41766,
+     "lng": -1.49819,
+     "mentions": 1
+    },
+    {
+     "name": "Whitley Village",
+     "lat": 52.39337,
+     "lng": -1.49358,
+     "mentions": 1
+    },
+    {
+     "name": "Edward Street",
+     "lat": 52.41988,
+     "lng": -1.49528,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Binley",
+     "lat": 52.40016,
+     "lng": -1.44441
+    },
+    {
+     "name": "Ryton-on-Dunsmore",
+     "lat": 52.36735,
+     "lng": -1.43674
+    },
+    {
+     "name": "Holbrooks",
+     "lat": 52.44473,
+     "lng": -1.5113
+    }
+   ],
+   "place": {
+    "label": "Fletchamstead Highway, Canley Gardens",
+    "lat": 52.39318,
+    "lng": -1.55096,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Courts",
+    "Premium",
+    "Warwickshire"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "275394b6df78",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/five-people-arrested-police-crack-34877306",
+   "source": "CoventryLive",
+   "title": "Five people arrested as police crack down on two types of crime in city centre",
+   "published": "2026-11-07T08:40:15.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Spon End",
+     "lat": 52.40691,
+     "lng": -1.52475
+    },
+    {
+     "name": "Coventry city centre",
+     "lat": 52.4081,
+     "lng": -1.5106
+    }
+   ],
+   "place": {
+    "label": "Spon End",
+    "lat": 52.40691,
+    "lng": -1.52475,
+    "precision": "area"
+   },
+   "tags": [
+    "Crime",
+    "Drugs",
+    "West Midlands Police",
+    "Coventry Police",
+    "Coventry City Centre",
+    "Spon End"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
+  },
+  {
+   "id": "e8c0ec0c59d5",
+   "url": "https://www.coventrytelegraph.net/news/local-news/new-police-statement-after-leamington-34877363",
+   "source": "CoventryLive",
+   "title": "New police statement after Leamington teenager seriously injured in stabbing",
+   "published": "2026-11-07T08:56:56.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Warwickshire",
+    "Leamington Spa",
+    "Warwickshire Police"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
