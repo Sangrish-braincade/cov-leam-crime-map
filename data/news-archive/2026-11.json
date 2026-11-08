@@ -740,6 +740,46 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "6372e8eeb0ec",
+   "url": "https://www.coventrytelegraph.net/news/local-news/thug-stabbed-man-foot-scratched-34865782",
+   "source": "CoventryLive",
+   "title": "Thug stabbed man in the foot and 'scratched S-shaped mark in his arm before stripping him naked'",
+   "published": "2026-11-08T05:05:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Buckley Road",
+     "lat": 52.29724,
+     "lng": -1.5165,
+     "mentions": 1
+    },
+    {
+     "name": "Smith Street",
+     "lat": 52.28291,
+     "lng": -1.58292,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Buckley Road, Lillington",
+    "lat": 52.29724,
+    "lng": -1.5165,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Courts",
+    "VW",
+    "Birmingham",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
