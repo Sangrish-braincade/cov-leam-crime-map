@@ -780,6 +780,27 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "c58aa95b8bb8",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/number-police-officers-sacked-across-34880871",
+   "source": "CoventryLive",
+   "title": "The number of police officers sacked across Warwickshire and West Midlands",
+   "published": "2026-11-08T13:15:26.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "West Midlands Police",
+    "Warwickshire Police",
+    "Warwickshire"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
