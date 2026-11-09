@@ -837,6 +837,60 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "7583cc01d229",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-groomed-coventry-girl-snapchat-34859728",
+   "source": "CoventryLive",
+   "title": "Man groomed Coventry girl on Snapchat and 'desperately searched for hotels to have sex'",
+   "published": "2026-11-09T11:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Coundon",
+     "lat": 52.42333,
+     "lng": -1.53408
+    }
+   ],
+   "place": {
+    "label": "Coundon",
+    "lat": 52.42333,
+    "lng": -1.53408,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "Coundon",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "fdc4c061c48c",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/fresh-arrest-after-man-stabbed-34885260",
+   "source": "CoventryLive",
+   "title": "Fresh arrest after man stabbed in Coventry street attack",
+   "published": "2026-11-09T14:05:52.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "West Midlands Ambulance Service",
+    "West Midlands Police",
+    "Crime"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
