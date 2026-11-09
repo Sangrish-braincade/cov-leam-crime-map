@@ -801,6 +801,42 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "09d2177c8e29",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/west-midlands-police-officer-avoids-34849592",
+   "source": "CoventryLive",
+   "title": "West Midlands Police officer avoids jail after Coventry crash",
+   "published": "2026-11-09T05:20:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Courts",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "0fa02ba258de",
+   "url": "https://www.bbc.co.uk/news/articles/ckn9r558el4lo",
+   "source": "BBC News",
+   "title": "Medicinal cannabis supplies at risk as drug company goes bankrupt",
+   "published": "2026-11-09T06:07:18.483Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
