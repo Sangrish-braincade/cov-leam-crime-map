@@ -891,6 +891,47 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "c18cbbb3f7a8",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/face-decoy-coventry-dealer-who-34887906",
+   "source": "CoventryLive",
+   "title": "Face of 'decoy' Coventry dealer who was part of Vodafone store robbery gang",
+   "published": "2026-11-10T07:17:04.000Z",
+   "category": "robbery",
+   "court": false,
+   "streets": [
+    {
+     "name": "Hill Road",
+     "lat": 52.46112,
+     "lng": -1.53284,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Keresley",
+     "lat": 52.45005,
+     "lng": -1.53453
+    }
+   ],
+   "place": {
+    "label": "Hill Road, Keresley Newlands",
+    "lat": 52.46112,
+    "lng": -1.53284,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
   }
  ]
 }
