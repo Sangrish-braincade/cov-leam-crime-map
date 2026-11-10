@@ -932,6 +932,47 @@
      "2026-11"
     ]
    }
+  },
+  {
+   "id": "7a76be448b39",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-named-charged-after-serious-34889607",
+   "source": "CoventryLive",
+   "title": "Man named and charged after serious stabbing in Coventry",
+   "published": "2026-11-10T13:06:56.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Coundon Street",
+     "lat": 52.41277,
+     "lng": -1.52037,
+     "mentions": 3
+    }
+   ],
+   "areas": [
+    {
+     "name": "Coundon",
+     "lat": 52.42333,
+     "lng": -1.53408
+    }
+   ],
+   "place": {
+    "label": "Coundon Street, Spon End",
+    "lat": 52.41277,
+    "lng": -1.52037,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Coundon",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
