@@ -973,6 +973,36 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "2eb403531834",
+   "url": "https://www.bbc.co.uk/news/articles/cwe8r8rq7rrpo",
+   "source": "BBC News",
+   "title": "Atherstone woman found not guilty after fatal Meriden dog attack",
+   "published": "2026-11-10T16:52:17.713Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Meriden",
+     "lat": 52.43732,
+     "lng": -1.64712
+    }
+   ],
+   "place": {
+    "label": "Meriden",
+    "lat": 52.43732,
+    "lng": -1.64712,
+    "precision": "area"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
   }
  ]
 }
