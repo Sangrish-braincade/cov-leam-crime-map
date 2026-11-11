@@ -1003,6 +1003,41 @@
      "2026-11"
     ]
    }
+  },
+  {
+   "id": "ccea22585ff4",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/urgent-police-warning-residents-two-34893329",
+   "source": "CoventryLive",
+   "title": "Urgent police warning to all residents in these two areas of Coventry",
+   "published": "2026-11-11T07:51:10.000Z",
+   "category": "vehicle-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    }
+   ],
+   "place": {
+    "label": "Wyken",
+    "lat": 52.41839,
+    "lng": -1.4591,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Wyken"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
   }
  ]
 }
