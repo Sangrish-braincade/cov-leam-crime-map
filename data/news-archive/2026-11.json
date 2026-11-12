@@ -1054,6 +1054,46 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "ff1ef572397f",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/crazed-thug-punched-woman-head-34872140",
+   "source": "CoventryLive",
+   "title": "Crazed thug punched woman in the head in unprovoked attack in Coventry",
+   "published": "2026-11-12T11:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Sadler Road",
+     "lat": 52.43206,
+     "lng": -1.52479,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Sadler Road, Radford",
+    "lat": 52.43206,
+    "lng": -1.52479,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "Radford",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
