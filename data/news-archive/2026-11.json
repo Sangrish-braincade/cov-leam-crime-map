@@ -1136,6 +1136,174 @@
      "2026-11"
     ]
    }
+  },
+  {
+   "id": "482554bebda5",
+   "url": "https://www.bbc.co.uk/news/articles/cmn80j156g99o",
+   "source": "BBC News",
+   "title": "Warwick School 'reflecting carefully' over ex-teacher's abuse",
+   "published": "2026-11-13T12:42:45.788Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "4a55067e309d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/enforcement-worker-assaulted-coventry-city-34907877",
+   "source": "CoventryLive",
+   "title": "Enforcement worker assaulted in Coventry city centre amid counter-terrorism patrol",
+   "published": "2026-11-13T13:42:44.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Coventry city centre",
+     "lat": 52.4081,
+     "lng": -1.5106
+    }
+   ],
+   "place": {
+    "label": "Coventry city centre",
+    "lat": 52.4081,
+    "lng": -1.5106,
+    "precision": "area"
+   },
+   "tags": [
+    "West Midlands Police",
+    "Crime",
+    "Coventry City Centre"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
+  },
+  {
+   "id": "d2eb1c0ee320",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/married-man-jailed-11-years-34884633",
+   "source": "CoventryLive",
+   "title": "Married man jailed for 11 years after repeatedly raping female colleague in Coventry",
+   "published": "2026-11-13T15:16:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Allesley",
+     "lat": 52.42374,
+     "lng": -1.56352
+    }
+   ],
+   "place": {
+    "label": "Allesley",
+    "lat": 52.42374,
+    "lng": -1.56352,
+    "precision": "area"
+   },
+   "tags": [
+    "Courts",
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "81d19767626c",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-hit-run-driver-jailed-34903992",
+   "source": "CoventryLive",
+   "title": "Coventry hit-and-run driver jailed for more than nine years for killing Keaton Slater",
+   "published": "2026-11-13T15:23:08.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "West Midlands Police",
+    "Coventry Police",
+    "Radford"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "7ea04eeb633f",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/dolars-aleksanders-sentenced-killing-coventry-34903216",
+   "source": "CoventryLive",
+   "title": "Latest court updates as killer driver sentenced over Keaton Slater death",
+   "published": "2026-11-13T16:17:59.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 9
+    },
+    {
+     "name": "Light Lane",
+     "lat": 52.41462,
+     "lng": -1.51454,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Radford",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
