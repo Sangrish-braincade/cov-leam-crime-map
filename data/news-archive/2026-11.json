@@ -1304,6 +1304,81 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "0164de62847b",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/cowardly-killer-fled-uk-scared-34909377",
+   "source": "CoventryLive",
+   "title": "Cowardly killer fled the UK as he was 'scared what may happen to him in jail'",
+   "published": "2026-11-13T16:34:28.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Radford",
+    "BMW"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "3c8ae75a0996",
+   "url": "https://www.bbc.co.uk/news/articles/c84gn943kne1o",
+   "source": "BBC News",
+   "title": "Driver who fled to Latvia after killing Keaton Slater jailed",
+   "published": "2026-11-13T17:32:48.371Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
