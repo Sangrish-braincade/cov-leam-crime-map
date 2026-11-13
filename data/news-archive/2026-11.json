@@ -1094,6 +1094,48 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "3676c2790033",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/cctv-appeal-after-man-assaulted-34904285",
+   "source": "CoventryLive",
+   "title": "CCTV appeal after man assaulted and robbed in Coventry",
+   "published": "2026-11-12T20:40:25.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Jubilee Crescent",
+     "lat": 52.43075,
+     "lng": -1.51669,
+     "mentions": 3
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Jubilee Crescent, Radford",
+    "lat": 52.43075,
+    "lng": -1.51669,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
   }
  ]
 }
