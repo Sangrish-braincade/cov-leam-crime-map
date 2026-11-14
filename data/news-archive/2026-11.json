@@ -1379,6 +1379,111 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "d3d543138845",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/drugs-gangs-abusers-among-latest-34884871",
+   "source": "CoventryLive",
+   "title": "Drugs gangs and abusers among latest criminals to be locked up locally",
+   "published": "2026-11-14T05:00:00.000Z",
+   "category": "drugs",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "019e3b1ef89a",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-warwickshire-crime-latest-including-34902111",
+   "source": "CoventryLive",
+   "title": "Coventry and Warwickshire crime latest including new build site break-in and Tent Box theft",
+   "published": "2026-11-14T06:44:00.000Z",
+   "category": "burglary",
+   "court": false,
+   "streets": [
+    {
+     "name": "Coventry Road",
+     "lat": 52.29053,
+     "lng": -1.57827,
+     "mentions": 2
+    },
+    {
+     "name": "Banbury Road",
+     "lat": 52.27833,
+     "lng": -1.57821,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Baginton",
+     "lat": 52.37115,
+     "lng": -1.49488
+    }
+   ],
+   "place": {
+    "label": "Coventry Road, Cliff Hill",
+    "lat": 52.29053,
+    "lng": -1.57827,
+    "precision": "street"
+   },
+   "tags": [
+    "Warwickshire Police",
+    "Warwickshire",
+    "West Midlands Police",
+    "Crime"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
+  },
+  {
+   "id": "808dbf6c64bc",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/fury-over-keaton-slater-killers-34911119",
+   "source": "CoventryLive",
+   "title": "Fury over Keaton Slater killer's sentence as big announcement made",
+   "published": "2026-11-14T08:44:31.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Courts",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
