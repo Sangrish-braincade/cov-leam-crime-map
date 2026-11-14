@@ -1484,6 +1484,69 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "bb98b0fa15de",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/mystery-how-keaton-slaters-killer-34909276",
+   "source": "CoventryLive",
+   "title": "The mystery of how Keaton Slater's killer slipped out of the UK undetected",
+   "published": "2026-11-14T09:48:48.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Radford",
+    "BMW"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "c67c92efe0b7",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/drug-deaths-coventry-mapped-middle-34883069",
+   "source": "CoventryLive",
+   "title": "Drug deaths in Coventry mapped as middle-aged users fuel record numbers",
+   "published": "2026-11-14T12:00:00.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwickshire",
+    "Nuneaton",
+    "Stratford-upon-Avon",
+    "Crime",
+    "Drugs"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
