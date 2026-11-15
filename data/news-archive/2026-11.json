@@ -1547,6 +1547,55 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "4d2bcb7494fa",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/thug-jailed-leamington-spa-stabbing-34884919",
+   "source": "CoventryLive",
+   "title": "Thug jailed for Leamington Spa stabbing over drug debt before stripping victim naked",
+   "published": "2026-11-15T05:00:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Buckley Road",
+     "lat": 52.29724,
+     "lng": -1.5165,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Buckley Road, Lillington",
+    "lat": 52.29724,
+    "lng": -1.5165,
+    "precision": "street"
+   },
+   "tags": [
+    "Courts",
+    "Crime",
+    "Leamington Spa",
+    "Warwickshire"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "e81691c3c511",
+   "url": "https://www.bbc.co.uk/news/articles/cjy5xln5nq34o",
+   "source": "BBC News",
+   "title": "Call to review sentence for driver who killed 12-year-old boy in Coventry",
+   "published": "2026-11-15T07:10:40.216Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
