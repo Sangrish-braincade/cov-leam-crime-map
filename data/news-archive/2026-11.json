@@ -1596,6 +1596,150 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "b33271f0f8ce",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/arrests-two-day-sting-target-34916068",
+   "source": "CoventryLive",
+   "title": "Arrests in two day sting to target 'high profile crime areas' in Coventry",
+   "published": "2026-11-16T07:51:36.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    }
+   ],
+   "place": {
+    "label": "Hillfields",
+    "lat": 52.41396,
+    "lng": -1.50114,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Hillfields",
+    "Coventry Police",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
+  },
+  {
+   "id": "300c3cb946d5",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-jailed-grooming-coventry-girl-34886004",
+   "source": "CoventryLive",
+   "title": "Man jailed for grooming Coventry girl on Snapchat",
+   "published": "2026-11-16T10:59:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Coundon",
+     "lat": 52.42333,
+     "lng": -1.53408
+    }
+   ],
+   "place": {
+    "label": "Coundon",
+    "lat": 52.42333,
+    "lng": -1.53408,
+    "precision": "area"
+   },
+   "tags": [],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "ea0e32956dc9",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/nightmare-neighbour-brutally-attacked-man-34916604",
+   "source": "CoventryLive",
+   "title": "Nightmare neighbour brutally attacked man after forcing way into Coventry house",
+   "published": "2026-11-16T11:25:15.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Irving Road",
+     "lat": 52.4036,
+     "lng": -1.49432,
+     "mentions": 3
+    }
+   ],
+   "areas": [
+    {
+     "name": "Hillfields",
+     "lat": 52.41396,
+     "lng": -1.50114
+    }
+   ],
+   "place": {
+    "label": "Irving Road, Lower Stoke",
+    "lat": 52.4036,
+    "lng": -1.49432,
+    "precision": "street"
+   },
+   "tags": [
+    "Courts",
+    "West Midlands Police",
+    "Crime",
+    "Hillfields"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "50b47e3d3815",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/mum-coventry-hit-run-victim-33963428",
+   "source": "CoventryLive",
+   "title": "Mum of Coventry hit-and-run victim says she 'feels guilty every day for living life'",
+   "published": "2026-11-16T14:10:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Radford",
+    "Courts",
+    "BMW",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
