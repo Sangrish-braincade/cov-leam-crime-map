@@ -1740,6 +1740,38 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "3402f99fcf3b",
+   "url": "https://www.bbc.co.uk/news/articles/c893rgde739do",
+   "source": "BBC News",
+   "title": "Coventry rapist church leader Brein Ayeni jailed for nearly 12 years",
+   "published": "2026-11-16T18:00:50.049Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "dd03b6dcd1bb",
+   "url": "https://www.bbc.co.uk/news/articles/crkgvn3dqdlgo",
+   "source": "BBC News",
+   "title": "Arley abattoir worker sentenced for walking on sheep",
+   "published": "2026-11-16T18:30:48.395Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
