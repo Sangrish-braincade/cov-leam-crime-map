@@ -1772,6 +1772,43 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "188dc2bf58a1",
+   "url": "https://www.bbc.co.uk/news/articles/cjx2r6qdg3d9o",
+   "source": "BBC News",
+   "title": "Gnomes stolen in late night raid on a Coventry garden",
+   "published": "2026-11-17T06:32:13.862Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [
+    {
+     "name": "Alfall Road",
+     "lat": 52.41911,
+     "lng": -1.47628,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    }
+   ],
+   "place": {
+    "label": "Alfall Road, Upper Stoke",
+    "lat": 52.41911,
+    "lng": -1.47628,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
   }
  ]
 }
