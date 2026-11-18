@@ -1809,6 +1809,47 @@
      "2026-11"
     ]
    }
+  },
+  {
+   "id": "156bea525235",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/two-found-guilty-kidnapping-coventry-34929270",
+   "source": "CoventryLive",
+   "title": "Two found guilty of kidnapping Coventry man who was 'murdered over £1m drugs debt'",
+   "published": "2026-11-18T14:27:27.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Copland Place",
+     "lat": 52.39928,
+     "lng": -1.58326,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Tile Hill",
+     "lat": 52.40256,
+     "lng": -1.58357
+    }
+   ],
+   "place": {
+    "label": "Copland Place, Tile Hill",
+    "lat": 52.39928,
+    "lng": -1.58326,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Tile Hill",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
