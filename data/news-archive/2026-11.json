@@ -1907,6 +1907,116 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "07dd04e9742d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-mum-fights-cemetery-cctv-34919369",
+   "source": "CoventryLive",
+   "title": "Coventry mum fights for cemetery CCTV after baby's grave targeted by thieves",
+   "published": "2026-11-19T14:43:12.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Canley",
+     "lat": 52.39525,
+     "lng": -1.57206
+    }
+   ],
+   "place": {
+    "label": "Canley",
+    "lat": 52.39525,
+    "lng": -1.57206,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry City Council"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
+  },
+  {
+   "id": "b8af9972d606",
+   "url": "https://www.bbc.co.uk/news/articles/cmz6qp8z7wgdo",
+   "source": "BBC News",
+   "title": "Johnny Robbins' body still missing after four Warwickshire convictions",
+   "published": "2026-11-19T15:24:28.103Z",
+   "category": "robbery",
+   "court": false,
+   "streets": [
+    {
+     "name": "Copland Place",
+     "lat": 52.39928,
+     "lng": -1.58326,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Tile Hill",
+     "lat": 52.40256,
+     "lng": -1.58357
+    }
+   ],
+   "place": {
+    "label": "Copland Place, Tile Hill",
+    "lat": 52.39928,
+    "lng": -1.58326,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
+  },
+  {
+   "id": "eeb09f20efa2",
+   "url": "https://www.coventrytelegraph.net/news/local-news/cctv-image-issued-after-young-34938599",
+   "source": "CoventryLive",
+   "title": "CCTV image issued after young man injured in town centre attack",
+   "published": "2026-11-19T17:16:42.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Warwick Street",
+     "lat": 52.2919,
+     "lng": -1.53685,
+     "mentions": 2
+    },
+    {
+     "name": "Chandos Street",
+     "lat": 52.29267,
+     "lng": -1.53381,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Warwick Street, Leamington Spa",
+    "lat": 52.2919,
+    "lng": -1.53685,
+    "precision": "street"
+   },
+   "tags": [
+    "Warwickshire Police",
+    "Crime",
+    "Leamington Spa"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
   }
  ]
 }
