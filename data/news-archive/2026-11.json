@@ -1850,6 +1850,63 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "b326310eb6fc",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/leamington-police-explain-exactly-what-34930304",
+   "source": "CoventryLive",
+   "title": "Leamington police explain exactly what to do if a car blocks your driveway",
+   "published": "2026-11-19T05:30:00.000Z",
+   "category": "other-theft",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Leamington Spa",
+    "Warwickshire",
+    "Warwickshire Police"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "e683b2477bcb",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-jailed-three-years-34919303",
+   "source": "CoventryLive",
+   "title": "Coventry man jailed for three years for unprovoked attack on woman in Radford",
+   "published": "2026-11-19T05:33:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Sadler Road",
+     "lat": 52.43206,
+     "lng": -1.52479,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Sadler Road, Radford",
+    "lat": 52.43206,
+    "lng": -1.52479,
+    "precision": "street"
+   },
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
