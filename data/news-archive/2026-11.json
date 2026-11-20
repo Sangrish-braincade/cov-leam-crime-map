@@ -2017,6 +2017,74 @@
      "2026-11"
     ]
    }
+  },
+  {
+   "id": "59207b1ba08d",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-warwickshire-burglary-hotspots-mapped-34941368",
+   "source": "CoventryLive",
+   "title": "Coventry and Warwickshire burglary hotspots mapped as 'seasonal surge' expected",
+   "published": "2026-11-20T12:42:22.000Z",
+   "category": "burglary",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwickshire",
+    "Nuneaton",
+    "Bedworth"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "e6321b6d8b79",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/more-500k-worth-cannabis-seized-34943536",
+   "source": "CoventryLive",
+   "title": "More than £500k worth of cannabis seized in crackdown on drugs in Coventry",
+   "published": "2026-11-20T16:36:59.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [
+    {
+     "name": "Oliver Street",
+     "lat": 52.42347,
+     "lng": -1.49152,
+     "mentions": 1
+    },
+    {
+     "name": "Princess Street",
+     "lat": 52.42813,
+     "lng": -1.49332,
+     "mentions": 1
+    },
+    {
+     "name": "Hastings Road",
+     "lat": 52.41285,
+     "lng": -1.48522,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Oliver Street, Stoke Heath",
+    "lat": 52.42347,
+    "lng": -1.49152,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Cannabis",
+    "West Midlands Police",
+    "Coventry Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
   }
  ]
 }
