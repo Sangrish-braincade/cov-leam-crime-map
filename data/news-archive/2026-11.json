@@ -2085,6 +2085,28 @@
      "2026-11"
     ]
    }
+  },
+  {
+   "id": "fa3647d72276",
+   "url": "https://www.coventrytelegraph.net/news/local-news/teacher-spared-more-jail-time-34926046",
+   "source": "CoventryLive",
+   "title": "Teacher spared more jail time after abusing young boys at Warwick School",
+   "published": "2026-11-21T05:25:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Courts",
+    "Crime",
+    "Warwick School",
+    "Warwick",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
