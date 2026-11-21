@@ -2107,6 +2107,152 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "c51d1ca21f4b",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-ban-face-coverings-ahead-34946648",
+   "source": "CoventryLive",
+   "title": "Police ban face coverings ahead of Britain First rally in Coventry",
+   "published": "2026-11-21T08:51:11.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Longford",
+     "lat": 52.45162,
+     "lng": -1.48854
+    },
+    {
+     "name": "Holbrooks",
+     "lat": 52.44473,
+     "lng": -1.5113
+    },
+    {
+     "name": "Daimler Green",
+     "lat": 52.42424,
+     "lng": -1.51452
+    },
+    {
+     "name": "Edgwick",
+     "lat": 52.43072,
+     "lng": -1.49449
+    },
+    {
+     "name": "Upper Stoke",
+     "lat": 52.42182,
+     "lng": -1.46966
+    },
+    {
+     "name": "Walsgrave",
+     "lat": 52.42776,
+     "lng": -1.44159
+    },
+    {
+     "name": "Wyken",
+     "lat": 52.41839,
+     "lng": -1.4591
+    },
+    {
+     "name": "Ball Hill",
+     "lat": 52.41088,
+     "lng": -1.48449
+    },
+    {
+     "name": "Binley",
+     "lat": 52.40016,
+     "lng": -1.44441
+    },
+    {
+     "name": "Willenhall",
+     "lat": 52.38627,
+     "lng": -1.46642
+    }
+   ],
+   "place": {
+    "label": "Longford",
+    "lat": 52.45162,
+    "lng": -1.48854,
+    "precision": "area"
+   },
+   "tags": [
+    "Coventry",
+    "Coventry Police",
+    "West Midlands Police",
+    "Crime",
+    "Coventry City Centre",
+    "Coventry Building Society Arena"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
+  },
+  {
+   "id": "38fc135950c0",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-reveal-what-happened-passengers-34941619",
+   "source": "CoventryLive",
+   "title": "Police reveal what happened to passengers in hit-and-run BMW and people who helped killer escape to Latvia",
+   "published": "2026-11-21T12:00:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Radford",
+    "Crime",
+    "Courts",
+    "Coventry Police",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "016220a2ada4",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-charged-burglaries-places-worship-34946717",
+   "source": "CoventryLive",
+   "title": "Man charged with burglaries at places of worship in Coventry",
+   "published": "2026-11-21T12:00:17.000Z",
+   "category": "burglary",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "Coventry Police",
+    "Birmingham",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
