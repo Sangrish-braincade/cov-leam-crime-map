@@ -2253,6 +2253,66 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "cae0e7fb0377",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-gang-tried-steal-435-34925008",
+   "source": "CoventryLive",
+   "title": "Coventry gang tried to steal £435 worth of Zavetti Canada coats from JD Sports",
+   "published": "2026-11-22T05:27:00.000Z",
+   "category": "other-theft",
+   "court": true,
+   "streets": [
+    {
+     "name": "Jimmy Hill Way",
+     "lat": 52.43508,
+     "lng": -1.49262,
+     "mentions": 2
+    },
+    {
+     "name": "Wheelwright Lane",
+     "lat": 52.45166,
+     "lng": -1.50866,
+     "mentions": 1
+    },
+    {
+     "name": "Hollis Road",
+     "lat": 52.40343,
+     "lng": -1.48436,
+     "mentions": 1
+    },
+    {
+     "name": "Hen Lane",
+     "lat": 52.4477,
+     "lng": -1.50473,
+     "mentions": 1
+    },
+    {
+     "name": "Masser Road",
+     "lat": 52.45056,
+     "lng": -1.5085,
+     "mentions": 1
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Jimmy Hill Way, Foleshill",
+    "lat": 52.43508,
+    "lng": -1.49262,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "Arena Park Shopping Centre",
+    "A444",
+    "Bedworth",
+    "Premium"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
