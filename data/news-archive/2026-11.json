@@ -2453,6 +2453,63 @@
      "2026-11"
     ]
    }
+  },
+  {
+   "id": "0081b145a8c1",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-mum-stabbed-estranged-husband-34956658",
+   "source": "CoventryLive",
+   "title": "Coventry mum stabbed by estranged husband had been doused in petrol, jury told",
+   "published": "2026-11-24T07:27:57.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Caludon Road",
+     "lat": 52.41338,
+     "lng": -1.48574,
+     "mentions": 3
+    },
+    {
+     "name": "Stoney Stanton Road",
+     "lat": 52.42114,
+     "lng": -1.49652,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Caludon Road, Ball Hill",
+    "lat": 52.41338,
+    "lng": -1.48574,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "58c3b0097463",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-killer-used-metal-bar-34956759",
+   "source": "CoventryLive",
+   "title": "Coventry killer 'used metal bar to kill arrogant bully' Ian Huntley in prison attack",
+   "published": "2026-11-24T08:17:42.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
