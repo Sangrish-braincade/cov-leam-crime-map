@@ -2313,6 +2313,146 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "7144c9357df9",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/firearms-officers-swoop-coventry-city-34954441",
+   "source": "CoventryLive",
+   "title": "Firearms officers swoop in Coventry city centre after 'assault' as arrest made",
+   "published": "2026-11-23T14:31:06.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Far Gosford Street",
+     "lat": 52.40787,
+     "lng": -1.49504,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Coventry city centre",
+     "lat": 52.4081,
+     "lng": -1.5106
+    }
+   ],
+   "place": {
+    "label": "Far Gosford Street, Lower Stoke",
+    "lat": 52.40787,
+    "lng": -1.49504,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Crime",
+    "Coventry City Centre"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
+  },
+  {
+   "id": "85243510474e",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-mum-feels-guilty-every-34919869",
+   "source": "CoventryLive",
+   "title": "Coventry mum 'feels guilty every day' after son Keaton Slater's hit-and-run death",
+   "published": "2026-11-23T14:34:00.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Radford"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "313a39a84dd2",
+   "url": "https://www.coventrytelegraph.net/news/local-news/cctv-appeal-after-warwick-racecourse-34955448",
+   "source": "CoventryLive",
+   "title": "CCTV appeal after Warwick Racecourse dog attack",
+   "published": "2026-11-23T16:57:49.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwickshire Police",
+    "Warwick"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "17320336be84",
+   "url": "https://www.bbc.co.uk/news/articles/c6742n00n3dgo",
+   "source": "BBC News",
+   "title": "Coventry woman stabbed 11 times by husband, inquest told",
+   "published": "2026-11-23T17:27:08.884Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Caludon Road",
+     "lat": 52.41338,
+     "lng": -1.48574,
+     "mentions": 1
+    },
+    {
+     "name": "Stoney Stanton Road",
+     "lat": 52.42114,
+     "lng": -1.49652,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Coventry city centre",
+     "lat": 52.4081,
+     "lng": -1.5106
+    }
+   ],
+   "place": {
+    "label": "Caludon Road, Ball Hill",
+    "lat": 52.41338,
+    "lng": -1.48574,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
   }
  ]
 }
