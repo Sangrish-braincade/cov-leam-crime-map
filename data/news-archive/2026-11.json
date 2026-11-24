@@ -2510,6 +2510,126 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "cdcdaa0d0822",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-triple-killer-pleads-guilty-34958036",
+   "source": "CoventryLive",
+   "title": "Coventry triple killer pleads guilty to killing Soham murderer Ian Huntley",
+   "published": "2026-11-24T12:18:37.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "Leamington Spa"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "275c15b99f32",
+   "url": "https://www.coventrytelegraph.net/news/local-news/man-charged-wounding-after-armed-34959071",
+   "source": "CoventryLive",
+   "title": "Man charged with wounding after armed police called to Coventry attack",
+   "published": "2026-11-24T13:57:52.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Far Gosford Street",
+     "lat": 52.40787,
+     "lng": -1.49504,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Far Gosford Street, Lower Stoke",
+    "lat": 52.40787,
+    "lng": -1.49504,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "West Midlands Police",
+    "Crime",
+    "Courts",
+    "Far Gosford Street",
+    "Coventry City Centre"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "e3733cfba939",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/who-coventry-man-behind-murder-34958495",
+   "source": "CoventryLive",
+   "title": "Who is the Coventry man behind the murder of one of the most notorious child killers in Britain?",
+   "published": "2026-11-24T14:03:45.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "Kenilworth",
+    "Leamington Spa",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "bbca4314a7c3",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/quadruple-coventry-murderer-anthony-russell-34958035",
+   "source": "CoventryLive",
+   "title": "Quadruple Coventry murderer Anthony Russell handed second whole-life tariff for killing Ian Huntley",
+   "published": "2026-11-24T14:27:35.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts",
+    "Leamington Spa"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "a654a326dbad",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-man-shouts-proud-killing-34959496",
+   "source": "CoventryLive",
+   "title": "Coventry man shouts he was 'proud' of killing Ian Huntley in prison yard",
+   "published": "2026-11-24T15:13:53.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
