@@ -2630,6 +2630,159 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "b1f1bc6030ac",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-police-officer-cleared-gross-34960042",
+   "source": "CoventryLive",
+   "title": "Coventry police officer cleared of gross misconduct after hiding phone in bush",
+   "published": "2026-11-25T05:28:00.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry Police",
+    "West Midlands Police",
+    "Employment"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "edb1a3f014e2",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/man-charged-after-person-seriously-34960789",
+   "source": "CoventryLive",
+   "title": "Man charged after person 'seriously injured in Coventry crash'",
+   "published": "2026-11-25T09:46:55.000Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Coventry",
+    "Crime",
+    "West Midlands Police",
+    "West Midlands Ambulance Service",
+    "Coventry Police",
+    "Nuneaton"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "fd91d7a5ce41",
+   "url": "https://www.bbc.co.uk/news/articles/c6kgr3yg2825o",
+   "source": "BBC News",
+   "title": "Standard Triumph Club fire in Coventry believed to be arson",
+   "published": "2026-11-25T10:08:45.298Z",
+   "category": "criminal-damage-arson",
+   "court": false,
+   "streets": [
+    {
+     "name": "Tile Hill Lane",
+     "lat": 52.40266,
+     "lng": -1.56843,
+     "mentions": 2
+    }
+   ],
+   "areas": [
+    {
+     "name": "Tile Hill",
+     "lat": 52.40256,
+     "lng": -1.58357
+    },
+    {
+     "name": "Canley",
+     "lat": 52.39525,
+     "lng": -1.57206
+    },
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    },
+    {
+     "name": "Binley",
+     "lat": 52.40016,
+     "lng": -1.44441
+    }
+   ],
+   "place": {
+    "label": "Tile Hill Lane, Canley",
+    "lat": 52.40266,
+    "lng": -1.56843,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
+  },
+  {
+   "id": "374dfb07f0a6",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/killer-coventry-boy-could-prison-34962460",
+   "source": "CoventryLive",
+   "title": "Killer of Coventry boy could have prison sentence increased after fleeing to Latvia",
+   "published": "2026-11-25T10:54:25.000Z",
+   "category": "other-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Radford Road",
+     "lat": 52.42062,
+     "lng": -1.51905,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Radford",
+     "lat": 52.42997,
+     "lng": -1.51849
+    }
+   ],
+   "place": {
+    "label": "Radford Road, Daimler Green",
+    "lat": 52.42062,
+    "lng": -1.51905,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Crime",
+    "Radford",
+    "Taiwo Owatemi MP"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "b461d43dc89b",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/coventry-killer-did-world-favour-34964547",
+   "source": "CoventryLive",
+   "title": "Coventry killer 'did world a favour' says Ian Huntley's daughter",
+   "published": "2026-11-25T13:07:33.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Courts"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
