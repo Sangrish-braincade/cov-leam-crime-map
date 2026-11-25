@@ -2783,6 +2783,48 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "d598b4290861",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/police-officer-seriously-injured-after-34964242",
+   "source": "CoventryLive",
+   "title": "Police officer seriously injured after being 'attacked with wooden stick' in Coventry",
+   "published": "2026-11-25T14:55:49.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [
+    {
+     "name": "Foleshill Road",
+     "lat": 52.42807,
+     "lng": -1.4997,
+     "mentions": 4
+    }
+   ],
+   "areas": [
+    {
+     "name": "Foleshill",
+     "lat": 52.43357,
+     "lng": -1.49447
+    }
+   ],
+   "place": {
+    "label": "Foleshill Road, Edgwick",
+    "lat": 52.42807,
+    "lng": -1.4997,
+    "precision": "street"
+   },
+   "tags": [
+    "Coventry",
+    "Foleshill",
+    "Coventry Police",
+    "West Midlands Police",
+    "Courts",
+    "West Midlands Ambulance Service",
+    "Crime"
+   ],
+   "police": {
+    "status": "court"
+   }
   }
  ]
 }
