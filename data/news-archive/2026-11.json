@@ -2825,6 +2825,71 @@
    "police": {
     "status": "court"
    }
+  },
+  {
+   "id": "ade28df821e9",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/one-coventrys-most-wanted-caught-34962028",
+   "source": "CoventryLive",
+   "title": "'One of Coventry's most wanted' caught after fleeing Uber",
+   "published": "2026-11-26T05:30:00.000Z",
+   "category": "vehicle-crime",
+   "court": false,
+   "streets": [],
+   "areas": [
+    {
+     "name": "Holbrooks",
+     "lat": 52.44473,
+     "lng": -1.5113
+    },
+    {
+     "name": "Willenhall",
+     "lat": 52.38627,
+     "lng": -1.46642
+    }
+   ],
+   "place": {
+    "label": "Holbrooks",
+    "lat": 52.44473,
+    "lng": -1.5113,
+    "precision": "area"
+   },
+   "tags": [
+    "Holbrooks",
+    "Coventry Police",
+    "Courts",
+    "Crime",
+    "West Midlands Police"
+   ],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
+  },
+  {
+   "id": "440bb38fc0e3",
+   "url": "https://www.coventrytelegraph.net/news/local-news/moment-warwickshire-dealers-brag-gta-34969726",
+   "source": "CoventryLive",
+   "title": "Moment Warwickshire dealers brag about their 'GTA lifestyle' on Snapchat before being busted",
+   "published": "2026-11-26T13:00:45.000Z",
+   "category": "drugs",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwickshire",
+    "Crime",
+    "Warwickshire Police",
+    "Courts",
+    "Nuneaton",
+    "Warwick",
+    "Kenilworth"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
