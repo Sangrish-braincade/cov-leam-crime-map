@@ -2890,6 +2890,45 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "7b49b0c311fd",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/shocking-number-stalking-offences-coventry-34971630",
+   "source": "CoventryLive",
+   "title": "Shocking number of stalking offences in Coventry and Warwickshire - with hundreds of victims",
+   "published": "2026-11-26T16:08:40.000Z",
+   "category": "violent-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Warwickshire",
+    "Crime",
+    "West Midlands Police",
+    "Warwickshire Police",
+    "Coventry Police",
+    "Women"
+   ],
+   "police": {
+    "status": "unplaced"
+   }
+  },
+  {
+   "id": "04372a8b462b",
+   "url": "https://www.bbc.co.uk/news/articles/c6m2lv939rdeo",
+   "source": "BBC News",
+   "title": "PM meeting plan for parents of Keaton Slater killed in Coventry crash",
+   "published": "2026-11-26T16:29:26.321Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [],
+   "police": {
+    "status": "unplaced"
+   }
   }
  ]
 }
