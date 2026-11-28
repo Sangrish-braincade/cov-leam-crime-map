@@ -2985,6 +2985,43 @@
      "2026-11"
     ]
    }
+  },
+  {
+   "id": "fdf4e4a5e5c5",
+   "url": "https://www.bbc.co.uk/news/articles/cwm25d3z4e1po",
+   "source": "BBC News",
+   "title": "Arrest after pedestrian seriously hurt in Coventry crash",
+   "published": "2026-11-28T14:23:52.086Z",
+   "category": "other-crime",
+   "court": false,
+   "streets": [
+    {
+     "name": "Stoney Stanton Road",
+     "lat": 52.42114,
+     "lng": -1.49652,
+     "mentions": 2
+    },
+    {
+     "name": "Ordnance Road",
+     "lat": 52.41971,
+     "lng": -1.49761,
+     "mentions": 2
+    }
+   ],
+   "areas": [],
+   "place": {
+    "label": "Stoney Stanton Road, Stoke Heath",
+    "lat": 52.42114,
+    "lng": -1.49652,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
   }
  ]
 }
