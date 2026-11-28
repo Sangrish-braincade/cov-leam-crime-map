@@ -2929,6 +2929,62 @@
    "police": {
     "status": "unplaced"
    }
+  },
+  {
+   "id": "76791e90b977",
+   "url": "https://www.coventrytelegraph.net/news/coventry-news/paul-stainsby-spared-more-jail-34963682",
+   "source": "CoventryLive",
+   "title": "Paul Stainsby spared more jail after Warwick School abuse convictions",
+   "published": "2026-11-28T05:36:00.000Z",
+   "category": "violent-crime",
+   "court": true,
+   "streets": [],
+   "areas": [],
+   "place": null,
+   "tags": [
+    "Crime",
+    "Warwick"
+   ],
+   "police": {
+    "status": "court"
+   }
+  },
+  {
+   "id": "75746981556b",
+   "url": "https://www.bbc.co.uk/news/articles/c6vg2pq01x19o",
+   "source": "BBC News",
+   "title": "Coventry's Standard Triumph Club 'made me who I am'",
+   "published": "2026-11-28T07:20:33.398Z",
+   "category": "criminal-damage-arson",
+   "court": false,
+   "streets": [
+    {
+     "name": "Tile Hill Lane",
+     "lat": 52.40266,
+     "lng": -1.56843,
+     "mentions": 1
+    }
+   ],
+   "areas": [
+    {
+     "name": "Tile Hill",
+     "lat": 52.40256,
+     "lng": -1.58357
+    }
+   ],
+   "place": {
+    "label": "Tile Hill Lane, Canley",
+    "lat": 52.40266,
+    "lng": -1.56843,
+    "precision": "street"
+   },
+   "tags": [],
+   "police": {
+    "status": "unconfirmed",
+    "months": [
+     "2026-11"
+    ]
+   }
   }
  ]
 }
